@@ -1,0 +1,60 @@
+/* Ana konteyner üçün grid quruluşu */
+.homesec5-grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden; /* Hərəkət zamanı maşının kənardan görünməməsi */
+  position: relative;
+}
+
+/* Maşını yerləşdirmək üçün konteyner */
+.car-container {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: start; /* Maşın sağdan sola başlayır */
+  height: 35vh;
+}
+
+/* Maşının şəkli */
+.car-img {
+  width: 20%; /* Standart ölçü */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: moveCar 25s linear infinite; /* 25 saniyəlik animasiya */
+}
+
+/* Hərəkət animasiyası */
+@keyframes moveCar {
+  0% {
+      left: 100%; /* Sağdan başlayır */
+  }
+  67% {
+      left: -30%; /* Sola tam çıxır (16.75 saniyəlik hərəkət) */
+  }
+  100% {
+      left: -30%; /* Qalan 8.25 saniyə fasilə */
+  }
+}
+
+/* Ekran ölçüsü kiçildikdə uyğunlaşma */
+@media (max-width: 768px) {
+  .car-container {
+      height: 25vh; /* Hündürlük azaldılır */
+  }
+  .car-img {
+      width: 30%; /* Maşın kiçilir */
+  }
+}
+
+@media (max-width: 480px) {
+  .car-container {
+      height: 20vh; /* Daha kiçik ekranlar üçün hündürlük */
+  }
+  .car-img {
+      width: 40%; /* Maşın daha da kiçilir */
+  }
+}

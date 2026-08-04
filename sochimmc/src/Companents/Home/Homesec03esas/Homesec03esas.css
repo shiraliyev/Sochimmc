@@ -1,0 +1,312 @@
+/* ==========================================================================
+   SLAYDERİN ƏSAS CANVASI (Premium Kiber Atmosfer)
+   ========================================================================== */
+.slider-future-canvas {
+  width: 100%;
+  min-height: 85vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #080808;
+  font-family: system-ui, -apple-system, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+/* ARXA PLAN ULTRA-DİNAMİK MAYE KÜRƏLƏRİ */
+.slider-bg-fluid-orb {
+  position: absolute;
+  filter: blur(150px);
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.slider-orb-alpha {
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, #ff3300 0%, transparent 70%);
+  top: -10%;
+  right: 10%;
+  animation: sliderMorphOrbOne 25s infinite alternate ease-in-out;
+}
+
+.slider-orb-beta {
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, #0066ff 0%, transparent 72%);
+  bottom: -20%;
+  left: -5%;
+  animation: sliderMorphOrbTwo 30s infinite alternate ease-in-out;
+}
+
+.slider-cyber-grid-pulse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.015) 1.2px, transparent 1.2px);
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.slider-vector-axis {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.05) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 3;
+}
+
+@keyframes sliderMorphOrbOne {
+  0% { transform: translate(0, 0) scale(1); border-radius: 40% 60% 70% 30%; }
+  50% { transform: translate(30px, -40px) scale(1.1); border-radius: 60% 40% 50% 50%; }
+  100% { transform: translate(-20px, 20px) scale(0.95); border-radius: 40% 60% 70% 30%; }
+}
+
+@keyframes sliderMorphOrbTwo {
+  0% { transform: translate(0, 0) scale(1); border-radius: 50% 50% 30% 70%; }
+  50% { transform: translate(-40px, 40px) scale(1.05); border-radius: 40% 60% 60% 40%; }
+  100% { transform: translate(20px, -20px) scale(0.95); border-radius: 50% 50% 30% 70%; }
+}
+
+/* ==========================================================================
+   SLAYD ELEMENTLƏRİ VƏ STRUKTURU
+   ========================================================================== */
+.slider-future-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), visibility 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 1;
+}
+
+.slider-future-item.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 4;
+}
+
+/* PREMIUM KONTENT KONTEYNERİ (GRID İLƏ GÜCLƏNDİRİLDİ) */
+.slider-future-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+/* Kiber Künc Texnoloji Kəsiklər */
+.slider-tech-bracket {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-color: rgba(255, 255, 255, 0.08);
+  border-style: solid;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.slider-bracket-tl { top: 0; left: 0; border-width: 1.5px 0 0 1.5px; }
+.slider-bracket-br { bottom: 0; right: 0; border-width: 0 1.5px 1.5px 0; }
+
+.slider-future-item.active .slider-bracket-tl { border-color: var(--slide-node-color); transform: translate(-5px, -5px); }
+.slider-future-item.active .slider-bracket-br { border-color: var(--slide-node-color); transform: translate(5px, 5px); }
+
+.slider-coordinate-axis {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, var(--slide-node-color), transparent);
+  opacity: 0.3;
+}
+
+/* ==========================================================================
+   MƏTNBLOKU VƏ KİBER DETALLAR
+   ========================================================================== */
+.slider-future-content-wrapper {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  animation: sliderTextTech 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes sliderTextTech {
+  from { opacity: 0; transform: translateX(-40px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.slider-cyber-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 1.8rem;
+}
+
+.slider-pulse-dot {
+  width: 6px;
+  height: 6px;
+  background-color: var(--slide-node-color);
+  border-radius: 50%;
+  box-shadow: 0 0 12px var(--slide-node-color);
+  animation: sliderLiveDot 1.2s infinite alternate;
+}
+
+.slider-slide-index {
+  color: var(--slide-node-color);
+  font-family: monospace;
+  font-weight: 600;
+}
+
+@keyframes sliderLiveDot {
+  0% { transform: scale(0.8); opacity: 0.5; }
+  100% { transform: scale(1.4); opacity: 1; }
+}
+
+/* TİPOQRAFİYA */
+.slider-future-title {
+  font-size: clamp(2rem, 5vw, 3.8rem);
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
+  margin: 0 0 1.5rem 0;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #ffffff 60%, rgba(255, 255, 255, 0.6) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.slider-future-description {
+  font-size: clamp(0.9rem, 1.5vw, 1.15rem);
+  line-height: 1.7;
+  color: #cbd5e1;
+  font-weight: 400;
+  margin: 0 0 2.5rem 0;
+  max-width: 600px;
+}
+
+/* ==========================================================================
+   KİBER-TRIGGER "ƏTRAFLI" DÜYMƏSİ
+   ========================================================================== */
+.slider-future-trigger-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.slider-trigger-btn-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 4px;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slider-trigger-btn-line-wrapper {
+  width: 45px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.15);
+  position: relative;
+  overflow: hidden;
+  transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slider-trigger-btn-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--slide-node-color);
+  transform: translateX(-100%);
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slider-future-trigger-btn:hover .slider-trigger-btn-line-wrapper { width: 80px; }
+.slider-future-trigger-btn:hover .slider-trigger-btn-line { transform: translateX(0); }
+.slider-future-trigger-btn:hover .slider-trigger-btn-text { color: var(--slide-node-color); text-shadow: 0 0 10px var(--slide-node-glow); }
+
+/* ==========================================================================
+   PREMIUM NAVİQASİYA OXLARI
+   ========================================================================== */
+.slider-future-arrows {
+  position: absolute;
+  right: 8%;
+  bottom: 8%;
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+.slider-arrow-btn-premium {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.slider-arrow-btn-premium:hover {
+  background: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
+}
+
+/* ==========================================================================
+   TAM RESPONSİV GRID & MEDIA QUERIES
+   ========================================================================== */
+@media (max-width: 1200px) {
+  .slider-future-container { padding: 4rem 5%; }
+}
+
+@media (max-width: 768px) {
+  .slider-future-canvas { min-height: 80vh; }
+  .slider-future-container { padding: 2rem; text-align: center; justify-items: center; }
+  .slider-future-content-wrapper { align-items: center; }
+  .slider-future-arrows { left: 50%; right: auto; transform: translateX(-50%); bottom: 2rem; }
+}
+
+@media (max-width: 480px) {
+  .slider-future-container { padding: 1.5rem; }
+  .slider-cyber-badge { font-size: 0.6rem; letter-spacing: 2px; }
+  .slider-arrow-btn-premium { width: 45px; height: 45px; }
+}

@@ -1,0 +1,220 @@
+.wrapper {
+  /* background: linear-gradient(45deg, #ff0099, #720fe3); */
+ min-height: auto;       /* 100vh yerinə auto */
+  padding: 20px 15px 60px 15px; /* Yuxarı paddingi azaldırıq */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* məzmun aşağıdan yerləşsin */
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 50px;
+  letter-spacing: 1.5px;
+  user-select: none;
+
+  /* Əgər yuxarıda görünməsin deyirsənsə, bunu ya gizlət, ya da kiçilt */
+  /* display: none;  bunu istifadə etmək olar, amma tam gizlətmək üçün */
+  /* Yoxsa aşağıya doğru itələmək üçün margin-top artırmaq olar */
+  margin-top: 0; /* lazım olarsa dəyiş */
+}
+
+/* Addımlar konteyneri tam eni */
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  width: 100%;
+  max-width: 1100px;
+  scrollbar-width: none; /* Firefox */
+}
+
+.steps-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.step-item {
+  background: rgba(255 255 255 / 0.15);
+  border-radius: 18px;
+  padding: 25px 20px 30px 20px;
+  width: 230px;
+  min-width: 230px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  user-select: none;
+  flex-shrink: 0;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.step-item:hover {
+  background: rgba(255 255 255 / 0.30);
+  box-shadow: 0 8px 20px rgba(255, 0, 153, 0.45);
+  transform: translateY(-6px);
+}
+
+.circle-number {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  color: #720fe3;
+  font-weight: 700;
+  font-size: 20px;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(255, 0, 153, 0.7);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: white;
+  filter: drop-shadow(0 0 4px #ff0099cc);
+  transition: filter 0.3s ease;
+}
+
+.step-item:hover .icon {
+  filter: drop-shadow(0 0 12px #ff33bbdd);
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.desc {
+  font-size: 14.5px;
+  color: #eee;
+  line-height: 1.4;
+  min-height: 70px;
+}
+
+.connector {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 4px;
+  background: linear-gradient(90deg, #ff0099, #720fe3);
+  border-radius: 2px;
+  animation: pulseLine 2.5s ease-in-out infinite;
+}
+
+@keyframes pulseLine {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .steps-container {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .step-item {
+    width: 180px;
+    min-width: 180px;
+  }
+}
+
+/* ............................. */
+.homesec0222bashliq {
+  height: 20vh;
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.homesec0222bashliq h2 {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #eff0f1, #cecfd1);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  /* text-fill-color: transparent;  <-- bu sətri sil */
+
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+
+
+.homesec0222bashliq .underline {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(45deg, #ff0099, #720fe3, #ff0099);
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease infinite, slideIn 1s ease-in-out;
+  border-radius: 2px;
+}
+
+/* Gradient rəngin animasiyası */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 80px;
+    opacity: 1;
+  }
+}

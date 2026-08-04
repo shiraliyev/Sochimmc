@@ -1,0 +1,145 @@
+.why-future-canvas {
+  position: relative;
+  width: 100%;
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #090d16 100%);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #ffffff;
+}
+
+.why-future-container { 
+  position: relative; 
+  z-index: 2; 
+  max-width: 1140px; 
+  width: 100%; 
+}
+
+/* Başlıq */
+.why-future-header { 
+  text-align: center; 
+  margin-bottom: 3.5rem; 
+}
+
+.why-cyber-badge { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 8px; 
+  font-size: 0.75rem; 
+  font-weight: 700; 
+  letter-spacing: 3px; 
+  margin-bottom: 1.2rem; 
+  text-transform: uppercase;
+  color: #fbbf24;
+}
+
+.why-pulse-dot { 
+  width: 8px; 
+  height: 8px; 
+  background-color: #fbbf24; 
+  border-radius: 50%; 
+  display: inline-block; 
+  animation: whyLive 1.5s infinite ease-in-out;
+  box-shadow: 0 0 10px #fbbf24;
+}
+
+@keyframes whyLive { 
+  0% { transform: scale(0.8); opacity: 0.5; box-shadow: 0 0 0 0 rgba(251,191,36,0.4); } 
+  70% { transform: scale(1.2); opacity: 1; box-shadow: 0 0 0 10px rgba(251,191,36,0); } 
+  100% { transform: scale(0.8); opacity: 0.5; box-shadow: 0 0 0 0 rgba(251,191,36,0); } 
+}
+
+.why-future-title { 
+  font-size: 3rem; 
+  font-weight: 900; 
+  letter-spacing: -0.5px; 
+  margin-bottom: 0.6rem; 
+  color: #f8fafc;
+}
+
+.why-future-subtitle { 
+  font-size: 1.05rem; 
+  color: #94a3b8; 
+  line-height: 1.6;
+}
+
+/* Grid və Kartlar */
+.why-future-block-grid { 
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 2rem; 
+}
+
+.why-future-block {
+  position: relative; 
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08); 
+  border-radius: 20px;
+  padding: 2rem; 
+  display: flex; 
+  align-items: center; 
+  gap: 20px; 
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.4);
+}
+
+.why-icon-side { 
+  flex-shrink: 0; 
+}
+
+.why-future-name { 
+  font-size: 1.25rem !important; 
+  font-weight: 700 !important; 
+  margin-bottom: 8px !important; 
+  color: #ffffff !important;
+}
+
+.why-future-desc { 
+  font-size: 0.95rem !important; 
+  font-weight: 500 !important; 
+  color: #cbd5e1 !important; 
+  line-height: 1.5;
+}
+
+.why-future-block:hover { 
+  transform: translateY(-8px); 
+  border-color: rgba(217, 119, 6, 0.4);
+  background: rgba(30, 41, 59, 0.95);
+  box-shadow: 0 20px 40px -10px rgba(217, 119, 6, 0.2);
+}
+
+.why-future-block:hover .why-future-desc {
+  color: #ffffff !important;
+}
+
+.why-future-block:hover lord-icon {
+  filter: brightness(1.2);
+}
+
+/* Künc xətləri (Brackets) */
+.why-tech-bracket { 
+  position: absolute; 
+  width: 12px; 
+  height: 12px; 
+  border: 1.5px solid transparent; 
+  transition: 0.4s; 
+}
+.why-bracket-tl { top: 12px; left: 12px; border-width: 1.5px 0 0 1.5px; }
+.why-bracket-br { bottom: 12px; right: 12px; border-width: 0 1.5px 1.5px 0; }
+.why-future-block:hover .why-tech-bracket { border-color: #d97706; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .why-future-block-grid { 
+    grid-template-columns: 1fr; 
+  }
+  .why-future-title {
+    font-size: 2.2rem;
+  }
+}

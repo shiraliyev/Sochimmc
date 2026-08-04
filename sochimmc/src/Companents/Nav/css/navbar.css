@@ -1,0 +1,149 @@
+/* --- 1. Əsas Struktur --- */
+.site-header { width: 100%; position: sticky; top: 0; z-index: 1050; background: #fff; transition: 0.3s; }
+
+/* --- 2. Top Bar --- */
+.top-bar { padding: 15px 0; border-bottom: 2px solid #f0f0f0; background: #fff; }
+.top-bar .container { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 15px; }
+
+.brand-wrapper { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.logo-img { width: 45px; height: 45px; object-fit: contain; }
+.brand-text-container { display: flex; flex-direction: column; line-height: 1; }
+.brand-main { display: flex; align-items: baseline; }
+.brand-light { font-size: 22px; font-weight: 200; color: #333; }
+.brand-bold { font-size: 22px; font-weight: 800; color: #000; margin-left: 4px; }
+.brand-sub { font-size: 9px; color: #888; letter-spacing: 4px; text-transform: uppercase; margin-top: 2px; }
+
+.top-bar-right { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.contact-premium { display: flex; align-items: center; text-decoration: none; background: #f8f8f8; padding: 6px 12px; border-radius: 50px; border: 1px solid #eee; }
+.phone-icon-box { background: #28a745; color: #fff; width: 25px; height: 25px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; margin-right: 8px; }
+.phone-number { font-size: 12px; font-weight: 700; color: #333; }
+
+/* Dil dəyişdirici və loqonun qruplaşdırıldığı hissə */
+.lang-and-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lang-switcher { display: flex; gap: 5px; font-size: 11px; font-weight: 700; color: #999; }
+.lang-switcher span { cursor: pointer; transition: 0.3s; }
+.lang-switcher span.active { color: #28a745; }
+
+/* Yuxarı sağdakı loqonun dizaynı və hover effekti */
+.top-bar-external-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.top-bar-external-logo img {
+    height: 35px; /* Loqonun hündürlüyü (istəyə görə dəyişə bilərsiniz) */
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.top-bar-external-logo:hover img {
+    transform: scale(1.1); /* Üzərinə gəldikdə bir az böyüməsi */
+    opacity: 0.8;          /* Şəffaflığın bir qədər azalması */
+}
+
+/* --- 3. Premium Navbar --- */
+.main-navbar { 
+    background: #0a0a0a !important; 
+    padding: 0 !important; 
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* KUB HİSSƏSİ (Hover Effekti) */
+.main-navbar .nav-link { 
+    color: #fff !important; 
+    font-size: 13px; 
+    padding: 20px 25px !important; 
+    text-transform: uppercase; 
+    font-weight: 600;
+    position: relative;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Hover zamanı kəskin (kub) arxa plan */
+.main-navbar .nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #323232;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+.main-navbar .nav-link:hover::before {
+    transform: scaleY(1);
+}
+
+/* --- 4. Dropdown Premium Stil --- */
+.dropdown-menu { 
+    background: #000 !important; 
+    border: none !important; 
+    border-radius: 0 !important; 
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+.dropdown-item { 
+    color: #fff !important; 
+    padding: 12px 20px !important; 
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.dropdown-item:hover { 
+    background: #2c2c2c !important; 
+    color: #fff !important; 
+}
+
+/* --- 5. Sosial İkonlar --- */
+.social-icons { display: flex; gap: 15px; margin-left: 20px; }
+.social-icons a { 
+    color: #fff; 
+    font-size: 16px; 
+    width: 35px; 
+    height: 35px; 
+    border: 1px solid #333; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: 0.4s; 
+}
+.social-icons a:hover { 
+    background: #2d2d2d; 
+    color: #fff; 
+    border-color: #383838;
+    transform: rotate(5deg) scale(1.1);
+}
+
+/* --- 6. Responsivlik --- */
+@media (max-width: 991px) {
+    .top-bar .container { flex-direction: column; text-align: center; }
+    .top-bar-right { justify-content: center; width: 100%; }
+    .lang-and-logo { justify-content: center; width: 100%; margin-top: 5px; }
+    
+    .navbar-collapse { background: #111; padding: 15px; margin-top: 10px; }
+    .main-navbar .nav-link { padding: 15px !important; text-align: center; }
+    .social-icons { justify-content: center; margin-left: 0; padding: 15px 0; }
+    .dropdown-menu { position: static !important; width: 100% !important; background: #222 !important; }
+}
+
+@media (max-width: 480px) {
+    .brand-light, .brand-bold { font-size: 18px !important; }
+}
+
+.navbar-toggler { border: 1px solid #fff !important; padding: 5px 10px !important; }
+.navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important; }

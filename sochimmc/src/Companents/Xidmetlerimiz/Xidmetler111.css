@@ -1,0 +1,448 @@
+
+.profbetonxidmetler11 {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0 60px 0;
+}
+
+.profbetonxidmetlerdiv11 {
+  /* width: 90%; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profbetonxidmetlercardsw {
+  width: 70%;
+  border: none !important;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 60px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+}
+
+
+.profbetonxidmetlercardsw:hover {
+  background-color: rgba(255, 255, 255, 0.556);
+  transform: scale(1.05);
+  box-shadow: 0px 8px 30px rgba(15, 74, 122, 0.5); /* Kölgə effekti */
+
+}
+
+.profbetonxidmetlercardimg {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important; /* Şəkilin bütün hissələri göstərilir */
+}
+
+.profbetonxidmetlercardtext {
+  padding: 15px;
+  text-align: center;
+}
+
+.profbetonxidmetlercardsw h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.profbetonxidmetlercardsw p {
+  font-size: 1em;
+  color: #333;
+}
+.swiper-pagination {
+  display: none;
+}
+.swiper-button-next{
+  display: none !important;
+}
+.swiper-button-prev{
+  display: none !important;
+
+}
+
+
+
+/* //////////////////////////////// */
+/* Profbeton  xidmetler  */
+
+.profbetonxidmetler1 {
+  width: 100%;
+  /* background-color: #069161; */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profbetonxidmetlerdiv11 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profbetonxidmetlercard {
+  width: 22%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.profbetonxidmetlercard:hover {
+  transform: scale(1.05);
+}
+
+
+
+.profbetonxidmetlercardtext {
+  padding: 15px;
+  text-align: center;
+}
+
+.profbetonxidmetlercard h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.profbetonxidmetlercard p {
+  font-size: 1em;
+  color: #333;
+}
+
+/* Responsiv dizayn üçün */
+@media (max-width: 768px) {
+  .profbetonxidmetlercard {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profbetonxidmetlercard {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+.profbetonxidmetlercardsw {
+  width: 70%;
+background:rgba(255 255 255 / 0.30);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 60px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+  display: flex;
+  flex-direction: column; /* Mətnin aşağıya doğru olması */
+  justify-content: space-between; /* Boşluqları bərabər paylamaq */
+  height: 350px; /* Hündürlüyü sabitləşdirmək */
+}
+
+.profbetonxidmetlercardtext {
+  padding: 15px;
+  text-align: center;
+  flex-grow: 1; /* Mətnin yuxarıda qalmasını təmin edir */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Mətnin ortalanması */
+}
+.designmainsec1basliq h2{
+ margin-left: 30px;
+}
+
+.profbetonxidmetler11 {
+  width: 100%;
+background-color: transparent !important; 
+  box-sizing: border-box;
+  padding: 0 0 60px 0;
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+
+.profbetonxidmetler11.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* ......... */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modalImage {
+  width: 30% !important;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.modalContent h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.modalContent p {
+  font-size: 1em;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+
+
+/* ........................... */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.sehifelenme1 {
+  padding: 20px;
+}
+
+.profbetonxidmetler1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.profbetonxidmetler1.visible {
+  opacity: 1;
+}
+
+.profbetonxidmetlerdiv11 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.profbetonxidmetlercard {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profbetonxidmetlercard:hover {
+  transform: scale(1.05);
+}
+
+
+
+.logo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logoImage {
+  width: 30px;
+  height: 30px;
+}
+
+/* Modal Stil */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  padding: 20px;
+  text-align: center;
+}
+
+.modalLogo img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.modalImage,
+.modalVideo {
+  width: 100%;
+  max-height: 80vh; /* Maksimum hündürlük */
+  object-fit: contain; /* Tam görünməsi üçün əlavə olundu */
+  border-radius: 10px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 38px;
+  height: 38px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow:
+    0 4px 12px rgba(255, 0, 153, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.2),
+    0 0 0 2px rgba(126, 31, 235, 0.2);
+  transition: all 0.3s ease;
+}
+
+.closeButton:hover {
+  background: linear-gradient(145deg, #ff0099, #7e1feb);
+  color: #fff;
+  border: 2px solid #fff;
+  transform: scale(1.15) rotate(180deg);
+  box-shadow:
+    0 6px 18px rgba(255, 0, 153, 0.6),
+    0 0 0 3px rgba(255, 255, 255, 0.4),
+    inset 0 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+
+/* ...................... */
+/* .........................modal */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  backdrop-filter: blur(6px);
+}
+
+.modalContent {
+  background: linear-gradient(135deg, #ff0099, #7e1feb);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 600px;
+  color: white;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+}
+
+.modalImage {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+
+
+.modalContent h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+.modalContent p {
+  margin: 15px 0;
+  color: #f1f1f1;
+  font-size: 16px;
+}
+
+.modalLinkButton {
+  margin-top: 15px;
+  background-color: #ffffff;
+  color: #7e1feb;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.modalLinkButton:hover {
+  background-color: #ffd6f6;
+  transform: scale(1.05);
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

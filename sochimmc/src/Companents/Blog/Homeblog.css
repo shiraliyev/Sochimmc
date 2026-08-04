@@ -1,0 +1,77 @@
+/* Əsas Grid Tənzimləmələri */
+.blog-future-grid { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); /* Default: 3 sütun */
+  gap: 2.5rem; 
+  align-items: stretch; 
+}
+
+/* Orta ekranlar / Tablet (992px-dən kiçik olduqda) */
+@media (max-width: 992px) {
+  .blog-future-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 sütun */
+    gap: 1.5rem;
+  }
+  .blog-future-title { font-size: 2.2rem; }
+}
+
+/* Kiçik ekranlar / Telefon (768px-dən kiçik olduqda) */
+@media (max-width: 768px) {
+  .blog-future-grid {
+    grid-template-columns: 1fr; /* 1 sütun (alt-alta) */
+    padding: 0 1rem;
+  }
+  .blog-future-title { font-size: 1.8rem; }
+  .blog-future-canvas { padding: 2rem 1rem; }
+}
+
+/* Kartların və digər elementlərin sabitliyi */
+.blog-future-card {
+  position: relative; 
+  background: #ffffff; 
+  border: 2px solid #000000; 
+  cursor: default; 
+  display: flex;
+  flex-direction: column; 
+  transition: 0.4s;
+  height: 100%; 
+}
+
+.blog-future-card-content { 
+  padding: 2rem; 
+  display: flex; 
+  flex-direction: column; 
+  flex-grow: 1; 
+}
+
+/* Hover zamanı lift effekti */
+.blog-future-card:hover { 
+  transform: translateY(-10px); 
+  box-shadow: 10px 10px 0px #000; 
+}
+
+/* Digər köməkçi stillər */
+.blog-future-canvas { position: relative; width: 100%; padding: 4rem 2rem 3rem 2rem; background-color: #ffffff; overflow: hidden; display: flex; flex-direction: column; align-items: center; font-family: system-ui, -apple-system, sans-serif; color: #000; }
+.blog-cyber-grid-pulse { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; background-image: linear-gradient(#eee 1px, transparent 1px), linear-gradient(90deg, #eee 1px, transparent 1px); background-size: 50px 50px; mask-image: radial-gradient(circle 250px at var(--x, 50%) var(--y, 50%), black 0%, rgba(0,0,0,0.05) 100%); }
+.blog-future-container { position: relative; z-index: 2; width: 100%; max-width: 1140px; }
+.blog-bg-fluid-orb { position: absolute; filter: blur(140px); opacity: 0.15; pointer-events: none; z-index: 1; }
+.blog-orb-heating { width: 300px; height: 300px; background: radial-gradient(circle, rgba(83,14,194,0.15) 0%, transparent 70%); top: -10%; left: -5%; }
+.blog-orb-cooling { width: 300px; height: 300px; background: radial-gradient(circle, rgba(0,102,255,0.15) 0%, transparent 70%); bottom: -10%; right: -5%; }
+.blog-future-header { text-align: center; margin-bottom: 3.5rem; }
+.blog-cyber-badge { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 0.7rem; font-weight: 700; letter-spacing: 3px; margin-bottom: 1.2rem; text-transform: uppercase; }
+.blog-pulse-dot { width: 8px; height: 8px; background-color: #530ec2; border-radius: 50%; display: inline-block; animation: blogLive 1.5s infinite ease-in-out; }
+@keyframes blogLive { 0% { transform: scale(0.8); opacity: 0.5; box-shadow: 0 0 0 0 rgba(83,14,194,0.4); } 70% { transform: scale(1.2); opacity: 1; box-shadow: 0 0 0 10px rgba(83,14,194,0); } 100% { transform: scale(0.8); opacity: 0.5; box-shadow: 0 0 0 0 rgba(83,14,194,0); } }
+.blog-future-title { font-size: 3rem; font-weight: 900; letter-spacing: -1px; margin-bottom: 0.6rem; color: #000; }
+.blog-future-subtitle { font-size: 1rem; color: #666; }
+.blog-card-image { width: 100%; height: 200px; border-bottom: 2px solid #000; overflow: hidden; }
+.blog-card-image img { width: 100%; height: 100%; object-fit: cover; }
+.blog-future-name { font-size: 1.4rem; font-weight: 900; margin-bottom: 1rem; color: #000; }
+.blog-future-desc { font-size: 0.95rem; color: #444; line-height: 1.5; margin-bottom: 1.5rem; }
+.blog-tech-bracket { position: absolute; width: 12px; height: 12px; border: 1.5px solid transparent; transition: 0.4s; }
+.blog-bracket-tl { top: 10px; left: 10px; border-width: 1.5px 0 0 1.5px; }
+.blog-bracket-br { bottom: 10px; right: 10px; border-width: 0 1.5px 1.5px 0; }
+.blog-future-card:hover .blog-tech-bracket { border-color: #000; }
+.blog-trigger-text { font-size: 0.7rem; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; }
+.blog-trigger-line-wrapper { width: 40px; height: 2px; background: #eee; margin-top: 8px; }
+.blog-trigger-line { width: 100%; height: 100%; background: #000; transform: translateX(-100%); transition: 0.4s; }
+.blog-future-card:hover .blog-trigger-line { transform: translateX(0); }

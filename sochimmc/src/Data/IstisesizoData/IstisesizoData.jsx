@@ -1,0 +1,30 @@
+const IstisesizoData = [
+  { id: 15, category: "cat_izoboks", image: "/img/İZOBOKS44RTeplozashita.webp", title: "izoboks_44r_teplozasita_5800_1220_50_title", description: "izoboks_44r_teplozasita_5800_1220_50_desc", modalContent: "izoboks_44r_teplozasita_5800_1220_50_modal" },
+  { id: 16, category: "cat_izoboks", image: "/img/İZOBOKS44RTeplozashita.webp", title: "izoboks_44r_teplozasita_6250_1220_50_title", description: "izoboks_44r_teplozasita_6250_1220_50_desc", modalContent: "izoboks_44r_teplozasita_6250_1220_50_modal" },
+  { id: 17, category: "cat_izoboks", image: "/img/Teplayadacha.png", title: "texnonikol_44rn_teplaya_daca_title", description: "texnonikol_44rn_teplaya_daca_desc", modalContent: "texnonikol_44rn_teplaya_daca_modal" },
+  { id: 18, category: "cat_izoboks", image: "/img/TeplozashitaMİNİ.webp", title: "izoboks_44r_teplozasita_mini_title", description: "izoboks_44r_teplozasita_mini_desc", modalContent: "izoboks_44r_teplozasita_mini_modal" },
+  { id: 19, category: "cat_izoboks", image: "/img/banyaiisauna.PNG", title: "ralu_banya_i_sauna_title", description: "ralu_banya_i_sauna_desc", modalContent: "ralu_banya_i_sauna_modal" },
+  { id: 20, category: "cat_izoboks", image: "/img/İZOBOKSEXTRALAYT.webp", title: "izoboks_extralayt_100mm_title", description: "izoboks_extralayt_100mm_desc", modalContent: "izoboks_extralayt_100mm_modal" },
+  { id: 1, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_1200_600_100mm_title", description: "texnofas_1200_600_100mm_desc", modalContent: "texnofas_1200_600_100mm_modal" },
+  { id: 2, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_1200_600_50mm_title", description: "texnofas_1200_600_50mm_desc", modalContent: "texnofas_1200_600_50mm_modal" },
+  { id: 3, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_1200_600_30mm_title", description: "texnofas_1200_600_30mm_desc", modalContent: "texnofas_1200_600_30mm_modal" },
+  { id: 4, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_dekor_1200_600_50mm_title", description: "texnofas_dekor_1200_600_50mm_desc", modalContent: "texnofas_dekor_1200_600_50mm_modal" },
+  { id: 5, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_ekstra_1200_600_50mm_title", description: "texnofas_ekstra_1200_600_50mm_desc", modalContent: "texnofas_ekstra_1200_600_50mm_modal" },
+  { id: 6, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_optima_1200_600_50mm_title", description: "texnofas_optima_1200_600_50mm_desc", modalContent: "texnofas_optima_1200_600_50mm_modal" },
+  { id: 7, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_optima_1200_600_80mm_title", description: "texnofas_optima_1200_600_80mm_desc", modalContent: "texnofas_optima_1200_600_80mm_modal" },
+  { id: 8, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_effekt_1200_600_50mm_title", description: "texnofas_effekt_1200_600_50mm_desc", modalContent: "texnofas_effekt_1200_600_50mm_modal" },
+  { id: 9, category: "cat_texnofas", image: "/img/texnofasdekor.webp", title: "texnofas_optima_1200_600_80mm_6806100000_title", description: "texnofas_optima_1200_600_80mm_6806100000_desc", modalContent: "texnofas_optima_1200_600_80mm_6806100000_modal" },
+  { id: 10, category: "cat_texnovent", image: "/img/Texnoventekstra.webp", title: "texnovent_ekstra_1200_600_50mm_title", description: "texnovent_ekstra_1200_600_50mm_desc", modalContent: "texnovent_ekstra_1200_600_50mm_modal" },
+  { id: 11, category: "cat_texnovent", image: "/img/Texnoventekstra.webp", title: "texnovent_ekstra_1200_600_100mm_title", description: "texnovent_ekstra_1200_600_100mm_desc", modalContent: "texnovent_ekstra_1200_600_100mm_modal" },
+  { id: 12, category: "cat_texnovent", image: "/img/Texnoventekstra.webp", title: "texnovent_optima_1200_600_50mm_title", description: "texnovent_optima_1200_600_50mm_desc", modalContent: "texnovent_optima_1200_600_50mm_modal" },
+  { id: 13, category: "cat_texnovent", image: "/img/Texnoventekstra.webp", title: "texnovent_optima_1200_600_80mm_title", description: "texnovent_optima_1200_600_80mm_desc", modalContent: "texnovent_optima_1200_600_80mm_modal" },
+  { id: 14, category: "cat_texnovent", image: "/img/Texnoventekstra.webp", title: "texnovent_optima_1200_600_100mm_title", description: "texnovent_optima_1200_600_100mm_desc", modalContent: "texnovent_optima_1200_600_100mm_modal" },
+   { id: 21, category: "cat_texnoakustik", image: "/img/Texnoakustik.webp", title: "texnoakustik_1200_600_50mm_title", description: "texnoakustik_1200_600_50mm_desc", modalContent: "texnoakustik_1200_600_50mm_modal" },
+  { id: 22, category: "cat_texnoakustik", image: "/img/Texnoakustik.webp", title: "texnoakustik_1200_600_100mm_title", description: "texnoakustik_1200_600_100mm_desc", modalContent: "texnoakustik_1200_600_100mm_modal" },
+   { id: 25, category: "cat_texnoakustik", image: "/img/TexnoblokStandart.jpg", title: "texnoblok_standart_1200_600_50mm_title", description: "texnoblok_standart_1200_600_50mm_desc", modalContent: "texnoblok_standart_1200_600_50mm_modal" },
+  { id: 26, category: "cat_texnoakustik", image: "/img/TexnoblokStandart.jpg", title: "texnoblok_standart_1200_600_100mm_title", description: "texnoblok_standart_1200_600_100mm_desc", modalContent: "texnoblok_standart_1200_600_100mm_modal" },
+  { id: 23, category: "cat_roklait", image: "/img/Roklait(Rosklite).webp", title: "roklait_rosklite_1200_600_50mm_title", description: "roklait_rosklite_1200_600_50mm_desc", modalContent: "roklait_rosklite_1200_600_50mm_modal" },
+  { id: 24, category: "cat_roklait", image: "/img/Roklait(Rosklite).webp", title: "roklait_rosklite_1200_600_100mm_title", description: "roklait_rosklite_1200_600_100mm_desc", modalContent: "roklait_rosklite_1200_600_100mm_modal" }
+];
+
+export default IstisesizoData;

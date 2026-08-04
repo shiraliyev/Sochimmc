@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.KomandaApp {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to bottom, rgba(145, 154, 162, 0.073), rgba(117, 125, 132, 0.052)), url("../../../../public/img/aboooo.webp");
+    padding: 120px 0;
+}
+
+.KomandaTeam-section {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.KomandaTeam-member {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.5s, box-shadow 0.5s;
+    cursor: pointer;
+}
+
+.KomandaTeam-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.KomandaMember-photo {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.KomandaMember-photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.KomandaTeam-member:hover .KomandaMember-photo img {
+    transform: scale(1.1);
+}
+
+.KomandaMember-info {
+    padding: 20px;
+    text-align: center;
+    background: white;
+}
+
+.KomandaMember-info h3 {
+    margin-bottom: 10px;
+}
+
+.KomandaMember-info p {
+    color: #666;
+}
+
+.KomandaModal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.KomandaModal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.KomandaClose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.KomandaClose:hover,
+.KomandaClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .KomandaTeam-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+.rehberlikbasliq {
+    background-color: #f4f3f3;
+    padding: 20px;
+    text-align: center;
+    /* border-radius: 10px; */
+    margin-bottom: 40px;
+    color: rgb(12, 56, 93) ;
+}
+
+.rehberlikbasliqh2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 768px) {
+    .rehberlikbasliqh2 {
+        font-size: 1.5rem;
+    }
+}

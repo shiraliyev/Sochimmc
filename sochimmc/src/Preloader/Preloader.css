@@ -1,0 +1,91 @@
+.preloader-wrapper {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  z-index: 9999;
+}
+
+.preloader-content {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sun {
+  width: 60px;
+  height: 60px;
+  fill: #ff9900;
+  animation: rotate 10s linear infinite;
+}
+
+#cloud {
+  width: 80px;
+  height: 80px;
+  margin-top: -30px;
+  z-index: 2;
+  fill: #666;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.rain {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 60px;
+}
+
+.drop {
+  display: block;
+  float: left;
+  width: 3px;
+  height: 10px;
+  margin-left: 4px;
+  background: #007bff;
+  border-radius: 0px 0px 6px 6px;
+  animation: drop 0.5s linear infinite;
+}
+
+.drop:nth-child(even) { animation-delay: -0.2s; }
+.drop:nth-child(3n) { animation-delay: -0.4s; }
+
+@keyframes drop {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(30px); opacity: 0; }
+}
+
+.text-container {
+  margin-top: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.company-name {
+  font-weight: 800;
+  font-size: 16px;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.status-text {
+  font-size: 12px;
+  color: #777;
+  font-style: italic;
+  margin-top: 5px;
+  min-height: 1.2em;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

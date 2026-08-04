@@ -1,0 +1,378 @@
+/* Ana konteyner və Grid Struktur */
+.Ser-monitor-page-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1b365d 0%, #132744 50%, #0d1b2a 100%);
+  color: #ffffff;
+  overflow-x: hidden;
+  padding-bottom: 40px;
+  font-family: system-ui, -apple-system, sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.Ser-monitor-content-area {
+  position: relative;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-content: center;
+}
+
+.Ser-designmain {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Dama (Grid) Effekti */
+.Ser-monitor-grid-pulse {
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+  min-height: 100vh;
+  z-index: 1;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px), 
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(circle 300px at var(--x, 50%) var(--y, 50%), rgba(0,0,0,1) 0%, rgba(0,0,0,0.2) 70%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle 300px at var(--x, 50%) var(--y, 50%), rgba(0,0,0,1) 0%, rgba(0,0,0,0.2) 70%, transparent 100%);
+  opacity: 0.8;
+  transition: opacity 0.4s ease;
+}
+
+/* Başlıq Hissəsi (Grid ilə) */
+.Ser-xidmet-future-header { 
+  display: grid;
+  justify-items: center;
+  text-align: center; 
+  padding: 30px 20px 10px; 
+  gap: 12px;
+}
+
+.Ser-xidmet-cyber-badge { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 10px; 
+  font-size: 0.75rem; 
+  font-weight: 700; 
+  letter-spacing: 3.5px; 
+  text-transform: uppercase;
+  color: #74b9ff;
+  background: rgba(74, 144, 226, 0.1);
+  padding: 6px 16px;
+  border-radius: 30px;
+  border: 1px solid rgba(74, 144, 226, 0.25);
+  box-shadow: 0 0 20px rgba(74, 144, 226, 0.1);
+}
+
+.Ser-xidmet-pulse-dot { 
+  width: 8px; 
+  height: 8px; 
+  background-color: #74b9ff; 
+  border-radius: 50%; 
+  display: inline-block; 
+  animation: Ser-blogLive 1.5s infinite ease-in-out;
+}
+
+@keyframes Ser-blogLive { 
+  0% { transform: scale(0.8); opacity: 0.4; } 
+  100% { transform: scale(1.2); opacity: 0.9; } 
+}
+
+.Ser-xidmet-future-title { 
+  font-size: clamp(1.8rem, 4vw, 2.8rem); 
+  font-weight: 900; 
+  letter-spacing: -0.5px; 
+  color: #f8fafc;
+  margin: 0;
+}
+
+.Ser-xidmet-future-subtitle { 
+  font-size: 1rem; 
+  color: #94a3b8; 
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0;
+}
+
+/* Bölmə Başlıqları */
+.Ser-designmainsec1 { 
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  width: 90%; 
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.Ser-designmainsec1basliq { 
+  display: grid;
+  justify-items: center;
+  text-align: center; 
+  gap: 8px;
+}
+
+.Ser-designmainsec1basliq h2 { 
+  font-size: 1.6rem;
+  color: #ffffff; 
+  font-weight: 800;
+  margin: 0;
+}
+
+/* Rəngbərəng Animasiyalı Başlıq Xətti */
+.Ser-section-title-line {
+  width: 80px;
+  height: 3px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #ff7675, #74b9ff, #55efc4, #fdcb6e, #ff7675);
+  background-size: 300% 100%;
+  box-shadow: 0 0 15px rgba(116, 185, 255, 0.9);
+  animation: Ser-lineGlowShift 3s linear infinite;
+}
+
+@keyframes Ser-lineGlowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Sertifikatlar Grid Sistemi (Responsive) */
+.Ser-certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  align-items: stretch;
+}
+
+/* Kartların Grid Dizaynı */
+.Ser-profbetonxidmetlercardsw { 
+  position: relative;
+  width: 100%; 
+  background: rgba(15, 28, 48, 0.85); 
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  border-radius: 20px; 
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4); 
+  cursor: pointer; 
+  display: grid; 
+  grid-template-rows: 180px 1fr; 
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+}
+
+.Ser-profbetonxidmetlercardsw:hover { 
+  transform: translateY(-8px) scale(1.01); 
+  border-color: rgba(116, 185, 255, 0.4);
+  background: rgba(20, 36, 60, 0.95);
+  box-shadow: 0 20px 35px -10px rgba(74, 144, 226, 0.3);
+}
+
+.Ser-profbetonxidmetlercardsw:hover .Ser-profbetonxidmetlercardtext h3,
+.Ser-profbetonxidmetlercardsw:hover .Ser-profbetonxidmetlercardtext p {
+  color: #ffffff;
+}
+
+/* Şəkil Hissəsi */
+.Ser-profbetonxidmetlercardimg { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+  transition: transform 0.4s ease;
+  padding: 15px;
+}
+
+.Ser-profbetonxidmetlercardsw:hover .Ser-profbetonxidmetlercardimg {
+  transform: scale(1.08);
+}
+
+.Ser-profbetonxidmetlercardtext { 
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 8px;
+  padding: 1.2rem; 
+  text-align: center; 
+}
+
+.Ser-profbetonxidmetlercardtext h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #74b9ff;
+  margin: 0;
+  line-height: 1.3;
+  transition: color 0.3s ease;
+}
+
+.Ser-profbetonxidmetlercardtext p {
+  font-size: 0.85rem;
+  color: #e2e8f0;
+  line-height: 1.4;
+  margin: 0;
+  transition: color 0.3s ease;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* --- ULTRA DİNAMİK VƏ RESPONSİV AĞ MODAL SİSTEMİ --- */
+.Ser-modalOverlay { 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100vw; 
+  height: 100vh; 
+  background: rgba(11, 22, 38, 0.82); 
+  display: grid;
+  place-items: center;
+  z-index: 9999; 
+  backdrop-filter: blur(12px); 
+  -webkit-backdrop-filter: blur(12px);
+  padding: 15px; 
+  animation: SerOverlayFadeIn 0.35s ease forwards;
+}
+
+@keyframes SerOverlayFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.Ser-modalContent { 
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 35px 30px 30px 30px; 
+  border-radius: 28px; 
+  width: 100%; 
+  max-width: 580px; 
+  max-height: 90vh; 
+  overflow-y: auto; 
+  color: #132744; 
+  position: relative; 
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  text-align: center; 
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.4), 
+              0 0 40px rgba(116, 185, 255, 0.15);
+  animation: SerModalPopUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes SerModalPopUp {
+  0% { transform: scale(0.7) translateY(30px); opacity: 0; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+/* X (Bağla) düyməsi */
+.Ser-closeButton { 
+  position: absolute; 
+  top: 15px; 
+  right: 15px; 
+  font-size: 20px; 
+  font-weight: bold;
+  cursor: pointer; 
+  background: #f1f5f9; 
+  border: 2px solid #e2e8f0; 
+  color: #0f172a; 
+  border-radius: 50%; 
+  width: 40px; 
+  height: 40px; 
+  display: grid;
+  place-items: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.Ser-closeButton:hover {
+  background: #ff4757;
+  color: #ffffff;
+  border-color: #ff4757;
+  transform: rotate(90deg) scale(1.1);
+  box-shadow: 0 6px 15px rgba(255, 71, 87, 0.35);
+}
+
+/* Modal Şəkli */
+.Ser-modalImage { 
+  width: 80%; 
+  max-height: 280px; 
+  object-fit: contain; 
+  margin-bottom: 10px;
+  border-radius: 16px;
+  background: #f8fafc;
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.4s ease;
+}
+
+.Ser-modalImage:hover {
+  transform: scale(1.03);
+}
+
+.Ser-modalh222 { 
+  margin: 10px 0 0 0; 
+  font-size: 1.5rem; 
+  font-weight: 800;
+  color: #1b365d; 
+  letter-spacing: -0.3px;
+}
+
+.Ser-modalp1p { 
+  margin: 10px 0 0 0; 
+  font-size: 1rem; 
+  line-height: 1.6;
+  color: #475569; 
+}
+
+/* --- RESPONSİV BREAKPOINTS (Grid Uyğunlaşmaları) --- */
+
+/* Planşetlər və orta ölçülü ekranlar üçün (992px-dən kiçik) */
+@media (max-width: 992px) {
+  .Ser-certificates-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+/* Mobil telefonlar üçün (576px-dən kiçik - Ən kiçik ekranlar) */
+@media (max-width: 576px) {
+  .Ser-certificates-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .Ser-xidmet-future-title { 
+    font-size: 1.5rem; 
+  }
+
+  .Ser-designmainsec1 {
+    width: 94%;
+  }
+
+  .Ser-modalContent {
+    padding: 30px 15px 20px 15px;
+    max-width: 92vw;
+  }
+
+  .Ser-modalImage {
+    width: 95%;
+    max-height: 220px;
+  }
+
+  .Ser-closeButton {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    top: 10px;
+    right: 10px;
+  }
+}

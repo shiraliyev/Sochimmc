@@ -1,0 +1,86 @@
+/* Əsas blokun tərtibatı */
+.homesev4esasblok {
+    width: 100%;
+    height: auto;
+    background-color: #f9fbfa;
+    position: relative;
+  }
+  
+  /* Birinci blok */
+  .homesec4blok1cireng {
+    width: 100%;
+    height: 5%;
+    background-color: #eae9e9;
+    position: relative;
+  }
+  
+  /* SVG dalğa */
+  .wave {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .wavePath {
+    animation: waveMotion 4s ease-in-out infinite;
+  }
+  
+  /* Dalğa animasiyası */
+  @keyframes waveMotion {
+    0% {
+      d: path(
+        "M0,320L48,288C96,256,192,192,288,160C384,128,480,128,576,144C672,160,768,192,864,224C960,256,1056,288,1152,272C1248,256,1344,192,1392,160L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      );
+    }
+    50% {
+      d: path(
+        "M0,320L48,304C96,288,192,240,288,208C384,176,480,160,576,176C672,192,768,240,864,272C960,304,1056,320,1152,304C1248,288,1344,256,1392,224L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      );
+    }
+    100% {
+      d: path(
+        "M0,320L48,288C96,256,192,192,288,160C384,128,480,128,576,144C672,160,768,192,864,224C960,256,1056,288,1152,272C1248,256,1344,192,1392,160L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      );
+    }
+  }
+  
+  /* Maşın silindr bloku */
+  .homesec4masinsilindirblok {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .homesec4masinsilindirblok img {
+    width: 50%;
+    margin: 0 auto;
+    z-index: 100;
+    margin-top: 20px;
+  }
+  .mySwiper {
+  transition: transform 1s ease; /* Keçiş effektini daha yumşaq edir */
+
+}
+
+.homesec4masinsilindirblok img {
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.homesec4masinsilindirblok img:hover {
+  transform: scale(1.1); /* Hover zamanı yumşaq böyümə effekti */
+  opacity: 0.95;
+}
+
+  .profbetonxidmetlercardtext1{
+    background-color: blue !important;
+    
+  }
+ 
+  /* ....................................................... */
+  

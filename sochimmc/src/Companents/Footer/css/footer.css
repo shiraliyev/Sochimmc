@@ -1,0 +1,126 @@
+/* Əsas Footer Konteyneri */
+.footer-premium-pro {
+  background: #050505;
+  color: #fff;
+  padding: 80px 5% 20px;
+  position: relative;
+  border-top: 1px solid #1a1a1a;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Üst Glow Effekti */
+.footer-glow-top {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #530ec2, transparent);
+}
+
+/* Grid Layout (4 Sütun) */
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  gap: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* Logo və Bio (Öz ölçü proporsiyasını qoruması üçün düzəliş) */
+.footer-logo { 
+  width: 140px; 
+  height: auto; 
+  object-fit: contain; 
+  filter: brightness(0) invert(1); 
+  margin-bottom: 20px; 
+}
+
+.footer-bio { color: #555; font-size: 0.85rem; line-height: 1.8; margin-bottom: 25px; }
+
+/* Sosial İkonlar - Hover Effekti ilə */
+.social-links { display: flex; gap: 12px; }
+.social-icon {
+  width: 40px; 
+  height: 40px; 
+  border: 1px solid #222; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  font-size: 1.1rem;
+  transition: all 0.4s ease; 
+  cursor: pointer; 
+  color: #777; 
+  text-decoration: none;
+  border-radius: 4px;
+}
+.social-icon:hover { 
+  border-color: #530ec2; 
+  color: #fff; 
+  background: #530ec2; 
+  transform: translateY(-5px);
+}
+
+/* Sütun Başlıqları */
+.footer-col h5, .footer-col-contact h5 {
+  font-size: 0.8rem; 
+  letter-spacing: 2px; 
+  margin-bottom: 30px; 
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Listlər və Linklər */
+.footer-col ul { list-style: none; padding: 0; }
+.footer-col ul li { margin-bottom: 15px; }
+.footer-col ul li a { 
+  color: #666; 
+  text-decoration: none; 
+  font-size: 0.9rem; 
+  transition: 0.3s; 
+}
+.footer-col ul li a:hover { color: #fff; padding-left: 5px; }
+
+/* Əlaqə Mərkəzi Elementləri */
+.contact-item {
+  display: flex; 
+  align-items: center; 
+  gap: 12px; 
+  color: #666;
+  font-size: 0.9rem; 
+  margin-bottom: 15px; 
+  text-decoration: none;
+  transition: 0.3s;
+}
+.contact-item:hover { color: #530ec2; }
+
+/* Footer Meta (Copyright) */
+.footer-meta {
+  max-width: 1300px; 
+  margin: 60px auto 0; 
+  padding-top: 30px;
+  border-top: 1px solid #111; 
+  display: flex; 
+  justify-content: space-between;
+  font-size: 0.75rem; 
+  color: #555;
+}
+
+.footer-meta a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer-meta a:hover { color: #530ec2; }
+
+/* Responsivlik (Mobil və Tablet) */
+@media (max-width: 1024px) {
+  .footer-container { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 600px) {
+  .footer-container { grid-template-columns: 1fr; text-align: center; }
+  .social-links { justify-content: center; }
+  .footer-meta { flex-direction: column; gap: 10px; text-align: center; }
+  .contact-item { justify-content: center; }
+}

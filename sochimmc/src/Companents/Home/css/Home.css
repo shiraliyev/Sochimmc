@@ -1,0 +1,1262 @@
+main {
+  width: 100%;
+  background:transparent;
+
+}
+.tariflervesiralamablok{
+  background: transparent;
+
+}
+.homeswiperblok01{
+  background: transparent;
+
+}
+/* -----------------------homesec15foto------------------------- */
+  /* homesec15foto section */
+/* homesec15foto section with background image */
+/* homesec15foto section with background image */
+/* background-image: url('./../../../../public/img/binahomesec111111.jpeg'); */
+/* homesec15foto section */
+/*-------------------------------------- HOME 1 ci-HİSSƏ------------------------------------------- */
+.homesec15foto {
+  background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 110vh;
+  display: flex !important;
+  /* justify-content: center;
+  align-items: center; */
+}
+.homesec15fotoboss{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+}
+.bacgroungsec1bina1text{
+
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.bacgroungsec1bina1text .sec1div1 {
+  width: 100%;
+  height: auto;
+  margin: 0px 40px 0px 0px;
+  margin: 0 auto;
+  text-align: center;
+  /* display: flex;
+  justify-content: end;
+  align-items:center; */
+}
+.bacgroungsec1bina1text .sec1div1 h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.fira-sans-condensed-thin {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
+.bacgroungsec1bina1text .sec1div1 .rowdies-bold {
+  font-family: "Rowdies", sans-serif !important;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bacgroungsec1bina1text .sec1div1 h2 {
+  
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  font-size: 60px;
+  color: #0E3A5F;
+  margin: 0 auto;
+  text-align: center;
+}
+.bacgroungsec1bina1 {
+  width: 55%;
+  height: 100%;
+  z-index: 100;
+  /* margin: 80px 400px; */
+  background-image: url('./../../../../public/img/bacgroungsec1bina2.png'); 
+  /* background-color: #a6e6ff; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.cloud, .cloudtop2 {
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  background-image: url('./../../../../public/img/sonn.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  animation: moveClouds 50s linear infinite; /* Bulud hərəkət animasiyası */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0; /* Animasiya başlamadan əvvəl görünməz */
+}
+
+.cloudtop2 {
+  width: 500px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.cloud1 { top: 10px; animation-delay: 0s; }
+.cloud2 { top: 40px; animation-delay: 10s; }
+.cloud3 { top: 60px; animation-delay: 10s; }
+.cloud4 { top: 80px; animation-delay: 20s; }
+.cloud5 { top: 95px; animation-delay: 30s; }
+.cloud6 { top: 110px; animation-delay: 10s; }
+
+.cloud7 { top: 125px; animation-delay: 40s; }
+.cloud8 { top: 140px; animation-delay: 10s; }
+
+.cloud9 { top: 155px; animation-delay: 50s; }
+.cloud10 { top: 130px; animation-delay: 10s; }
+.cloud11 { top: 30px; animation-delay: 60s; }
+.cloud12 { top: 70px; animation-delay: 65s; }
+
+/* Bulud hərəkət animasiyası */
+@keyframes moveClouds {
+  0% {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  5% {
+      opacity: 0.5;
+  }
+  95% {
+      opacity: 0.5;
+  }
+  100% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+}
+
+/* Collage container */
+.collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Small images with square shape */
+.small-image {
+  position: relative;
+  width: 80px; /* Ölçünü kiçildin */
+  height: 80px; /* Ölçünü kiçildin */
+  overflow: hidden;
+  margin: 5px; /* Aralarında məsafə */
+  transform: rotate(45deg); /* 45 dərəcə döndərin */
+}
+
+.small-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Specific small image styles to create a unique design */
+.img1 { grid-column: 1; grid-row: 1; }
+.img2 { grid-column: 2; grid-row: 1; }
+.img3 { grid-column: 3; grid-row: 1; }
+.img4 { grid-column: 4; grid-row: 1; }
+.img5 { grid-column: 1; grid-row: 2; }
+.img6 { grid-column: 2; grid-row: 2; }
+.img7 { grid-column: 3; grid-row: 2; }
+.img8 { grid-column: 4; grid-row: 2; }
+.img9 { grid-column: 1; grid-row: 3; }
+/*-------------------------------------- RESPONSİVLİK----------------------------------------------- */
+
+@media (max-width: 1200px) {
+  .homesec15foto {
+    min-height: 100vh;
+  }
+  .bacgroungsec1bina1text {
+    width: 50%;
+  }
+  .bacgroungsec1bina1 {
+    width: 50%;
+  }
+  .bacgroungsec1bina1text .sec1div1 h2 {
+    font-size: 50px;
+  }
+  .homesec15foto {
+    /* background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%); */
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .homesec15fotoboss{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+  }
+  .bacgroungsec1bina1 {
+    height: 100%;
+    z-index: 100;
+    /* margin: 80px 400px; */
+    background-image: url('./../../../../public/img/bacgroungsec1bina2.png'); 
+    /* background-color: #a6e6ff; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  /* .bacgroungsec1bina1text{
+margin: 70px;
+    
+  } */
+  .bacgroungsec1bina1text .sec1div1 h3 {
+    
+    color:#0E3A5F;
+    
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .homesec15foto {
+    flex-direction: column;
+  }
+  .bacgroungsec1bina1text, .bacgroungsec1bina1 {
+    width: 100%;
+    height: 50%;
+  }
+  .bacgroungsec1bina1text .sec1div1 h2 {
+    font-size: 40px;
+  }
+  .homesec15foto {
+    /* background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%); */
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 70vh;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .homesec15fotoboss{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+  }
+  .bacgroungsec1bina1 {
+    height: 100%;
+    z-index: 100;
+    /* margin: 80px 400px; */
+    background-image: url('./../../../../public/img/bacgroungsec1bina2.png'); 
+    /* background-color: #a6e6ff; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .bacgroungsec1bina1text{
+margin: 70px;
+    
+  }
+  .bacgroungsec1bina1text .sec1div1 h3 {
+    
+    color:#0E3A5F;
+    
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .bacgroungsec1bina1text .sec1div1 h2 {
+    font-size: 30px;
+  }
+  .bacgroungsec1bina1text .sec1div1 h3 {
+    font-size: 20px;
+  }
+  .cloud, .cloudtop2 {
+    width: 400px;
+    height: 150px;
+  }
+  .homesec15foto {
+    /* background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%); */
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 70vh;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .homesec15fotoboss{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: 2;
+  }
+  .bacgroungsec1bina1text{
+    margin: 0;
+       
+        
+      }
+}
+
+@media (max-width: 576px) {
+  .bacgroungsec1bina1text .sec1div1 h2 {
+    font-size: 24px;
+  }
+  .bacgroungsec1bina1text .sec1div1 h3 {
+    font-size: 16px;
+  }
+  .cloud, .cloudtop2 {
+    width: 300px;
+    height: 100px;
+  }
+  .small-image {
+    width: 60px;
+    height: 60px;
+  }
+  .homesec15foto {
+    /* background: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%); */
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 60vh;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .homesec15fotoboss{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: 2;
+  }
+  .bacgroungsec1bina1 {
+    z-index: 100;
+    /* margin: 80px 400px; */
+    background-image: url('./../../../../public/img/bacgroungsec1bina2.png'); 
+    /* background-color: #a6e6ff; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+/*-------------------------------------- HOME 1 ci-HİSSƏ ------------------------------------------- */
+
+/* ----------------------homesec15foto------------------------- */
+
+
+  .hero {
+    position: relative;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    background-color: #373737dc;
+    z-index: 2;
+  }
+  
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #37373768;
+
+  }
+main .sec1 {
+  width: 100%;
+  height: auto;
+  padding: 200px 0 150px 0 ;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, rgba(94, 97, 97, 0.641), rgba(64, 66, 66, 0.5)), url("../../../../public/img/bina01.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.asp {
+  font-size: 3rem;
+  background-color: rgba(47, 47, 47, 0.037);
+  padding: 10px 20px;
+  animation: fadeIn 25s ease-in-out;
+  border-radius: 15px;
+  color: #d2cfcf;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+main .sec1 .sec1div1 {
+  width: 30%;
+  height: auto;
+  margin: 0px 40px 0px 0px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+main .sec1 .sec1div1 h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #e1dfdf;
+}
+main .sec2 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(228, 227, 227);
+  background-image: linear-gradient(to bottom, rgba(145, 154, 162, 0.073) , rgba(117, 125, 132, 0.052) ), url("../../../../public/img//aboooo.webp");
+
+  margin: 0 auto;
+  box-shadow: 2px 30px 40px 1px rgba(78, 78, 78, 0.165);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 140%;
+}
+/* ----------------------- Sec2div1 ---------------------------- */
+
+.homesec2div1{
+      width: 80%;
+      height: 20vh;
+      margin: 0 auto;
+      display: flex;
+align-items:end;
+}
+.homesec2div1h2{
+  font-size: 40px;
+  color:rgb(12, 56, 93) ;
+}
+/* ----------------------- Sec2div2 ---------------------------- */
+
+.homesec2div2{
+  width: 100%;
+  height: auto;
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.homesec2div2blok{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+cursor: pointer;
+}
+.ainline{
+  width: 18%;
+height: 70vh;
+margin: 0 auto;
+cursor: pointer;
+}
+.homesec2div2blokimg{
+width: 100%;
+height: 70%;
+border-radius: 10px;
+background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.232), rgba(34, 91, 96, 0.219)), url("../../../../public/img/gemi1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-size: 100% 140%;
+}
+.homesec2div2blokimglift{
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.232), rgba(34, 91, 96, 0.219)), url("../../../../public/img/liftbrend.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.homesec2div2blokimgBCC{
+  width: 100%;
+height: 70%;
+border-radius: 10px;
+background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.232), rgba(34, 91, 96, 0.219)), url("../../../../public/img/design01111.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.homesec2div2blokimgbeton{
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.232), rgba(34, 91, 96, 0.219)), url("../../../../public/img/betoncarrrr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.homesec2div2blokimgfire{
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.232), rgba(34, 91, 96, 0.219)), url("../../../../public/img/yanginkoll.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.homesec2div2blokimgEngineering{
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.232), rgba(34, 91, 96, 0.219)), url("../../../../public/img/enginersefaf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.homesec2div2blokname{
+width: 100%;
+height: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.homesec2div2bloknameh4 {
+color:rgb(6, 74, 148) ;
+font-size: 18px;
+text-align: center;
+
+}
+
+
+/* --------------------------- Sec2div2 ------------------------- */
+main .sec3 {
+  width: 100%;
+  height: auto;
+  /* background-image: url("./../../../../public//img/aboooo.webp"); */
+background-color: #faf9f9;
+  margin: 0 auto;
+  padding: 80px 0 80px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 140%;
+}
+main .sec3 .sec3div1 {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 70px 30px;
+}
+main .sec3 .sec3div1 h2 {
+  font-size: 50px;
+  color: rgb(12, 56, 93);
+}
+main .sec3 .sec3div1 b {
+  font-size: 25px;
+  margin: 20px 0;
+}
+main .sec3 .sec3div1 p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+main .sec3 .sec3div1 button {
+  width: 20%;
+  height: auto;
+  border: none;
+  padding: 20px 0 20px 0;
+  border-radius: 5px;
+  transition: 0.8s;
+  color: #fff;
+  background-color: rgb(12, 57, 97);
+}
+main .sec3 .sec3div1 button:hover {
+  background-color: rgb(57, 142, 212);
+}
+main .sec4 {
+  width: 100%;
+  height: auto;
+  /* background-color: aqua; */
+}
+main .sec4 .sec4div1 {
+  width: 80%;
+  height: 100%;
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+}
+main .sec4 .sec4div1 .sec4div1blok1 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+main .sec4 .sec4div1 .sec4div1blok1 h2 {
+  font-size: 50px;
+  color: rgb(12, 56, 93);
+}
+main .sec4 .sec4div1 .sec4div1blok2 {
+  width: 100%;
+  height: 70%;
+  display: flex;
+}
+main .sec4 .sec4div1 .sec4div1blok2 .sec4blok {
+  margin: 20px;
+  width: 20%;
+  height: 70%;
+}
+/* ///////////////////////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.designmain {
+  padding-bottom: unset !important;
+}
+
+.designmainsec1 {
+  width: 100%;
+  margin: 0 auto;
+background-color: transparent !important; 
+  
+}
+
+.designmainsec1basliq {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  margin: 0 auto;
+
+
+}
+
+.designmainsec1basliq h2 {
+  font-size: 50px;
+  color: rgb(229, 230, 231);
+}
+
+.designmainsec1basliq hr {
+  border: none;
+  background-color: rgb(246, 247, 248);
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+}
+
+.designmainsec1div1 {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  margin: 50px 0;
+  opacity: 0; /* Əvvəlcə görünməz edirik */
+  transform: translateY(100px); /* Əvvəlcə yuxarıdan aşağı endiririk */
+  transition: all 0.5s ease; /* Animasiya müddəti və tipi */
+}
+
+.designmainsec1div1div1 {
+  width: 30%;
+  height: 100%;
+}
+
+.designmainsec1div1div2 {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(236, 237, 237);
+  display: flex;
+  border-radius: 15px;
+}
+
+.designmainsec1div1div2div1 {
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, rgba(62, 123, 129, 0.287), rgba(34, 91, 96, 0.152)), url("./../../../../public/img/firesafteyyyyy.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 15px;
+}
+.designmainsec1div1div2div1fireeimg{
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, rgba(62, 123, 129, 0.287), rgba(34, 91, 96, 0.152)), url("./../../../../public/img/homeshirketyangin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 15px;
+}
+.designmainsec1div1div2div1betonimg{
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, rgba(62, 123, 129, 0.287), rgba(34, 91, 96, 0.152)), url("./../../../../public/img/homeshirketbeton.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 15px;
+}
+.designmainsec1div1div2div1liftimg{
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, rgba(62, 123, 129, 0.287), rgba(34, 91, 96, 0.152)), url("./../../../../public/img/liftt1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 15px;
+}
+.designmainsec1div1div2div1temirimg{
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, rgba(62, 123, 129, 0.287), rgba(34, 91, 96, 0.152)), url("./../../../../public/img/izolyasiya.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 15px;
+
+}
+.designmainsec1div1div2div1enginer{
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, rgba(62, 123, 129, 0.287), rgba(34, 91, 96, 0.152)), url("./../../../../public/img/muhen.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 15px;
+}
+.designmainsec1div1div2div2 {
+  width: 70%;
+  height: 100%;
+  padding: 25px;
+}
+
+.designmainsec1div1div2div2 h3 {
+  font-size: 20px;
+  color: rgb(6, 74, 148);
+}
+.designmainsec1div1div2div2 h5{
+  font-size: 15px;
+  color: rgb(6, 74, 148);
+}
+
+.designmainsec1div1div2div2 h6 {
+  font-size: 15px;
+  color: rgb(52, 52, 52);
+  margin: 10px 0 !important;
+}
+
+.bosluq {
+  width: 100%;
+  height: 120vh;
+  /* background-color: blueviolet; */
+}
+
+.visible {
+  opacity: 1; /* Görünən edirik */
+  transform: translateY(0); /* Əsas vəziyyətə qaytarırıq */
+}
+/* //////////////////////////////////////////////////////////////////////////////////
+*/
+/* css/Home.css */
+
+  /*-------------------- RESPONSİVLİK ------------------------*/
+  /* Küçük Ekranlar (Telefonlar) */
+  @media only screen and (max-width: 600px) {
+    /* Örnek: İçerikleri sıralı sütunlar haline getir */
+    .team .container {
+      flex-direction: column;
+    }
+    /* Örnek: Metin boyutlarını küçült */
+    .aboutsec3 .sec3div1 h2 {
+      font-size: 1.5rem;
+    }
+    /* Görüntü boyutlarını ayarla */
+    .team-member img {
+      width: 100px;
+      height: 100px;
+    }
+    main .sec1 {
+      width: 100%;
+      height: auto;
+      padding: 200px 0 150px 0 ;
+      margin: 0 auto;
+      background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.5), rgba(34, 91, 96, 0.5)), url("../../../../public/img/gemi1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-size: 100% 140%;
+      min-height: 70vh;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+    main .sec1 .sec1div1 {
+      width: 30%;
+      height: auto;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    main .sec1 .sec1div1 h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #e1dfdf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    /* ------------------.sec2-------------------- */
+     main .sec2 {
+      width: 100%;
+      height: auto;
+      background-color: rgb(228, 227, 227);
+      margin: 0 auto;
+      box-shadow: 2px 30px 40px 1px rgba(78, 78, 78, 0.165);
+    } 
+    /* ----------------------- Sec2div1 ---------------------------- */
+    
+    .homesec2div1{
+          width: 80%;
+          height: 20%;
+          margin: 0 auto;
+          display: flex;
+    align-items:center;
+    justify-content: center;
+    
+    }
+    .homesec2div1h2{
+      font-size: 40px;
+      color:rgb(12, 56, 93) ;
+      margin: 0 auto;
+    }
+    /* ----------------------- Sec2div2 ---------------------------- */
+    
+    .homesec2div2{
+      width: 100%;
+      height: auto;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 50px 0 50px 0;
+    
+    }
+    .homesec2div2blok{
+    width: auto;
+    height: 50vh;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    }
+    .homesec2div2blokimg{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.232), rgba(34, 91, 96, 0.219)), url("../../../../public/img/gemi1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+    }
+    .homesec2div2blokname{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .homesec2div2bloknameh4 {
+    color:rgb(6, 74, 148) ;
+    font-size: 18px;
+    text-align: center;
+    
+    } 
+    /* ---------------------------------sec3 ----------------------------- */
+     main .sec3 {
+      width: 100%;
+      height: auto;
+      background-color: #f9f9f9;
+      margin: 0 auto;
+       padding: 80px 30px 80px 30px; 
+        display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    main .sec3 .sec3div1 {
+      width: 80%;
+      height: auto;
+      margin: 0 auto;
+       padding: 70px 70px 10px 30px; 
+       text-align: center;
+    }
+    main .sec3 .sec3div1 h2 {
+      font-size: 50px;
+      color: rgb(12, 56, 93);
+      text-align: center;
+      padding: 10px 0px 60px 0px;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+    }
+    main .sec3 .sec3div1 b {
+      font-size: 25px;
+      margin: 20px 0;
+      text-align: center !important;
+    }
+    main .sec3 .sec3div1 p {
+      font-size: 18px;
+      margin: 20px 0;
+      text-align: center;
+
+    }
+    main .sec3 .sec3div1 button {
+      width: auto;
+      height: auto;
+      border: none;
+      padding: 20px 60px 20px 60px;
+      border-radius: 5px;
+      transition: 0.8s;
+      color: #fff;
+      background-color: rgb(12, 57, 97);
+      margin: 0 auto;
+    }
+    main .sec3 .sec3div1 button:hover {
+      background-color: rgb(57, 142, 212);
+    }
+    
+  } 
+  
+  /* Orta Ekranlar (Tabletler) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Örnek: İçeriği 2 sütuna ayır */
+    .team .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    } 
+    /* Örnek: Metin boyutlarını ayarla */
+    .aboutsec3 .sec3div1 h2 {
+      font-size: 2rem;
+    } 
+    /* Görüntü boyutlarını ayarla */
+    .team-member img {
+      width: 120px;
+      height: 120px;
+    } 
+    main .sec1 {
+      width: 100%;
+      height: auto;
+      padding: 200px 0 150px 0 ;
+      margin: 0 auto;
+      background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.5), rgba(34, 91, 96, 0.5)), url("../../../../public/img/gemi1.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-size: 100% 140%;
+      min-height: 70vh;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+    main .sec1 .sec1div1 {
+      width: 30%;
+      height: auto;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    main .sec1 .sec1div1 h2 {
+      text-align: center;
+      font-size: 30px;
+      color: #e1dfdf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    } 
+    /* ------------------.sec2-------------------- */
+     main .sec2 {
+      width: 100%;
+      
+      background-color: rgb(228, 227, 227);
+      margin: 0 auto;
+      box-shadow: 2px 30px 40px 1px rgba(78, 78, 78, 0.165);
+    } 
+    /* ----------------------- Sec2div1 ---------------------------- */
+    
+     .homesec2div1{
+          width: 80%;
+          height: 20%;
+          margin: 0 auto;
+          display: flex;
+    align-items:center;
+    justify-content: center;
+    
+    }
+    .homesec2div1h2{
+      font-size: 40px;
+      color:rgb(12, 56, 93) ;
+      margin: 0 auto;
+    } 
+    /* ----------------------- Sec2div2 ---------------------------- */
+    
+     .homesec2div2{
+      width: 100%;
+      height: auto;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    
+    } 
+    .homesec2div2blok{
+    width: auto;
+    height: 50vh;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    }
+    .homesec2div2blokimg{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(34, 92, 97, 0.232), rgba(34, 91, 96, 0.219)), url("../../../../public/img/gemi1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+    }
+    .homesec2div2blokname{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .homesec2div2bloknameh4 {
+    color:rgb(6, 74, 148) ;
+    font-size: 18px;
+    text-align: center;
+    
+    }
+     main .sec3 .sec3div1 button {
+      width: auto;
+      height: auto;
+      border: none;
+      padding: 20px 60px 20px 60px;
+      border-radius: 5px;
+      transition: 0.8s;
+      color: #fff;
+      background-color: rgb(12, 57, 97);
+      margin: 20px 130px;
+    }
+    main .sec3 .sec3div1 button:hover {
+      background-color: rgb(57, 142, 212);
+    } 
+    main .sec3 {
+      width: 100%;
+      height: auto;
+      background-color: #f9f9f9;
+      margin: 0 auto; 
+      padding: 80px 30px 80px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    main .sec3 .sec3div1 {
+      width: 80%;
+      height: auto;
+      margin: 0 auto; 
+      padding: 70px 70px 10px 30px;
+       text-align: center;
+    }
+    main .sec3 .sec3div1 h2 {
+      font-size: 50px;
+      color: rgb(12, 56, 93);
+      text-align: center;
+      padding: 10px 0px 60px 0px;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+    }
+    main .sec3 .sec3div1 b {
+      font-size: 25px;
+      margin: 20px 0;
+      text-align: center !important;
+    }
+    main .sec3 .sec3div1 p {
+      font-size: 18px;
+      margin: 20px 0;
+      text-align: center;
+
+    }
+  }
+   
+  /* Büyük Ekranlar (Masaüstü) */
+  @media only screen and (min-width: 1025px) {
+    /* Örnek: İçeriği 3 sütuna ayır */
+    .team .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    } 
+    /* Örnek: Metin boyutlarını büyüt */
+    .aboutsec3 .sec3div1 h2 {
+      font-size: 2.5rem;
+    } 
+    /* Görüntü boyutlarını ayarla */
+     .team-member img {
+      width: 150px;
+      height: 150px;
+    }
+  } 
+  
+
+
+
+
+   
+    @media only screen and (max-width: 1024px) {
+    .designmainsec1 {
+      width: 90%;
+    }
+    
+    .designmainsec1div1 {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .designmainsec1div1div1, .designmainsec1div1div2 {
+      width: 100%;
+    }
+    
+    .designmainsec1div1div2 {
+      flex-direction: column;
+    }
+    
+    .designmainsec1div1div2div1, .designmainsec1div1div2div2 {
+      width: 100%;
+    }
+    
+    .designmainsec1div1div2div2 {
+      padding: 15px;
+    }
+    
+    .designmainsec1div1div2div2 h3 {
+      font-size: 25px;
+    }
+    
+    .designmainsec1div1div2div2 h6 {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .designmainsec1basliq h2 {
+      font-size: 35px;
+    }
+    
+    .designmainsec1div1 {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      margin: 30px 0;
+    }
+    
+    .designmainsec1div1div1, .designmainsec1div1div2 {
+      width: 100%;
+    }
+    
+    .designmainsec1div1div2 {
+      flex-direction: column;
+    }
+    
+    .designmainsec1div1div2div1, .designmainsec1div1div2div2 {
+      width: 100%;
+    }
+    
+    .designmainsec1div1div2div2 {
+      padding: 10px;
+    }
+    
+    .designmainsec1div1div2div2 h3 {
+      font-size: 20px;
+    }
+    
+    .designmainsec1div1div2div2 h6 {
+      font-size: 12px;
+    }
+  } 
+
+
+  

@@ -1,0 +1,91 @@
+main .sec3 {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px; /* Bloklar arası boşluq */
+  width: 100%;
+  padding: 40px 10px; /* Kiçik ekranlar üçün daha az padding */
+  background-color: #faf9f9;
+  margin: 0 auto;
+}
+
+main .sec3 .sec3div1 {
+  display: grid;
+  place-items: center;
+  gap: 15px; /* Elementlər arası boşluq azaldılır */
+  width: 90%; /* Konteyner eni daha uyğunlaşdırılır */
+  margin: 0 auto;
+  padding: 50px 20px; /* Kiçik ekranlar üçün padding azaldılır */
+  text-align: center;
+}
+
+main .sec3 .sec3div1 h2 {
+  font-size: 40px; /* Daha kiçik ekranlar üçün font ölçüsü azaldılır */
+  color: rgb(12, 56, 93);
+}
+
+main .sec3 .sec3div1 b {
+  font-size: 20px; /* Daha kiçik font ölçüsü */
+  margin: 15px 0;
+}
+
+main .sec3 .sec3div1 p {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+main .sec3 .sec3div1 button {
+  display: grid;
+  place-items: center;
+  width: 30%;
+  min-width: 120px;
+  max-width: 250px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  transition: 0.8s;
+  color: #fff;
+  background-color: rgb(12, 57, 97);
+  cursor: pointer;
+}
+
+main .sec3 .sec3div1 button:hover {
+  background-color: rgb(57, 142, 212);
+}
+
+/* Kiçik ekranlar üçün uyğunlaşma */
+@media (max-width: 768px) {
+  main .sec3 {
+      padding: 30px 10px; /* Daha az padding */
+  }
+  main .sec3 .sec3div1 {
+      padding: 40px 15px;
+  }
+  main .sec3 .sec3div1 h2 {
+      font-size: 35px; /* Daha kiçik font */
+  }
+  main .sec3 .sec3div1 b {
+      font-size: 18px;
+  }
+  main .sec3 .sec3div1 p {
+      font-size: 14px;
+  }
+  main .sec3 .sec3div1 button {
+      width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  main .sec3 {
+      padding: 20px 5px; /* Minimal padding */
+  }
+  main .sec3 .sec3div1 {
+      padding: 30px 10px;
+  }
+  main .sec3 .sec3div1 h2 {
+      font-size: 30px;
+  }
+  main .sec3 .sec3div1 button {
+      width: 80%; /* Daha geniş düymə */
+  }
+}

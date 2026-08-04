@@ -1,0 +1,15 @@
+{
+  "short_name": "SOCHİ MMC",
+  "name": "SOCHİ MMC — ТЕХНОНИКОЛЬ İzolyasiya Sistemləri",
+  "icons": [
+    {
+      "src": "/img/sochilogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "display": "standalone"
+}

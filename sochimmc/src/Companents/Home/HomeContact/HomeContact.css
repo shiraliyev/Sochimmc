@@ -1,0 +1,271 @@
+.contact-future-canvas {
+  position: relative;
+  width: 100%;
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #1b365d 0%, #132744 50%, #0d1b2a 100%);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #ffffff;
+}
+
+/* Arxa Fon Orbları */
+.contact-bg-fluid-orb {
+  position: absolute;
+  filter: blur(180px);
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: screen;
+}
+
+.contact-orb-one {
+  width: 650px;
+  height: 650px;
+  background: radial-gradient(circle, rgba(180, 120, 70, 0.22) 0%, rgba(255, 255, 255, 0) 70%);
+  top: -15%;
+  left: -8%;
+  animation: contactMorphOrbOne 22s infinite alternate ease-in-out;
+}
+
+.contact-orb-two {
+  width: 750px;
+  height: 750px;
+  background: radial-gradient(circle, rgba(56, 135, 212, 0.25) 0%, rgba(255, 255, 255, 0) 72%);
+  bottom: -20%;
+  right: -10%;
+  animation: contactMorphOrbTwo 26s infinite alternate ease-in-out;
+}
+
+.contact-orb-three {
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle, rgba(74, 144, 226, 0.2) 0%, rgba(255, 255, 255, 0) 70%);
+  top: 25%;
+  left: 25%;
+  animation: contactMorphOrbThree 20s infinite alternate ease-in-out;
+}
+
+/* Dama Effekti */
+.contact-cyber-grid-pulse {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.003) 1px, transparent 1px), 
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.003) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(circle 250px at var(--x, 50%) var(--y, 50%), rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.01) 60%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle 250px at var(--x, 50%) var(--y, 50%), rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.01) 60%, transparent 100%);
+  opacity: 0.12; 
+  transition: opacity 0.4s ease;
+}
+
+.contact-cyber-glow-mesh {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(255, 255, 255, 0.003) 1px, transparent 0);
+  background-size: 8px 8px;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0.1;
+}
+
+.contact-vector-axis {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 62%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.002) 45%, transparent 100%);
+  pointer-events: none;
+  z-index: 3; 
+  transform-origin: top;
+  animation: contactAxisGlowScan 5s infinite alternate ease-in-out;
+}
+
+@keyframes contactMorphOrbOne {
+  0% { transform: translate(0, 0) scale(1) rotate(0deg); border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%; }
+  50% { transform: translate(40px, 20px) scale(1.05) rotate(45deg); border-radius: 60% 40% 55% 45% / 50% 50% 55% 45%; }
+  100% { transform: translate(20px, 40px) scale(0.98) rotate(90deg); border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%; }
+}
+
+@keyframes contactMorphOrbTwo {
+  0% { transform: translate(0, 0) scale(1) rotate(0deg); border-radius: 50% 50% 30% 70% / 50% 60% 40% 50%; }
+  50% { transform: translate(-30px, -20px) scale(1.06) rotate(-30deg); border-radius: 40% 60% 60% 40% / 45% 45% 65% 55%; }
+  100% { transform: translate(-10px, -40px) scale(0.95) rotate(-60deg); border-radius: 50% 50% 30% 70% / 50% 60% 40% 50%; }
+}
+
+@keyframes contactMorphOrbThree {
+  0% { transform: translate(0, 0) scale(0.95); opacity: 0.1; }
+  50% { transform: translate(-20px, 20px) scale(1.02); opacity: 0.15; }
+  100% { transform: translate(20px, -10px) scale(1); opacity: 0.12; }
+}
+
+@keyframes contactAxisGlowScan {
+  0% { opacity: 0.08; transform: scaleY(0.98); }
+  100% { opacity: 0.2; transform: scaleY(1.02); }
+}
+
+.contact-future-container { 
+  position: relative; 
+  z-index: 5; 
+  max-width: 1000px; 
+  width: 100%; 
+}
+
+.contact-future-header { 
+  text-align: center; 
+  margin-bottom: 3.5rem; 
+}
+
+.contact-cyber-badge { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 8px; 
+  font-size: 0.75rem; 
+  font-weight: 700; 
+  letter-spacing: 3px; 
+  margin-bottom: 1.2rem; 
+  text-transform: uppercase;
+  color: #74b9ff;
+  background: rgba(74, 144, 226, 0.1);
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(74, 144, 226, 0.25);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-pulse-dot { 
+  width: 6px; 
+  height: 6px; 
+  background-color: #74b9ff; 
+  border-radius: 50%; 
+  animation: contactLive 1.5s infinite alternate; 
+}
+
+@keyframes contactLive { 
+  0% { transform: scale(0.8); opacity: 0.4; } 
+  100% { transform: scale(1.2); opacity: 0.9; } 
+}
+
+.contact-future-title { 
+  font-size: 3rem; 
+  font-weight: 900; 
+  margin-bottom: 0.6rem; 
+  color: #f8fafc;
+  letter-spacing: -0.5px;
+}
+
+.contact-future-subtitle { 
+  font-size: 1.05rem; 
+  color: #94a3b8; 
+  margin-bottom: 0.5rem; 
+  line-height: 1.6;
+}
+
+/* Grid */
+.contact-future-grid { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2rem; 
+}
+
+/* Kart Stili - Arxa fonu tündləşdirildi ki, içindəki yazılar tam oxunsun */
+.contact-future-card {
+  position: relative;
+  background: rgba(15, 28, 48, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+
+/* H3 Başlığına aydın və kontrastlı rəng (mavi-ağ ton) verildi */
+.contact-title { 
+  font-size: 1.25rem; 
+  font-weight: 700; 
+  margin: 15px 0 8px 0; 
+  color: #74b9ff; 
+  letter-spacing: 0.3px;
+}
+
+.contact-content { 
+  font-size: 0.95rem; 
+  font-weight: 500; 
+  color: #e2e8f0; 
+  word-break: break-word;
+}
+
+/* Çox yumşaldılmış və zərif hover effekti */
+.contact-future-card:hover { 
+  transform: translateY(-2px); 
+  border-color: rgba(116, 185, 255, 0.25);
+  background: rgba(20, 36, 60, 0.9);
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.contact-future-card:hover .contact-content {
+  color: #ffffff;
+}
+
+.contact-future-card:hover .contact-title {
+  color: #ffffff;
+}
+
+.contact-future-card:hover lord-icon {
+  filter: brightness(1.05);
+}
+
+/* Bracketlər (Künc xətləri) */
+.contact-tech-bracket { 
+  position: absolute; 
+  width: 10px; 
+  height: 10px; 
+  border-color: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.contact-bracket-tl { top: 16px; left: 16px; border-width: 1.5px 0 0 1.5px; }
+.contact-bracket-br { bottom: 16px; right: 16px; border-width: 0 1.5px 1.5px 0; }
+
+.contact-future-card:hover .contact-tech-bracket { 
+  opacity: 1; 
+  border-color: rgba(116, 185, 255, 0.3); 
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-future-grid { 
+    grid-template-columns: 1fr; 
+    gap: 1.5rem;
+  }
+  .contact-future-title {
+    font-size: 2.2rem;
+  }
+  .contact-tech-bracket {
+    opacity: 1;
+    border-color: rgba(116, 185, 255, 0.3);
+  }
+}

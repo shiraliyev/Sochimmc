@@ -1,0 +1,898 @@
+{
+  "home": "Əsas",
+  "about1": "Haqqımızda",
+  "contact": "Əlaqə",
+  "services": "Xidmətlərimiz",
+  "services01": "Peşəkar Quraşdırma Partnyorluğu",
+  "services01_description": "Məhsullarımızın yüksək keyfiyyətlə tətbiqi üçün sizi təcrübəli və etibarlı podratçı şirkətlərlə əlaqələndiririk.",
+  "services02": "Texniki Məsləhət və Layihələndirmə",
+  "services02_description": "Obyektiniz üçün doğru izolyasiya materialının seçilməsi, sərfiyyatın hesablanması və tərəfdaşlarımızla birlikdə ilkin texniki qiymətləndirmənin aparılması."
+
+,
+  "slide.basliq": "SOCHİ MMC",
+
+  "SOCHİ_MMC1": "SOCHİ MMC",
+  "SOCHİ_MMC_basliqsoz": "Peşəkar İzolyasiya Sistemləri",
+  "SOCHİ_MMC_text1": "Binaların təməlini və divarlarını rütubətdən qoruyan, su sızmalarının qarşısını alaraq strukturu möhkəmləndirən peşəkar su izolyasiya sistemləri.",
+  "SOCHİ_MMC_text2": "Enerji sərfiyyatını azaldan, daxili mühitdə ideal istilik balansı yaradan və səsin ötürülməsini minimuma endirən istilik və səs izolyasiyası həlləri.",
+  "SOCHİ_MMC_tex3": "Yüksək mexaniki davamlılığa malik, xarici təsirlərə qarşı dözümlü və uzunömürlü XPS əsaslı bərk izolyasiya materialları.",
+  "SOCHİ_MMC_text4": "Çətin tətbiq olunan səthlərdə belə mükəmməl qoruma təmin edən, su keçirməzliyi artıran maye izolyasiya məhsulları və aksesuarlar."
+
+,
+"SOCHI_IZOLYASIYA_sec2basliq": "İqlim şəraitindən asılı olmayan etibarlı müdafiə",
+"SOCHI_IZOLYASIYA_sec2aciqlama": "İqlim şəraitindən asılı olmayaraq binalarınızın strukturunu qoruyur, istilik itkilərinin qarşısını alırıq. Obyektlərinizin maksimum mühafizəsi və enerji səmərəliliyi üçün etibarlı izolyasiya materialları təqdim edirik."
+ ,
+ "suizolyasiya_basliq": "Su İzolyasiyası",
+  "istilikizolyasiya_basliq": "İstilik İzolyasiyası",
+  "sesizolyasiya_basliq": "Səs İzolyasiyası",
+  "suizolyasiya_aciqlama": "Binaların təməlini və divarlarını rütubətdən qoruyan, su sızmalarının qarşısını alaraq strukturu möhkəmləndirən sistemlər.",
+  "istilikizolyasiya_aciqlama": "Enerji sərfiyyatını azaldan, daxili mühitdə ideal istilik balansı yaradan qabaqcıl izolyasiya həlləri.",
+  "sesizolyasiya_aciqlama": "Səsin ötürülməsini minimuma endirən, məkanınızda sakit və rahat ab-hava yaradan peşəkar materiallar."
+
+
+
+,
+
+  "ABOUT_VISION_2026": "HAQQIMIZDA",
+  "ABOUT_MAIN_TITLE": "Binaların Gələcəyini Keyfiyyətli İzolyasiya ilə Qoruyuruq",
+  "ABOUT_LEAD_TEXT": "Tikililərinizi rütubətdən, səsdən və enerji itkisindən ən yüksək mühəndislik standartları ilə qoruyan peşəkar izolyasiya sistemləri təklif edirik.",
+  "WHY_US_TITLE": "Niyə Biz?",
+  
+  
+  "WHY_US_DESC": "Sertifikatlaşdırılmış keyfiyyətli izolyasiya materialları ilə məkanlarınızda daimi komfort və enerji səmərəliliyini təmin edirik.",
+  "STATS_EXPERIENCE": "Su İzolyasiyası / Rütubətə qarşı",
+  "STATS_PATENTS": "İstilik İzolyasiyası / Enerji qənaəti",
+  "STATS_ECO": "Güclü Müdafiə / İstilik Qorunması",
+  "STATS_GLOBAL": "Maye İzolyasiyası / Əlavə aksesuarlar",
+  "FEAT_SMART": "Sızdırmazlıq Zəmanəti",
+  "FEAT_FILTER": "Yüksək Keyfiyyət",
+  "FEAT_REMOTE": "Möhkəm Dayanıqlılıq",
+  "FEAT_ENERGY": "İstilik İtkisinə Son"
+
+
+
+
+
+
+
+
+
+,
+  
+ "suizolyasiya": "Su İzolyasiyası",
+  "istilik_sesizolyasiya": "İstilik və Səs İzolyasiyası",
+  "berkizolyasiya": "Bərk İzolyasiya (XPS)",
+  "mayeizolyasiya": "Maye İzolyasiya və Aksesuarlar",
+  "mehsullar_suizo_aciqlama": "Binaların təməlini və divarlarını rütubətdən qoruyan, su sızmalarının qarşısını alaraq strukturu möhkəmləndirən peşəkar su izolyasiya sistemləri.",
+  "mehsullar_istivəsəsizo_aciqlama": "Enerji sərfiyyatını azaldan, daxili mühitdə ideal istilik balansı yaradan və səsin ötürülməsini minimuma endirən izolyasiya həlləri.",
+  "mehsullar_bərkizo_aciqlama": "Yüksək mexaniki davamlılığa malik, xarici təsirlərə qarşı dözümlü və uzunömürlü XPS əsaslı sərt izolyasiya materialları.",
+  "mehsullar_mayeizolyasiya_aciqlama": "Çətin tətbiq olunan səthlərdə belə mükəmməl qoruma təmin edən, su keçirməzliyi artıran maye tərkibli izolyasiya məhsulları və aksesuarlar.",
+  "mehsullar_berkizolyasiya_aciqlama": "Yüksək istilik izolyasiyası, mexaniki möhkəmliyi və nəmə davamlılığı ilə seçilən XPS lövhələri təməl, dam və fasad izolyasiyası üçün ideal seçimdir. Binanızda enerji səmərəliliyini artırmaq və istilik itkisinin qarşısını almaq üçün etibarlı həllər təqdim edirik.",
+  "discover": "İncələ",
+
+
+
+
+
+
+  
+"whyUs": {
+    "badge": "NİYƏ BİZ?",
+    "mainTitle": "NİYƏ BİZİ SEÇİRLƏR?",
+    "subtitle": "Keyfiyyətli izolyasiya materiallarının birbaşa satışı və təchizatı",
+    "item1": { 
+      "title": "Müştəri Məmnuniyyəti", 
+      "desc": "Hər bir müştərinin ehtiyacına uyğun fərdi yanaşma və peşəkar məsləhət xidməti." 
+    },
+    "item2": { 
+      "title": "Yüksək Keyfiyyət", 
+      "desc": "Beynəlxalq standartlara cavab verən, davamlı və etibarlı izolyasiya məhsulları." 
+    },
+    "item3": { 
+      "title": "Sərfəli Qiymətlər", 
+      "desc": "Büdcənizə uyğun sərfəli şərtlər və topdan satış imkanları." 
+    },
+    "item4": { 
+      "title": "Hər Fəslə Uyğun Qorunma", 
+      "desc": "Yay istisinə və qış şaxtasına qarşı binalarınızı qoruyan etibarlı izolyasiya materialları." 
+    }
+  }
+,
+
+
+
+"cat_bikrost": "Bikrost",
+  "cat_linokrom": "Linokrom",
+  "cat_unifleks": "Unifleks",
+  "cat_texnoelast": "Texnoelast",
+  "cat_stekloizol": "Stekloizol",
+
+
+
+
+  "bikrost_xpp_10m_title": "Bikrost XPP (10m)",
+  "bikrost_xpp_10m_desc": "Şüşəlif əsaslı aşağı qat və buxar izolyasiya materialı.",
+  "bikrost_xpp_10m_modal": "Bikrost XPP şüşəlif əsas üzərində iki tərəfli bitum örtүктən ibarət olub, əsasən dam örtüklərinin alt qatı və buxar izolyasiyası məqsədilə nəzərdə tutulmuşdur. 10 metr uzunluğundakı bu rulon materialı qaz alovu ilə qızdırılaraq səthə asanlıqla quraşdırılır və mexaniki təsirlərə qarşı davamlılığı təmin edir.",
+
+  "bikrost_xpp_15m_title": "Bikrost XPP (15m)",
+  "bikrost_xpp_15m_desc": "Uzadılmış formatlı şüşəlif əsaslı hidroizolyasiya rulosu.",
+  "bikrost_xpp_15m_modal": "15 metrlik uzunluğa malik Bikrost XPP böyük sahəli tikililərdə sərfəli və fasiləsiz quraşdırma üstünlüyü yaradır. Şüşəlif baza materiala optimal yüngüllük və əla buxar izolyasiya xüsusiyyətləri qazandıraraq, sənaye və mülki tikintilərdə geniş tətbiq olunmasına imkan verir.",
+
+  "bikrost_xpp_tpp_10m_title": "Bikrost TPP (10m)",
+  "bikrost_xpp_tpp_10m_desc": "Şüşəparça əsaslı yüksək möhkəmlikli alt qat izolyasiyası.",
+  "bikrost_xpp_tpp_10m_modal": "Bikrost TPP karkas şüşəparça əsasında hazırlanaraq dartılma və cırılma qüvvələrinə qarşı yüksək dözümlülük göstərir. Kod 6807100000 ilə təsnif edilən bu 10 metrlik rulon, dam örtüyü sistemlərində və bünövrə izolyasiyasında etibarlı alt qat qoruyucusu kimi istifadə olunur.",
+
+  "bikrost_tkp_10m_title": "Bikrost TKP (10m)",
+  "bikrost_tkp_10m_desc": "Qumlu qoruyucu səthə malik üst qat dam izolyasiyası.",
+  "bikrost_tkp_10m_modal": "Bikrost TKP materialının üst səthi iridənəli qranul (qum) qatı ilə örtüldüyü üçün günəşin ultrabənövşəyi şüalarına və birbaşa atmosfer təsirlərinə qarşı mükəmməl müqavimət göstərir. Şüşəparça əsası sayəsində uzunömürlüdür və çətin hava şəraitində belə damın üzlük qatını etibarlı qoruyur.",
+
+
+
+  "linokrom_tpp_10m_title": "Linokrom TPP (10m)",
+  "linokrom_tpp_10m_desc": "Gücləndirilmiş şüşəparça əsaslı peşəkar hidroizolyasiya.",
+  "linokrom_tpp_10m_modal": "Linokrom TPP yüksək keyfiyyətli bitum-polimer tərkibi və möhkəm şüşəparça bazası ilə seçilən premium sinif izolyasiya materialıdır. 10 metrlik bu rulon tikinti konstruksiyalarını nəm və sudan qorumaq üçün sərt iqlim şəraitində maksimum performans və uzun xidmət müddəti təmin edir.",
+
+  "linokrom_epp_10m_title": "Linokrom EPP (10m)",
+  "linokrom_epp_10m_desc": "Poliester əsaslı elastik və dözümlü izolyasiya rulosu.",
+  "linokrom_epp_10m_modal": "Linokrom EPP əsasını təşkil edən elastik poliester lifi sayəsində müxtəlif səviyyəli deformasiyalara və bina hərəkətlərinə qarşı yüksək elastiklik nümayiş etdirir. Hər iki tərəfi qoruyucu plyonka ilə örtülmüş bu 10 metrlik material mürəkkəb formalı səthlərdə belə mükəmməl yapışma və sızdırmazlıq yaradır."
+,
+
+
+
+  "unifleks_tpp_10m_title": "Unifleks TPP (10m)",
+  "unifleks_tpp_10m_desc": "SBS modifikasiyalı bitumlu şüşəparça əsaslı alt qat hidroizolyasiyası.",
+  "unifleks_tpp_10m_modal": "Unifleks TPP yüksək keyfiyyətli SBS (stirol-butadien-stirol) elastomer modifikatorlu bitum tərkibi və möhkəm şüşəparça əsası sayəsində sərt iqlim şəraitində belə elastikliyini qoruyur. 10 metrlik bu rulon materialı mürəkkəb temperaturlarda belə asan quraşdırılır və dam örtüyü sistemlərində, həmçinin bünövrələrdə etibarlı alt qat qorunması təmin edir.",
+
+  "unifleks_epp_10m_title": "Unifleks EPP (10m)",
+  "unifleks_epp_10m_desc": "Poliester əsaslı yüksək elastik və deformasiyaya davamlı izolyasiya.",
+  "unifleks_epp_10m_modal": "Unifleks EPP materialının əsasını təşkil edən möhkəm poliester toru binanın konstruksiyasında baş verə biləcək hərəkətlərə və gərilmələrə qarşı yüksək dartılma müqaviməti və elastiklik bəxş edir. Hər iki üzü polimer plyonka ilə örtülmüş bu 10 metrlik rulon istənilən mürəkkəb səthə mükəmməl uyğunlaşaraq uzunömürlü sızdırmazlıq yaradır.",
+
+  "unifleks_tkp_10m_title": "Unifleks TKP (10m)",
+  "unifleks_tkp_10m_desc": "Qumlu qoruyucu təbəqəli SBS modifikasiyalı üst qat dam örtüyü.",
+  "unifleks_tkp_10m_modal": "Unifleks TKP günəşin ultrabənövşəyi şüalarına və atmosfer təsirlərinə qarşı xüsusi iridənəli qranul (qum) səthə malikdir. Şüşəparça karkas üzərində quraşdırılan bu 10 metrlik üst qat materialı binanın damını mexaniki zədələrdən və rütubətdən qoruyaraq uzun illər problemsiz istismar təmin edir.",
+
+
+  "texnoelast_ekp_10m_title": "Texnoelast EKP (10m)",
+  "texnoelast_ekp_10m_desc": "Premium sinif poliester əsaslı üst qat hidroizolyasiya membranı.",
+  "texnoelast_ekp_10m_modal": "Texnoelast EKP ən ağır istismar şərtləri və şaxtalı iqlimlər üçün nəzərdə tutulmuş premium sinif bitum-polimer materialıdır. Yüksək elastikliyə malik poliester əsası və qoruyucu səth qranulları sayəsində ən hündür və mürəkkəb sənaye binalarının damlarında belə maksimum dözümlülük və ömür uzunluğu nümayiş etdirir.",
+
+  "texnoelast_tkp_10m_title": "Texnoelast TKP (10m)",
+  "texnoelast_tkp_10m_desc": "Şüşəparça əsaslı ağır rejimli üst qat izolyasiya rulosu.",
+  "texnoelast_tkp_10m_modal": "Texnoelast TKP materialı möhkəm şüşəparça karkası və xüsusi modifikasiya olunmuş bitum tərkibi sayəsində cırılma qüvvələrinə və mexaniki yüklərə qarşı müstəsna dözümlülüyə malikdir. 10 metrlik rulon formatı və qoruyucu səth qatı ilə ən tələbkar tikinti layihələrinin izolyasiya ehtiyaclarını tam qarşılayır.",
+
+  "texnoelast_epp_10m_title": "Texnoelast EPP (10m)",
+  "texnoelast_epp_10m_desc": "Elastik poliester əsaslı universal alt və aralıq qat izolyasiyası.",
+  "texnoelast_epp_10m_modal": "Texnoelast EPP yüksək dartılma qabiliyyətinə malik poliester əsası ilə fərqlənir və binanın konstruktiv elementlərindəki dinamik yükləri mükəmməl şəkildə udur. Çoxqatlı izolyasiya sistemlərində etibarlı alt və ya aralıq qat kimi çıxış edərək suya və nəmə qarşı keçilməz baryer yaradır."
+
+,
+  "stekloizol_xpp_2.1mm_9m_title": "Stekloizol XPP (2.1 mm, 9m)",
+  "stekloizol_xpp_2.1mm_9m_desc": "İqtisadiyyat sinifli şüşəlif əsaslı yüngül buxar və hidroizolyasiya.",
+  "stekloizol_xpp_2.1mm_9m_modal": "Stekloizol XPP 2.1 mm şüşəlif baza üzərində quraşdırılmış oksidləşdirilmiş bitum tərkibli, qənaətcil qiymət-keyfiyyət nisbətinə malik alt qat materialıdır. 9 metr uzunluğundakı bu yüngül rulon dam konstruksiyalarında və bünövrə altı izolyasiya işlərində əsas buxar baryeri kimi səmərəli istifadə olunur.",
+
+  "stekloizol_tpp_2.1mm_9m_title": "Stekloizol TPP (2.1 mm, 9m)",
+  "stekloizol_tpp_2.1mm_9m_desc": "Şüşəparça əsaslı möhkəmləndirilmiş 2.1 mm-lik alt qat izolyasiyası.",
+  "stekloizol_tpp_2.1mm_9m_modal": "Stekloizol TPP 2.1 mm karkas şüşəparça əsası sayəsində standart izolyasiya materiallarına nisbətən cırılma və dartılma qüvvələrinə qarşı daha yüksək dayanıqlıq göstərir. 9 metrlik rulon formatı ilə mülki və sənaye tikintilərində çoxqatlı dam örtüklərinin təməl qoruyucu təbəqəsi olaraq mükəmməl uyğunlaşır.",
+
+  "stekloizol_xpp_2.5mm_9m_title": "Stekloizol XPP (2.5 mm, 9m)",
+  "stekloizol_xpp_2.5mm_9m_desc": "Artırılmış qalınlıqlı şüşəlif əsaslı alt qat hidroizolyasiya rulosu.",
+  "stekloizol_xpp_2.5mm_9m_modal": "Stekloizol XPP 2.5 mm modeli daha qalın bitum təbəqəsinə malik olaraq səthlərin nəmə və suya qarşı müqavimətini əhəmiyyətli dərəcədə gücləndirir. Şüşəlif əsası materiala sabitlik qazandırır, 9 metrlik ölçüsü isə tikinti meydançalarında rahat daşınma və tətbiq asanlığı təmin edir.",
+
+  "stekloizol_tpp_2.5mm_9m_title": "Stekloizol TPP (2.5 mm, 9m)",
+  "stekloizol_tpp_2.5mm_9m_modal": "Stekloizol TPP 2.5 mm şüşəparça bazasının verdiyi mexaniki möhkəmliyi və artırılmış 2.5 mm qalınlığın yaratdığı etibarlı sızdırmazlığı özündə birləşdirir. Orta və ağır dərəcəli yükə məruz qalan dam səthlərində, həmçinin yeraltı tikililərin izolyasiyasında etibarlı alt qat kimi çıxış edir.",
+  "stekloizol_tpp_2.5mm_9m_desc": "Möhkəmləndirilmiş şüşəparça əsaslı 2.5 mm qalınlığında alt qat izolyasiyası.",
+
+  "stekloizol_r_tpp_3.0_15m_title": "Stekloizol R TPP (3.0 mm, 15m)",
+  "stekloizol_r_tpp_3.0_15m_desc": "Uzadılmış 15 metrlik formatlı şüşəparça əsaslı peşəkar izolyasiya.",
+  "stekloizol_r_tpp_3.0_15m_modal": "Stekloizol R TPP 3.0 xüsusi olaraq 15 metr uzunluqda istehsal olunmuş, geniş sahəli layihələrdə birləşmə yerlərini minimuma endirən yüksək məhsuldar materialdır. 3 mm qalınlığı və möhkəm şüşəparça karkası sayəsində sənaye obyektlərində sürətli, qənaətcil və etibarlı izolyasiya prosesini təmin edir.",
+
+  "stekloizol_r_xpp_3.0_15m_title": "Stekloizol R XPP (3.0 mm, 15m)",
+  "stekloizol_r_xpp_3.0_15m_desc": "Böyük sahələr üçün nəzərdə tutulmuş 15 metrlik şüşəlif əsaslı rulon.",
+  "stekloizol_r_xpp_3.0_15m_modal": "Stekloizol R XPP 3.0 geniş həcmli tikinti və təmir işlərində vaxta və materiala qənaət etməyə imkan verən 15 metrlik uzun formata malikdir. Şüşəlif əsaslı strukturu və optimal 3 mm bitum qalınlığı ilə böyük damların buxar və nəm izolyasiyası üçün əlverişli və uzunömürlü həlldir."  ,
+
+ "stekloizol_tkp_10m_title": "Stekloizol TKP (10m)",
+  "stekloizol_tkp_10m_desc": "Qoruyucu səthli şüşəparça əsaslı üst qat dam örtüyü.",
+  "stekloizol_tkp_10m_modal": "Stekloizol TKP səthi iridənəli qranul (qum) qatı ilə örtülmüş, şüşəparça karkas əsaslı etibarlı üst qat izolyasiya materialıdır. Günəş şüalarının mənfi təsirlərinə və atmosfer çöküntülərinə qarşı yüksək müqavimət göstərərək dam örtüyünün ömrünü uzadır və qənaətcil büdcə ilə maksimum qorunma təmin edir."
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+  ,
+"cat_texnofas": "Fasad Üçün Daş Yunları (Texnofas)",
+  "cat_texnovent": "Ventilyasiya Olunan Fasadlar Üçün (Texnovent)",
+  "cat_izoboks": "Rulonlu Daş Yunları və Döşəklər (İZOBOKS)",
+  "cat_texnoakustik": "Akustik və Divar Üçün (Səs və İstilik)",
+  "cat_roklait": "Universal İzolyasiya (Roklait / Rosklite)",
+  
+
+
+  "texnofas_1200_600_100mm_title": "Texnofas (1200x600x100 mm)",
+  "texnofas_1200_600_100mm_desc": "Daş yunu əsaslı 100 mm qalınlığında fasad izolyasiya plitəsi.",
+  "texnofas_1200_600_100mm_modal": "Texnofas 1200x600x100 mm ölçülü daş yunu plitəsi xarici fasadların suvaqlı sistemlərlə (İXTİS) izolyasiyası üçün xüsusi olaraq hazırlanmışdır. Yüksək istilik və səs izolyasiyası xüsusiyyətləri ilə yanaşı, qeyri-yanıcılığı sayəsində binalarda yanğın təhlükəsizliyini maksimum səviyyədə təmin edir.",
+
+  "texnofas_1200_600_50mm_title": "Texnofas (1200x600x50 mm)",
+  "texnofas_1200_600_50mm_desc": "Standart ölçülü və optimal sıxlıqlı fasad daş yunu.",
+  "texnofas_1200_600_50mm_modal": "Texnofas 1200x600x50 mm plitələri xarici divarların istilik izolyasiya təbəqəsi üçün ideal seçimdir. Optimal sıxlığı sayəsində üzərinə çəkilən suvaq və boya qatlarını mükəmməl şəkildə dəstəkləyir, binanın istilikitkki göstəricilərini əhəmiyyətli dərəcədə azaldır.",
+
+  "texnofas_1200_600_30mm_title": "Texnofas (1200x600x30 mm)",
+  "texnofas_1200_600_30mm_desc": "Nazik profilə malik fasad izolyasiya üçün daş yunu.",
+  "texnofas_1200_600_30mm_modal": "Texnofas 30 mm qalınlığındakı daş yunu lövhəsi məhdud məkanlarda və ya əlavə izolyasiya tələb olunan xüsusi memarlıq detallarında ağırlıq yaratmadan effektiv istilik və səs qorunması təmin edir.",
+
+  "texnofas_dekor_1200_600_50mm_title": "Texnofas Dekor (1200x600x50 mm)",
+  "texnofas_dekor_1200_600_50mm_desc": "Dekorativ elementlər və mürəkkəb fasad hissələri üçün daş yunu.",
+  "texnofas_dekor_1200_600_50mm_modal": "Texnofas Dekor 1200x600x50 mm fasadların pəncərə ətrafı, karniz və digər memarlıq elementlərinin izolyasiyası zamanı rahat işlənilməsi və estetik detalların tətbiqi üçün xüsusi olaraq optimallaşdırılmışdır.",
+
+  "texnofas_ekstra_1200_600_50mm_title": "Texnofas Ekstra (1200x600x50 mm)",
+  "texnofas_ekstra_1200_600_50mm_desc": "Yüksək möhkəmlik və sıxlığa malik premium fasad daş yunu.",
+  "texnofas_ekstra_1200_600_50mm_modal": "Texnofas Ekstra 1200x600x50 mm artırılmış fiziki-mexaniki göstəricilərə malikdir. Yüksək səviyyəli dartılma və sıxılma müqaviməti sayəsində hündür mərtəbəli binaların ağır rejimli fasad izolyasiya sistemlərində qüsursuz nəticə verir.",
+
+  "texnofas_optima_1200_600_50mm_title": "Texnofas Optima (1200x600x50 mm)",
+  "texnofas_optima_1200_600_50mm_desc": "İqtisadi cəhətdən sərfəli və balanslaşdırılmış fasad daş yunu.",
+  "texnofas_optima_1200_600_50mm_modal": "Texnofas Optima 1200x600x50 mm qiymət və keyfiyyət balansını qoruyan, standart mülki tikinti layihələri üçün nəzərdə tutulmuş etibarlı istilik və səs izolyasiya materialıdır. Fasad səthlərində uzunömürlü performans təmin edir.",
+
+  "texnofas_optima_1200_600_80mm_title": "Texnofas Optima (1200x600x80 mm)",
+  "texnofas_optima_1200_600_80mm_desc": "Artırılmış qalınlıqlı qənaətcil fasad izolyasiya plitəsi.",
+  "texnofas_optima_1200_600_80mm_modal": "Texnofas Optima 80 mm qalınlığı ilə enerji səmərəliliyi tələblərinə cavab verən, büdcəyə uyğun və effektiv istilik baryeri yaradan daş yunu həllidir. Xarici divarların soyuq hava axınlarından qorunmasında mühüm rol oynayır.",
+
+  "texnofas_effekt_1200_600_50mm_title": "Texnofas Effekt (1200x600x50 mm)",
+  "texnofas_effekt_1200_600_50mm_desc": "Təkmilləşdirilmiş performanslı fasad izolyasiya daş yunu.",
+  "texnofas_effekt_1200_600_50mm_modal": "Texnofas Effekt 1200x600x50 mm xüsusi lif strukturu sayəsində aşağı istilikkeçirmə əmsalına və gücləndirilmiş nəmə qarşı dayanıqlığa malikdir. Müasir tikinti standartlarına tam cavab verərək fasadların ömrünü uzadır.",
+
+
+  "texnofas_optima_1200_600_80mm_6806100000_title": "Texnofas Optima (1200x600x80 mm)",
+  "texnofas_optima_1200_600_80mm_6806100000_desc": "Kod 6806100000 ilə qənaətcil fasad izolyasiya daş yunu.",
+  "texnofas_optima_1200_600_80mm_6806100000_modal": "Texnofas Optima 80 mm qalınlığında (Kod: 6806100000) xarici fasadların istilik izolyasiyası üçün nəzərdə tutulmuş balanslı və sərfəli daş yunu materialıdır. Tikililərdə istilik itkisini azaldaraq enerji effektivliyini artırır.",
+
+
+
+
+"texnovent_ekstra_1200_600_50mm_title": "Texnovent Ekstra (1200x600x50 mm)",
+  "texnovent_ekstra_1200_600_50mm_desc": "Havası dəyişən (ventilasiya olunan) fasadlar üçün daş yunu.",
+  "texnovent_ekstra_1200_600_50mm_modal": "Texnovent Ekstra 1200x600x50 mm asma və ventilasiya olunan fasad sistemləri üçün xüsusi olaraq hazırlanmışdır. Hava axınına qarşı dayanıqlı səthi və yüksək sıxlığı ilə fərqlənir.",
+
+  "texnovent_ekstra_1200_600_100mm_title": "Texnovent Ekstra (1200x600x100 mm)",
+  "texnovent_ekstra_1200_600_100mm_desc": "100 mm qalınlığında havalandırmalı fasad izolyasiya lövhəsi.",
+  "texnovent_ekstra_1200_600_100mm_modal": "Texnovent Ekstra 1200x600x100 mm havalandırmalı fasadlarda binanın istilik itkisini minimuma endirən, yanğına qarşı tam təhlükəsiz və ağır rejimli sənaye tipli daş yünüdür.",
+
+  "texnovent_optima_1200_600_50mm_title": "Texnovent Optima (1200x600x50 mm)",
+  "texnovent_optima_1200_600_50mm_desc": "İqtisadi havalandırmalı fasad izolyasiya daş yunu.",
+  "texnovent_optima_1200_600_50mm_modal": "Texnovent Optima 1200x600x50 mm havalandırmalı fasad sistemləri üçün nəzərdə tutulmuş sərfəli və balanslaşdırılmış istilik izolyasiya məhsuludur.",
+
+  "texnovent_optima_1200_600_80mm_title": "Texnovent Optima (1200x600x80 mm)",
+  "texnovent_optima_1200_600_80mm_desc": "80 mm qalınlığında qənaətcil ventilasiya fasad izolyasiyası.",
+  "texnovent_optima_1200_600_80mm_modal": "Texnovent Optima 1200x600x80 mm havalandırmalı fasadlarda optimal istilik qorunması və büdcəyə uyğun həll təmin edən etibarlı daş yunu lövhəsidir.",
+
+  "texnovent_optima_1200_600_100mm_title": "Texnovent Optima (1200x600x100 mm)",
+  "texnovent_optima_1200_600_100mm_desc": "Yüksək qalınlıqlı havalandırmalı fasad izolyasiya materialı.",
+  "texnovent_optima_1200_600_100mm_modal": "Texnovent Optima 1200x600x100 mm havalandırmalı fasad layihələrində istilik izolyasiyası tələblərini tam ödəyən, uzunömürlü və dayanıqlı daş yünü plitəsidir.",
+
+
+
+  "izoboks_44r_teplozasita_5800_1220_50_title": "İZOBOKS 44 R Teplozaşita (5800x1220x50 mm)",
+  "izoboks_44r_teplozasita_5800_1220_50_desc": "Rulon tipli şüşəlif əsaslı səs və istilik izolyasiya döşəyi.",
+  "izoboks_44r_teplozasita_5800_1220_50_modal": "İZOBOKS 44 R Teplozaşita (5800x1220x50 mm / Fito) yüngül karkas konstruksiyalarda, tavanlarda və üfüqi səthlərdə səs və istilik izolyasiyasını təmin etmək üçün xüsusi olaraq hazırlanmış rulon formalı mineral pambıq (şüşəlif) məhsuludur. Quraşdırma rahatlığı və yüksək izolyasiya qabiliyyəti ilə seçilir.",
+
+  "izoboks_44r_teplozasita_6250_1220_50_title": "İZOBOKS 44 R Teplozaşita (6250x1220x50 mm)",
+  "izoboks_44r_teplozasita_6250_1220_50_desc": "Uzadılmış formatlı rulon səs və istilik izolyasiyası.",
+  "izoboks_44r_teplozasita_6250_1220_50_modal": "İZOBOKS 44 R Teplozaşita 6250x1220x50 mm ölçülü rulon izolyasiya döşəyi geniş sahələrdə daha az birləşmə yeri yaratmaqla sürətli və effektiv istilik-səs qorunması təmin edir. Ekoloji təmiz struktura malikdir.",
+
+  "texnonikol_44rn_teplaya_daca_title": "Texnonikol 44 RN Teplaya Daça (6250x1220x50 mm)",
+  "texnonikol_44rn_teplaya_daca_desc": "Bağ evləri və yüngül tikililər üçün 15.25 m² rulon izolyasiya.",
+  "texnonikol_44rn_teplaya_daca_modal": "Texnonikol 44 RN Teplaya Daça (6250x1220x50 mm / Fito / 1 rulon = 15.25 m²) xüsusi olaraq bağ evləri, mansardlar və yüngül karkaslı tikililər üçün nəzərdə tutulmuşdur. Səthlərdə ideal istilik baryeri yaradaraq enerji itkisinin qarşısını alır.",
+
+  "izoboks_44r_teplozasita_mini_title": "İZOBOKS 44 R Teplozaşita MİNİ (6560x610x50 mm)",
+  "izoboks_44r_teplozasita_mini_desc": "Dar və mürəkkəb sahələr üçün MİNİ formatlı rulon izolyasiya.",
+  "izoboks_44r_teplozasita_mini_modal": "İZOBOKS 44 R Teplozaşita MİNİ (6560x610x50 mm / Fito) kompakt en ölçüsü sayəsində məhdud məkanlarda, dar karkas aralarında və xüsusi təmir işlərində rahat tətbiq olunmaq üçün dizayn edilmiş səs və istilik izolyasiya materialıdır.",
+
+  "ralu_banya_i_sauna_title": "40 RAlu Banya i Sauna (12500x1200x50 mm)",
+  "ralu_banya_i_sauna_desc": "Folqa örtüklü hamam və sauna üçün 15 m² istilik izolyasiyası.",
+  "ralu_banya_i_sauna_modal": "40 RAlu Banya i Sauna (12500x1200x50 mm / Fito / 1 rulon = 15.0 m²) bir üzü alüminium folqa ilə örtülmüş xüsusi izolyasiya döşəyidir. Hamam, sauna və yüksək rütubətli otaqlarda istiliyin geri əks olunmasını və nəmə qarşı tam qorunmanı eyni vaxtda təmin edir.",
+
+  "izoboks_extralayt_100mm_title": "İZOBOKS EXTRALAYT (100 mm)",
+  "izoboks_extralayt_100mm_desc": "3.84 m² sahəli 100 mm qalınlığında yüngül izolyasiya plitəsi.",
+  "izoboks_extralayt_100mm_modal": "İZOBOKS EXTRALAYT 100 mm (3.84 m²) karkas divarlar, tavanlar və yüklənməyən horizontal konstruksiyalar üçün nəzərdə tutulmuş yüksək keyfiyyətli mineral pambıq lövhəsidir. Əla səs udma və istilik saxlama xüsusiyyətləri ilə seçilir."
+
+,
+
+ "texnoakustik_1200_600_50mm_title": "Texnoakustik (1200x600x50 mm)",
+  "texnoakustik_1200_600_50mm_desc": "Yüksək səs izolyasiya xüsusiyyətli daş yunu plitəsi.",
+  "texnoakustik_1200_600_50mm_modal": "Texnoakustik 1200x600x50 mm plitələri daxili divarların, ara kəsmələrin və tavanların səs izolyasiyasını maksimum səviyyəyə qaldırmaq üçün xüsusi lif strukturunda hazırlanmışdır. Evlərdə və ofislərdə kənar səslərin qarşısını alaraq rahat akustik mühit yaradır.",
+
+  "texnoakustik_1200_600_100mm_title": "Texnoakustik (1200x600x100 mm)",
+  "texnoakustik_1200_600_100mm_desc": "Gücləndirilmiş səs və istilik izolyasiyalı 100 mm daş yunu.",
+  "texnoakustik_1200_600_100mm_modal": "Texnoakustik 1200x600x100 mm artırılmış qalınlığı sayəsində səs-küyün çox olduğu mühitlərdə səsin udulmasını və izolyasiyasını qüsursuz şəkildə təmin edir. Həmçinin əlavə istilik izolyasiya qatı kimi də yüksək performans göstərir.",
+
+
+
+ 
+  "roklait_rosklite_1200_600_50mm_title": "Roklait (Rosklite) (1200x600x50 mm)",
+  "roklait_rosklite_1200_600_50mm_desc": "Yüngül tikililər və çardaqlar üçün universal daş yunu.",
+  "roklait_rosklite_1200_600_50mm_modal": "Roklait (Rosklite) 1200x600x50 mm özəl evlər, çardaqlar, karkas divarlar və yüklənməyən yatay səthlər üçün ideal olan yüngül, ekoloji təmiz və səmərəli istilik-səs izolyasiya materialıdır.",
+
+  "roklait_rosklite_1200_600_100mm_title": "Roklait (Rosklite) (1200x600x100 mm)",
+  "roklait_rosklite_1200_600_100mm_desc": "100 mm qalınlığında yüngül karkas izolyasiya daş yunu.",
+  "roklait_rosklite_1200_600_100mm_modal": "Roklait (Rosklite) 1200x600x100 mm artırılmış qalınlığı sayəsində yaşayış evlərində və digər yüngül tikinti konstruksiyalarında soyuq hava axınlarına qarşı güclü istilik baryeri yaradır."
+
+
+
+,
+
+
+ 
+  "texnoblok_standart_1200_600_50mm_title": "Texnoblok Standart (1200x600x50 mm)",
+  "texnoblok_standart_1200_600_50mm_desc": "Universal karkas divarlar və çardaqlar üçün daş yunu.",
+  "texnoblok_standart_1200_600_50mm_modal": "Texnoblok Standart 1200x600x50 mm karkas konstruksiyalarda, mansardlarda və üçtərəfli divar sistemlərində istilik və səs izolyasiyası məqsədilə istifadə olunan universal və etibarlı izolyasiya materialıdır.",
+
+  "texnoblok_standart_1200_600_100mm_title": "Texnoblok Standart (1200x600x100 mm)",
+  "texnoblok_standart_1200_600_100mm_desc": "Qalınlaşdırılmış universal karkas və divar izolyasiyası.",
+  "texnoblok_standart_1200_600_100mm_modal": "Texnoblok Standart 1200x600x100 mm plitələri yüksək istilik müqaviməti tələb olunan tikinti sahələrində, o cümlədən çardaq və daxili divar izolyasiyalarında maksimum qorunma təmin edir.",
+
+"cat_texnonikol_carbon_eco": "Texnonikol Carbon ECO",
+
+
+"texnonikol_carbon_eco_1200_600_20l_title": "Texnonikol Carbon ECO (1200x600x20 mm, L)",
+  "texnonikol_carbon_eco_1200_600_20l_desc": "Kod 3921110000 ilə ekstrudə edilmiş polistirol (XPS) istilik izolyasiyası.",
+  "texnonikol_carbon_eco_1200_600_20l_modal": "Texnonikol Carbon ECO 1200x600x20 mm (L qıfıllı / Kod: 3921110000) yüksək möhkəmliyə və minimal su udma qabiliyyətinə malik ekstrudə edilmiş polistirol (XPS) lövhəsidir. Nazik profilin tələb olunduğu döşəmə, balkon və müxtəlif səth izolyasiyalarında istilik itkisinin qarşısını almaq üçün tətbiq edilir.",
+
+  "texnonikol_carbon_eco_1180_580_30l_title": "Texnonikol Carbon ECO (1180x580x30 mm, L)",
+  "texnonikol_carbon_eco_1180_580_30l_desc": "L qıfıllı 30 mm qalınlığında XPS istilik izolyasiya lövhəsi.",
+  "texnonikol_carbon_eco_1180_580_30l_modal": "Texnonikol Carbon ECO 1180x580x30 mm kənar qıfıl (L) birləşməsi sayəsində quraşdırma zamanı tikişlərdən istilik körpülərinin yaranmasını tamamilə aradan qaldırır. Xüsusilə döşəmə, təməl və fasadaltı izolyasiyalarda yüksək effektivlik göstərir.",
+
+  "texnonikol_carbon_eco_1180_580_40l_title": "Texnonikol Carbon ECO (1180x580x40 mm, L)",
+  "texnonikol_carbon_eco_1180_580_40l_modal": "Texnonikol Carbon ECO 1180x580x40 mm lövhələri artırılmış sıxılma möhkəmliyi və əla istilik izolyasiya parametrləri ilə seçilir. Kənar L-qıfıl profili montaj sürətini artırır və səthin bütövlüyünü qoruyaraq nəmə qarşı etibarlı baryer yaradır.",
+  "texnonikol_carbon_eco_1180_580_40l_desc": "40 mm qalınlığında qıfırlı ekstrudə edilmiş polistirol izolyasiyası.",
+
+  "texnonikol_carbon_eco_1180_580_50l_title": "Texnonikol Carbon ECO (1180x580x50 mm, L)",
+  "texnonikol_carbon_eco_1180_580_50l_desc": "Universal və ən çox tələb olunan 50 mm XPS izolyasiya lövhəsi.",
+  "texnonikol_carbon_eco_1180_580_50l_modal": "Texnonikol Carbon ECO 1180x580x50 mm tikintidə geniş istifadə olunan optimal qalınlıqlı XPS materialıdır. Ağır mexaniki yüklərə və şaxtaya qarşı müstəsna dayanıqlığı ilə fərqlənir, binaların istilik effektivliyini uzun illər qoruyur.",
+
+  "texnonikol_carbon_eco_1180_580_80l_title": "Texnonikol Carbon ECO (1180x580x80 mm, L)",
+  "texnonikol_carbon_eco_1180_580_80l_desc": "Yüksək istilik müqavimətli 80 mm qalınlığında XPS lövhəsi.",
+  "texnonikol_carbon_eco_1180_580_80l_modal": "Texnonikol Carbon ECO 1180x580x80 mm artırılmış qalınlığı sayəsində sərt iqlim şəraitində və güclü istilik izolyasiya tələb olunan yeraltı konstruksiyalarda, təməllərdə və düz damlarda maksimum enerji qənaəti təmin edir.",
+
+  "texnonikol_carbon_eco_1180_580_100l_title": "Texnonikol Carbon ECO (1180x580x100 mm, L)",
+  "texnonikol_carbon_eco_1180_580_100l_desc": "Maksimum izolyasiya qabiliyyətli 100 mm qalınlığında XPS qatı.",
+  "texnonikol_carbon_eco_1180_580_100l_modal": "Texnonikol Carbon ECO 1180x580x100 mm (L qıfırlı) ən ağır istismar şərtləri və yüksək enerji səmərəliliyi standartları üçün nəzərdə tutulmuşdur. Sıxılmayan quruluşu və unikal istilikkeçirməməzliyi ilə mülki və sənaye tikintilərində əvəzsizdir."
+,
+
+
+"mayebitummastika": "Maye Bitum və Mastikalar",
+  "montajkomekci": "Montaj və Köməkçi Materiallar",
+
+
+
+
+ 
+  "praymer_bitumniy_aquamast_18l_title": "Praymer Bitumlu AquaMast (18 Litr)",
+  "praymer_bitumniy_aquamast_18l_desc": "Səthlərin izolyasiyadan əvvəl astarlanması üçün bitumlu praymer.",
+  "praymer_bitumniy_aquamast_18l_modal": "AquaMast bitumlu praymeri (18 l / Kod: 2715000000) yüksək keyfiyyətli neft bitumlarının Üzvi həlledicilərdə məhlulundan ibarətdir. Beton səthlərin, sement-qum haşiyələrinin və dam örtüklərinin izolyasiya materialları ilə yapışma (adgeziya) qabiliyyətini maksimum səviyyəyə qaldırmaq üçün səthə tətbiq edilir, tez quruyur və tozlanmanın qarşısını alır.",
+
+  "mastika_bitumniya_aquamast_3kg_title": "Mastika Bitumlu AquaMast (3 kq)",
+  "mastika_bitumniya_aquamast_3kg_desc": "Universal bitum əsaslı sızdırmazlıq və yapışdırma mastikası.",
+  "mastika_bitumniya_aquamast_3kg_modal": "AquaMast bitumlu mastika (3 kq / Kod: 2715000000) dam örtüklərinin təmiri, kiçik yarıqların doldurulması və müxtəlif tikinti elementlərinin su izolyasiyası üçün nəzərdə tutulmuşdur. Əla yapışma gücünə malikdir, elastikliyini qoruyur və nəmə qarşı etibarlı maneə yaradır.",
+
+  "praymer_ekonom_21.5l_title": "Praymer Ekonom (21.5 Litr)",
+  "praymer_ekonom_21.5l_desc": "Geniş həcmli tikintilər üçün qənaətcil bitum praymeri.",
+  "praymer_ekonom_21.5l_modal": "Ekonom sinif bitumlu praymer (21.5 l) böyük sahəli səthlərin hidroizolyasiyaqabağı hazırlanması prosesində xərclərin optimallaşdırılması üçün ideal həlldir. Beton və digər məsaməli səthlərə dərindən nüfuz edərək növbəti izolyasiya qatlarının alt baza ilə möhkəm şəkildə birləşməsini təmin edir.",
+
+  "samarskiy_praymer_bitumniy_15kg_title": "Samarskiy Bitumlu Praymer (15 kq)",
+  "samarskiy_praymer_bitumniy_15kg_desc": "Peşəkar səviyyəli standart bitumlu səth astarı.",
+  "samarskiy_praymer_bitumniy_15kg_modal": "Samarskiy bitumlu praymeri (15 kq / Kod: 2715000000) sənaye və mülki tikintilərdə sübut olunmuş keyfiyyəti ilə seçilən etibarlı astar materialıdır. Səthin hazırlanmasında istifadə edilərək yapışma keyfiyyətini artırır, dam və bünövrə izolyasiya sistemlərinin ümumi dayanıqlığına güclü təkan verir.",
+
+  "mastika_mbk_q_30kg_title": "Mastika MBK-Q kraf-meşok (30 kq)",
+  "mastika_mbk_q_30kg_desc": "Tikinti növlü isti tətbiqli bitum mastikası kraf torbada.",
+  "mastika_mbk_q_30kg_modal": "MBK-Q tipli bitum mastikası (30 kq kraf-meşok / Kod: 2715000000) əsasən qızdırılaraq tətbiq olunan, ağır rejimli hidroizolyasiya və dam işləri üçün istifadə edilən ənənəvi və güclü materialdır. Sərt hava şəraitinə və mexaniki təsirlərə qarşı dözümlü monolit qoruyucu təbəqə formalaşdırır.",
+
+  "yanmaz_menbran_isomax_title": "Yanmaz Membran İSOMAX (m²)",
+  "yanmaz_menbran_isomax_desc": "Yüksək oddavamlılığa malik sənaye tipli membran.",
+  "yanmaz_menbran_isomax_modal": "İSOMAX yanmaz membranı (m² / Kod: 7019590000) xüsusi texnologiya ilə istehsal olunmuş, alova və yüksək temperatura qarşı müqavimət göstərən müasir izolyasiya məhsuludur. Tikililərdə yanğın təhlükəsizliyini artırmaqla yanaşı, hava axınına və nəmə qarşı effektiv baryer rolu oynayır.",
+
+  "suse_setka_psv_160gr_title": "Şüşə Setka PSV (160 gr)",
+  "suse_setka_psv_160gr_desc": "Fasad və izolyasiya sistemləri üçün gücləndirici şüşəlif setka.",
+  "suse_setka_psv_160gr_modal": "PSV markalı 160 qramlıq şüşə setka (m² / Kod: 7019590000) xarici fasad izolyasiya sistemlərində (İXTİS) və suvaq işlərində çatlar yaranmasının qarşısını almaq üçün tətbiq olunan gücləndirici elementdir. Qələvi mühitə qarşı davamlıdır və səthin mexaniki möhkəmliyini əhəmiyyətli dərəcədə artırır.",
+
+  "metal_dubel_izm_10x160_title": "Metal Dubel İzm (10x160)",
+  "metal_dubel_izm_10x160_desc": "Fasad izolyasiya sistemləri üçün metal özəkli hörgü dubeli.",
+  "metal_dubel_izm_10x160_modal": "10x160 ölçülü metal dubel (İzm / Kod: 7317001000) izolyasiya plitələrini (daş yunu, penopolistirol və s.) müxtəlif divar səthlərinə (beton, kərpic) mexaniki olaraq etibarlı şəkildə bərkitmək üçün istifadə olunur. Metal mismar ucluğu sayəsində ağır yüklərə qarşı maksimum dayanıqlıq və sabit bərkitmə təmin edir."
+,
+
+
+ 
+  
+
+
+
+  "products": "Məhsullar",
+  "blog1": "Blog",
+  "navmuhen": "Mühəndislik Xidmətləri",
+"servic01": "Servis",
+"servic01_aciqlama": "Texniki Servis və Baxım Xidmətləri",
+
+    
+
+  "whatsapp_message": "Salam, \"{{product}}\" məhsulu ilə maraqlanıram və ətraflı məlumat almaq istəyirəm."
+
+,
+"order_now": "Sifariş et",
+"all": "Hamısı",
+  
+
+  
+  "about": {
+    "badge": "HAQQIMIZDA",
+    "mainTitle": "Binaların Gələcəyini Etibarlı İzolyasiya ilə Qoruyuruq",
+    "leadText": "Yaşayış və iş məkanlarınızı rütubətdən, səsdən və enerji itkisindən qoruyan yüksək keyfiyyətli izolyasiya məhsulları təklif edirik.",
+    "simulatorTitle": "İqlim şəraitindən asılı olmayan qorunma",
+    "simulatorDesc": "Biz binalarınızı sərt xarici təsirlərdən qoruyan qabaqcıl izolyasiya materiallarımızla strukturun ömrünü uzadırıq. Texnologiyamız hər fəsildə ideal mühit yaratmaq gücünə malikdir. İstər qışın sərt şaxtası, istərsə də yayın bunaltıcı istisi olsun – materiallarımız arzuladığınız istilik balansını və rahatlığı təmin edir. Bizim üçün keyfiyyət yalnız qorunmadan ibarət deyil; bu, həm də binanızın təhlükəsizliyi və enerji səmərəliliyi deməkdir. Təqdim etdiyimiz məhsullar istilik itkisinin qarşısını alaraq xərclərinizə qənaət etməyə imkan verir.",
+    "whyUsTitle": "Niyə Biz?",
+    "whyUsDesc": "Etibarlı materiallar və peşəkar yanaşma ilə daimi komfortu təmin edirik."
+  },
+  "ABOUT_STATS_EXPERIENCE": "Keyfiyyət Zəmanəti",
+  "ABOUT_STATS_PATENTS": "Uğurlu Layihə",
+  "ABOUT_STATS_ECO": "Enerji Səmərəliliyi",
+  "ABOUT_STATS_GLOBAL": "Etibarlı Təchizat",
+  "ABOUT_FEAT_SMART": "Maksimum Mühafizə",
+  "ABOUT_FEAT_FILTER": "Su Keçirməzlik",
+  "ABOUT_FEAT_REMOTE": "Davamlı Dayanıqlılıq",
+  "ABOUT_FEAT_ENERGY": "İstilik İtkisinə Son"
+
+
+
+,
+
+  
+    "preloader.status": "Sistem işə salınır...",
+  
+  
+  
+    "contact.mainTitle": "ƏLAQƏ",
+    "bizimleelaqe": "BİZİMLƏ ƏLAQƏ",
+
+    "contact.subtitle": "Bizimlə əlaqə saxlayın, bütün suallarınızı cavablandırmağa hazırıq.",
+    "contact.callTitle": "ZƏNG EDİN",
+    "contact.whatsappTitle": "WHATSAPP",
+    "contact.emailTitle": "E-POÇT"
+    
+    
+    
+    ,
+
+
+
+  "partners": {
+    "badge": "TRUSTED PARTNERS",
+    "title": "Partnyorlarımız",
+    "subtitle": "Keyfiyyətli məhsullarımızı təqdim etdiyimiz etibarlı brendlər və tərəfdaşlarımız"
+  }
+  
+  
+  
+  ,
+
+
+"references": {
+    "badge": "OUR PARTNERS",
+    "mainTitle": "REFERANSLAR",
+    "subtitle": "Bizə etibar edən şirkətlər"
+  } 
+  ,
+  
+  "L_references": {
+    "badge": "PROJECTS",
+    "mainTitle": "GÖRÜLƏN İŞLƏR VƏ LAYİHƏLƏR",
+    "subtitle": "İzolyasiya materiallarımızla təchiz olunan uğurlu layihələrimiz"
+  }
+
+  
+  
+  ,
+
+
+  
+  "blog": {
+    "badge": "MÜASİR TƏCRÜBƏ",
+    "mainTitle": "BLOQ VƏ YENİLİKLƏR",
+    "subtitle": "İzolyasiya texnologiyaları, material seçimi və faydalı məsləhətlər",
+    "triggerText": "İzolyasiya məhsulları",
+    "item1": { 
+      "title": "İSTİLİK İZOLYASİYASI", 
+      "desc": "Evlərdə enerji itkisinin qarşısını almaq üçün effektiv izolyasiya üsulları." 
+    },
+    "item2": { 
+      "title": "MATERİAL SEÇİMİ", 
+      "desc": "Su və səs izolyasiyası üçün düzgün materialların seçilməsi və tətbiqi." 
+    },
+    "item3": { 
+      "title": "RÜTUBƏTDƏN QORUNMA", 
+      "desc": "Divar və təməllərdə nəmişliyin qarşısını alan qabaqcıl həllər." 
+    }
+  }
+
+
+  ,
+"Homemehsullaraciqlama": "Binalarınızda maksimum enerji səmərəliliyi və etibarlı qoruma təmin edən yüksək keyfiyyətli izolyasiya materialları.",
+  
+ 
+  
+  
+  
+  
+  
+  
+"footer_products_title": "Məhsullar",
+  "footer_services_title": "Xidmətlər",
+  "footer_contact_title": "Əlaqə Mərkəzi",
+  "footer_copyright": "Bütün hüquqlar qorunur.",
+
+
+
+
+
+
+
+  "SOCHİ_MMC": "SOÇİ MMC - Peşəkar İzolyasiya Sistemləri",
+  
+  "homesec01_subtitle": "Keyfiyyətli İzolyasiya ilə Tikililərinizə Uzunömürlülük Qatın",
+  "homesec01_description": "Müasir standartlara cavab verən hidrozolyasiya, istilik və səs izolyasiyası məhsullarımızla tikililərinizi nəmə, suya və sərt hava şəraitinə qarşı etibarlı şəkildə qoruyuruq. Bikrost, Unifleks və digər keyfiyyətli materiallarımızla hər zaman xidmətinizdəyik.",
+
+  "homesec012_subtitle": "Etibarlı Materiallar və Güvənli Təchizat",
+"homesec012_description": "Üst səviyyə səthlərdən tutmuş təməl qatlarına qədər geniş çeşidli məhsul portfelimizlə bütün layihələrinizin möhkəmliyinə zəmanət veririk. Yüksək keyfiyyət standartlarına cavab verən materiallarımızla işlərinizi asanlaşdırırıq."
+
+
+,
+  
+  
+
+
+
+
+
+
+  
+  "services01_aciqlama": "Tikinti və sənaye obyektləriniz üçün Bikrost, Unifleks, Texnoelast və daş yunu materiallarının peşəkar səviyyədə quraşdırılması, həmçinin etibarlı tərəfdaşlıq xidmətləri.",
+
+  "cat_dam_hidro": "Dam və Hidroizolyasiya Quraşdırılması",
+  "cat_fasad_istilik": "Fasad və İstilik İzolyasiya Montajı",
+  "cat_partnyor_destek": "Partnyorluq və Mühəndislik",
+
+  "title_rulon_dam_qur": "Rulonlu Materiallarla Dam Örtüyü",
+  "desc_rulon_dam_qur": "Bikrost, Linokrom, Unifleks və Texnoelast materialları ilə horizontal və mürəkkəb damların peşəkar quraşdırılması.",
+
+  "title_fundament_izolyasiya": "Təməl və Zirzəmi Hidroizolyasiyası",
+  "desc_fundament_izolyasiya": "Binaların təməl hissələrinin sudan qorunması məqsədilə qat-qat izolyasiya quraşdırma xidməti.",
+
+  "title_maye_bitum_tetbiq": "Maye Bitum və Mastika Hazırlığı",
+  "desc_maye_bitum_tetbiq": "Səthlərin izolyasiyaya uyğunlaşdırılması üçün maye bitum və köməkçi materialların peşəkar tətbiqi.",
+
+  "title_das_yunu_montaj": "Daş Yunu ilə İstilik İzolyasiyası",
+  "desc_das_yunu_montaj": "Texnofas, Texnovent, İzoboks və Roklait məhsullarının fasad və daxili divarlara montajı.",
+
+  "title_vent_fasad_qur": "Havalandırılan Fasad Sistemləri",
+  "desc_vent_fasad_qur": "Asma fasadlar üçün xüsusi izolyasiya və daş yunu qatlarının mühəndislik tələblərinə uyğun quraşdırılması.",
+
+  "title_ekstrusiya_doseme": "Carbon ECO Döşəmə İzolyasiyası",
+  "desc_ekstrusiya_doseme": "Yüksək yükə davamlı ekstrudirovka olunmuş penopolistirol lövhələrinin təməl və döşəmələrə döşənməsi.",
+
+  "title_birge_tikinti_partnyor": "Tikinti Şirkətləri ilə Tərəfdaşlıq",
+  "desc_birge_tikinti_partnyor": "Mütəxəssis briqadalarımızla böyük layihələrdə quraşdırma və montaj tərəfdaşlığının həyata keçirilməsi.",
+
+  "title_texniki_nezaret_audit": "Keyfiyyətə Nəzarət və Audit",
+  "desc_texniki_nezaret_audit": "Quraşdırma prosesinin hər mərhələsində texniki nəzarət və zəmanətli təhvil-təslim xidməti.",
+
+
+  
+ "muhendisbasliq": "Texniki Məsləhət və Layihələndirmə",
+  "muhendislik_aciqlama": "İzolyasiya və tikinti materiallarının mühəndislik dəstəyi ilə seçilməsi və layihələndirilməsi.",
+
+  "cat_material_secimi": "Material Seçimi və Konsultasiya",
+  "cat_serfiyyat_hesab": "Sərfiyyat və Büdcə Hesablaması",
+  "cat_layihe_qiymet": "Layihə və Qiymətləndirmə",
+
+  "title_dogru_material": "Doğru Material Seçimi",
+  "desc_dogru_material": "Obyektin növündən asılı olaraq Bikrost, Unifleks, Texnoelast və ya daş yunu məhsullarının düzgün təyin edilməsi.",
+
+  "title_texniki_meslehet": "Mühəndis Konsultasiyası",
+  "desc_texniki_meslehet": "İzolyasiya qatlarının tətbiqi və texniki xüsusiyyətləri barədə mütəxəssis məsləhəti.",
+
+  "title_metraj_hesab": "Metraj və Sərfiyyat Hesablaması",
+  "desc_metraj_hesab": "Dam, təməl və fasad sahələrinə uyğun olaraq material miqdarının dəqiq hesablanması.",
+
+  "title_budce_optimizasiya": "Büdcə Optimizasiyası",
+  "desc_budce_optimizasiya": "Keyfiyyətdən ödün vermədən ən sərfəli izolyasiya və montaj materialları büdcəsinin qurulması.",
+
+  "title_ilkin_qiymet": "İlkin Texniki Qiymətləndirmə",
+  "desc_ilkin_qiymet": "Partnyorlar və mühəndislərimiz tərəfindən layihənin ilkin dəyərləndirilməsi.",
+
+  "title_standart_uygunluq": "Normativ və Standart Uyğunluğu",
+  "desc_standart_uygunluq": "Tikinti normalarına və texniki tələblərə tam uyğun layihə dəstəyi."
+,
+  "title_sertifikat_analiz": "Material Uyğunluğu və Sertifikat Analizi",
+  "desc_sertifikat_analiz": "Təqdim olunan Bikrost, Unifleks və daş yunu məhsullarının keyfiyyət və standart sertifikatlarının yoxlanılması.",
+
+  "title_material_smeta": "Detallı Material Smetasının Hazırlanması",
+  "desc_material_smeta": "Obyektin quraşdırma işləri üçün tələb olunan bütün əsas və köməkçi materialların smeta hesabatı.",
+
+  "title_obyekt_qiymetlendirme": "Obyekt Üzrə İlkin Baxış və Qiymətləndirmə",
+  "desc_obyekt_qiymetlendirme": "Mütəxəssislərimiz tərəfindən tikinti sahəsinə baxış keçirilərək texniki vəziyyətin qiymətləndirilməsi."
+
+,
+
+
+
+
+
+  
+  "sertifikatlar": "Sertifikatlar",
+  "sertifikatlar_aciqlama": "Şirkətimizin əldə etdiyi rəsmi sertifikatlar, tərəfdaşlıq sənədləri və mükafatlar.",
+  "PORTFEL": "PORTFEL",
+  "bizim_sertifikatlar": "Bizim Sertifikatlar və Mükafatlar",
+
+  "cert_1_title": "ТЕХНОНИКОЛЬ Şirkətdən rəsmi tərəfdaşlıq sertifikatı",
+  "cert_1_desc": "SOÇİ MMC şirkətinə təqdim olunmuş rəsmi səlahiyyət və tərəfdaşlıq sənədi.",
+  "cert_1_modal": "SOÇİ MMC olaraq, müstəsna şəkildə yalnız yüksək keyfiyyətli brendin məhsullarını təqdim edirik. Bu rəsmi sertifikat şirkətimizin peşəkar fəaliyyətini, etibarlılığını və qüsursuz tərəfdaşlıq statusunu təsdiq edir.",
+
+  "cert_2_title": "SOÇİ MMC Şirkətin Udduğu mükafat",
+  "cert_2_desc": "Yüksək göstəricilərə və səmərəli fəaliyyətə görə SOÇİ MMC-yə verilən mükafat.",
+  "cert_2_modal": "Fəaliyyət sahəmizdə əldə etdiyimiz yüksək nailiyyətlərə, peşəkar xidmət səviyyəsinə və qazanılan böyük etimada görə SOÇİ MMC şirkətinə təqdim olunmuş xüsusi təltif.",
+
+  "cert_3_title": "SOÇİ MMC Şirkətin Udduğu mükafat",
+  "cert_3_desc": "Sektor üzrə əldə edilən mühüm nailiyyətlərə görə SOÇİ MMC-nin layiq görüldüyü mükafat.",
+  "cert_3_modal": "Bazarda qazanılan uğurlar, keyfiyyət standartlarının yüksək səviyyədə qorunması və tərəfdaşlar arasında qazanılan dərin etimad nəticəsində SOÇİ MMC şirkətinə verilən növbəti dəyərli mükafat.",
+
+  "cert_4_title": "BAKUBUİLD tədbirin sertifikat",
+  "cert_4_desc": "BakuBuild sərgisində SOÇİ MMC-nin fəal iştirak və təqdimat sənədi.",
+  "cert_4_modal": "Nüfuzlu beynəlxalq tikinti sərgisində innovativ yanaşmaların təqdimatı və uğurlu iştirakına görə SOÇİ MMC şirkətinə layiq görülmüş rəsmi təsdiq sənədi.",
+
+  "cert_5_title": "BAKUBUİLD tədbirin sertifikat",
+  "cert_5_desc": "Sərgi çərçivəsində SOÇİ MMC-yə təqdim olunan xüsusi iştirak sənədi.",
+  "cert_5_modal": "BakuBuild tədbirində şirkətimizin nümayiş etdirdiyi yüksək peşəkarlıq, qurulan dəyərli əlaqələr və ümumi uğura verilən mühüm töhfələrə görə təqdim olunan rəsmi sertifikat."
+ ,
+"cert_6_title": "ТЕХНОНИКОЛЬ Rəsmi Ticari Tərəfdaşlıq Sertifikatı",
+  "cert_6_desc": "ТЕХНОНИКОЛЬ Korporasiyası tərəfindən SOÇİ MMC-yə verilmiş rəsmi satış tərəfdaşı sənədi.",
+  "cert_6_modal": "Bu rəsmi sertifikat SOÇİ MMC-nin ТЕХНОНИКОЛЬ Korporasiyasının rəsmi ticari tərəfdaşı olduğunu təsdiq edir. Şirkətimiz dam, hidroizolyasiya, termoizolyasiya, səs izolyasiyası və fasad materiallarının orijinal və yüksək keyfiyyət standartlarına uyğun satışını həyata keçirir."
+
+
+,
+
+
+
+  
+  "titleSEO01": "SOCHİ MMC | İzolyasiya Materialları Satışı Bakıda",
+  "SOCHİ_MMC_basliqsoz1": "Soçi MMC - Keyfiyyətli su, istilik və səs izolyasiyası materialları satışı.",
+  "sec03SEO01": "SOCHİ MMC | İzolyasiya Materialları Satışı Bakıda",
+  "sec03SEO02": "Soçi MMC - Keyfiyyətli su, istilik və səs izolyasiyası materialları satışı. Geniş məhsul çeşidimizlə tanış olun.",
+  "sec03SEO03": "izolyasiya materialları, su izolyasiyası, istilik izolyasiyası, səs izolyasiyası, Soçi MMC, Bakıda izolyasiya satışı"
+
+  ,
+  "101_badge_title": "PEŞƏKAR İZOLYASİYA XİDMƏTLƏRİ",
+  "101_btn_contact": "BİZİMLƏ ƏLAQƏ",
+  "101_section_arialabel": "Soçi MMC Peşəkar İzolyasiya Xidmətləri",
+  "101_seo_keywords": "izolyasiya xidmətləri, su izolyasiyası quraşdırılması, istilik izolyasiyası, səs izolyasiyası, Soçi MMC",
+  "101_seo_desc": "Soçi MMC olaraq peşəkar səviyyədə su, istilik və səs izolyasiyası xidmətləri təqdim edirik. Keyfiyyətli və zəmanətli xidmət üçün bizə müraciət edin."
+
+   ,
+ 
+  "101_seo_title": "SOCHİ MMC | İzolyasiya Materialları Satışı Bakıda",
+  "101_seo_description": "Soçi MMC - Keyfiyyətli su, istilik və səs izolyasiyası materialları satışı. Geniş məhsul çeşidimizlə tanış olun.",
+  "101_seo_keywords1": "izolyasiya materialları, su izolyasiyası, istilik izolyasiyası, səs izolyasiyası, Soçi MMC, Bakıda izolyasiya satışı",
+  "101_slider_arialabel": "Soçi MMC - İzolyasiya Materialları və Sistemləri Slayderi",
+  "101_badge_name": "SOCHİ MMC",
+  "101_btn_products": "MƏHSULLARA BAX",
+  "101_aria_moreread": "Ətraflı bax",
+  "101_aria_prev": "Əvvəlki izolyasiya məhsulu slaydı",
+  "101_aria_next": "Növbəti izolyasiya məhsulu slaydı"
+
+,
+  
+  "102_seo_title": "Haqqımızda | SOCHİ MMC - Peşəkar İzolyasiya Sistemləri",
+  "102_seo_description": "Soçi MMC olaraq illərin təcrübəsi ilə sənaye və mülki tikililər üçün ən keyfiyyətli su, istilik və səs izolyasiyası materialları təqdim edirik.",
+  "102_seo_keywords": "Soçi MMC haqqımızda, izolyasiya şirkəti Bakı, su izolyasiyası təchizatçısı, tikinti materialları MMC",
+  "102_section_arialabel": "Soçi MMC Haqqımızda və Şirkət Məlumatları",
+  "102_btn_more": "Daha Ətraflı",
+  "102_aria_moreread": "Soçi MMC haqqında daha ətraflı məlumat əldə edin"
+
+,
+
+
+
+  
+  "103_seo_title": "SOCHİ MMC | İzolyasiya Sistemləri və Texnologiyaları",
+  "103_seo_description": "Soçi MMC müasir izolyasiya sistemləri, keyfiyyətli materiallar və peşəkar tətbiq həlləri ilə xidmətinizdədir.",
+  "103_seo_keywords": "izolyasiya texnologiyaları, su izolyasiyası, istilik sistemləri, Soçi MMC məhsullar",
+  "103_section1_arialabel": "Soçi MMC İzolyasiya Texnologiyaları Bölməsi 1",
+  "103_section2_arialabel": "Soçi MMC İzolyasiya Texnologiyaları Bölməsi 2",
+  "103_img_alt_1": "Soçi MMC izolyasiya sistemləri və vizual təqdimat 1",
+  "103_img_alt_2": "Soçi MMC izolyasiya sistemləri və vizual təqdimat 2"
+
+
+  ,
+  
+  "104_seo_title": "Su, İstilik və Səs İzolyasiya Məhsulları | SOCHİ MMC",
+  "104_seo_description": "Soçi MMC-də Su İzolyasiyası, XPS lövhələri, Texnonikol Carbon ECO, İZOBOKS daş yunları, Texnofas, Bikrost, Unifleks və Maye Bitum məhsullarının satışı.",
+  "104_seo_keywords": "Su İzolyasiyası, İstilik və Səs İzolyasiyası, XPS lövhələri, Texnonikol Carbon ECO, İZOBOKS, Texnofas, Bikrost Unifleks Texnoelast, Maye Bitum və Mastikalar, Soçi MMC",
+  "104_section_arialabel": "Soçi MMC Məhsullar və İzolyasiya Sistemləri Slayderi",
+  "104_system_architecture": "İZOLYASİYA SİSTEMLƏRİ VƏ MƏHSULLAR",
+  "104_aria_product_link": "Məhsula bax"
+
+,
+  
+  "105_seo_title": "Bizimlə Əlaqə | SOCHİ MMC - İzolyasiya Xidmətləri",
+  "105_seo_description": "Soçi MMC ilə əlaqə saxlayın. İstilik, su və səs izolyasiyası layihələriniz üçün peşəkar mühəndis dəstəyi və məsləhət alın.",
+  "105_seo_keywords": "Soçi MMC əlaqə, izolyasiya mərkəzi Bakı, telefon, ünvan, e-poçt, tikinti dəstək",
+  "105_section_arialabel": "Soçi MMC Əlaqə və Bildirim Bölməsi",
+  "105_contact_badge": "BİLDIRİM & ƏLAQƏ",
+  "105_contact_mainTitle": "Bizimlə Əlaqə Saxlayın",
+  "105_contact_subtitle": "İstilik, su və səs izolyasiyası layihələriniz üçün peşəkar dəstək alın.",
+  "105_aria_contact_card": "Əlaqə vasitəsi"
+
+,
+
+
+  
+  "106_seo_title": "SOCHİ MMC — ТЕХНОНИКОЛЬ Distribütoru və İzolyasiya Sistemləri",
+  "106_seo_description": "Soçi MMC olaraq keyfiyyətli izolyasiya materiallarının etibarlı təchizatı, peşəkar mühəndis dəstəyi və sərfəli şərtlərlə xidmətinizdəyik.",
+  "106_seo_keywords": "niyə biz, Soçi MMC üstünlükləri, etibarlı izolyasiya təchizatçısı, keyfiyyətli tikinti materialları Bakı",
+  "106_section_arialabel": "Soçi MMC Niyə Biz və Üstünlüklərimiz",
+  "106_whyUs_badge": "NİYƏ BİZ?",
+  "106_whyUs_mainTitle": "NİYƏ BİZİ SEÇİRLƏR?",
+  "106_whyUs_subtitle": "Keyfiyyətli izolyasiya materiallarının etibarlı təchizatı.",
+  "106_aria_advantage": "Üstünlük"
+,
+
+
+  
+  "107_seo_title": "Bizim Partnyorlarımız | SOCHİ MMC - Əməkdaşlıq Şəbəkəsi",
+  "107_seo_description": "Soçi MMC-nin etibarlı partnyorları: Techno Trade MMC, Sea Breeze Construction, Metalsan Group, Pro Con İzo və digər aparıcı tikinti şirkətləri.",
+  "107_seo_keywords": "Soçi MMC partnyorları, Techno Trade MMC, Sea Breeze Construction, Metalsan Group, Pro Con İzo, əməkdaşlıq, izolyasiya şirkətləri Bakı",
+  "107_section_arialabel": "Soçi MMC Partnyorları və Əməkdaşlıq Şəbəkəsi",
+  "107_partners_badge": "PARTNYORLAR",
+  "107_partners_title": "BİZİM PARTNYORLARIMIZ",
+  "107_partners_subtitle": "Etibarlı və güvənli əməkdaşlıq şəbəkəmiz.",
+  "107_aria_partner": "Partnyor şirkət"
+
+ ,
+
+
+  
+  "108_section_arialabel": "Soçi MMC Haqqımızda və Məhsul Çeşidlərimiz",
+  "108_seo_title": "Haqqımızda | Su, İstilik və Səs İzolyasiyası | SOCHİ MMC",
+  "108_seo_description": "Soçi MMC haqqında məlumat. Su İzolyasiyası, XPS lövhələri, Texnonikol Carbon ECO, İZOBOKS daş yunları, Texnofas, Bikrost, Unifleks və Maye Bitum məhsulları.",
+  "108_seo_keywords": "Soçi MMC haqqında, Su İzolyasiyası, İstilik və Səs İzolyasiyası, XPS lövhələri, Texnonikol Carbon ECO, İZOBOKS daş yunları, Texnofas, Bikrost, Unifleks, Maye Bitum və Mastikalar, Bərc izolyasiya Bakı"
+
+
+,
+
+
+  
+  "109_section_arialabel": "Soçi MMC Əlaqə və Müraciət Səhifəsi",
+  "109_seo_title": "Əlaqə | Su, İstilik və Səs İzolyasiyası | SOCHİ MMC",
+  "109_seo_description": "Soçi MMC əlaqə məlumatları. Su İzolyasiyası, XPS lövhələri, Texnonikol Carbon ECO, İZOBOKS və digər məhsullar üçün bizimlə əlaqə saxlayın.",
+  "109_seo_keywords": "Soçi MMC əlaqə, telefon, ünvan, e-poçt, Su İzolyasiyası, İstilik və Səs İzolyasiyası, XPS lövhələri, Texnonikol Carbon ECO, İZOBOKS, Bikrost, Maye Bitum"
+  
+  
+  ,
+  "110_section_arialabel": "Soçi MMC Sertifikatlar və Tərəfdaşlıq Sənədləri",
+  "110_seo_title": "Sertifikatlar və Tərəfdaşlıq | SOCHİ MMC",
+  "110_seo_description": "Soçi MMC-nin TEXNONIKOL rəsmi tərəfdaşlıq sertifikatları, BakuBuild sərgi iştirak sənədləri və layiq görüldüyü mükafatlar.",
+  "110_seo_keywords": "Soçi MMC sertifikatlar, TEXNONIKOL rəsmi tərəfdaş, BakuBuild sərgisi, izolyasiya mükafatları, tərəfdaşlıq sənədləri Bakı",
+  "110_portfel": "PORTFEL",
+  "110_sertifikatlar_title": "Sertifikatlar",
+  "110_sertifikatlar_aciqlama": "Rəsmi tərəfdaşlıq sertifikatlarımız və uğur sənədlərimiz.",
+  "110_bizim_sertifikatlar": "Bizim Sertifikatlar",
+  "110_aria_view_cert": "Sertifikata bax"
+,
+  
+  "111_section_arialabel": "Soçi MMC Peşəkar İzolyasiya və Tikinti Xidmətləri",
+  "111_seo_title": "İzolyasiya və Tikinti Xidmətləri | SOCHİ MMC",
+  "111_seo_description": "Soçi MMC tərəfindən təqdim olunan peşəkar xidmətlər: Rulonlu Materiallarla Dam Örtüyü (Bikrost, Linokrom, Unifleks), Təməl və Zirzəmi Hidroizolyasiyası, Daş Yunu ilə İstilik İzolyasiyası.",
+  "111_seo_keywords": "Soçi MMC xidmətlər, Rulonlu Dam Örtüyü, Bikrost, Linokrom, Unifleks, Təməl Hidroizolyasiyası, Daş Yunu İstilik İzolyasiyası, Texnofas, Bakı",
+  "111_badge": "What We Do",
+  "111_filter_toolbar": "Xidmət kateqoriyaları filteri",
+  "111_aria_view_service": "Xidmətə bax",
+
+
+
+  "112_section_arialabel": "Soçi MMC Mühəndislik və Məsləhət Xidmətləri",
+  "112_seo_title": "Mühəndislik və Məsləhət Xidmətləri | SOCHİ MMC",
+  "112_seo_description": "Soçi MMC tərəfindən təqdim olunan mühəndislik xidmətləri: Doğru Material Seçimi (Bikrost, Unifleks, Texnoelast), Büdcə Optimizasiyası və Metraj Hesablamaları.",
+  "112_seo_keywords": "Soçi MMC mühəndislik, Material seçimi, Büdcə optimizasiyası, Metraj hesablaması, İzolyasiya məsləhət, Bakı",
+ 
+
+
+
+ 
+  "113_section_arialabel": "Soçi MMC İstilik və Səs İzolyasiya Məhsulları Kataloqu",
+  "113_seo_title": "İstilik və Səs İzolyasiya Materialları | İZOBOKS, Texnofas, Texnovent, Roklait | SOCHİ MMC",
+  "113_seo_description": "Enerji sərfiyyatını azaldan və səs izolyasiyası təmin edən peşəkar material növləri: Rulonlu daş yunları İZOBOKS, fasad üçün Texnofas, ventilyasiya olunan fasadlar üçün Texnovent və universal Roklait daş yunları.",
+  "113_seo_keywords": "İstilik izolyasiyası, Səs izolyasiyası, Daş yunu, İZOBOKS, Texnofas, Texnovent, Roklait, Rosklite, Rulonlu daş yunu, Fasad izolyasiyası, Akustik izolyasiya, Soçi MMC Bakı",
+  "113_mehsullar_badge": "İSTİLİK VƏ SƏS İZOLYASİYASI"
+,
+
+  "114_seo_title": "Bərk İzolyasiya XPS və Texnonikol Carbon ECO | SOCHİ MMC",
+  "114_seo_description": "Yüksək istilik izolyasiyası, mexaniki möhkəmlik və nəmə davamlılıq təmin edən XPS lövhələri və Texnonikol Carbon ECO məhsulları. Təməl, dam və fasad izolyasiyası üçün ideal seçimlər.",
+  "114_seo_keywords": "Bərk izolyasiya, XPS lövhələri, Texnonikol Carbon ECO, Ekstrudirovani polistirol, Təməl izolyasiyası, Dam izolyasiyası, Soçi MMC Bakı",
+  "114_mehsullar_badge": "BƏRK İZOLYASİYA XPS"
+
+
+ ,
+
+  "115_seo_title": "Maye İzolyasiya, Bitum və Mastikalar | AquaMast, MBK-Q | SOCHİ MMC",
+  "115_seo_description": "Çətin tətbiq olunan səthlərdə mükəmməl qoruma təmin edən maye izolyasiya məhsulları, AquaMast bitumlu mastikalar (3 kq) və MBK-Q kraf-meşok (30 kq) hidroizolyasiya materialları.",
+  "115_seo_keywords": "Maye izolyasiya, Maye bitum, Mastika, AquaMast, MBK-Q, Hidroizolyasiya, Dam təmiri, Su izolyasiyası, Soçi MMC Bakı",
+  "115_mehsullar_badge": "MAYE İZOLYASİYA VƏ AKSESUARLAR"
+
+,
+
+  
+  "116_seo_title": "Su İzolyasiyası Materialları | Stekloizol, Bikrost, Texnoelast | SOCHİ MMC",
+  "116_seo_description": "Binaların təməlini və divarlarını rütubətdən qoruyan, su sızmalarının qarşısını alan Stekloizol XPP, Bikrost TKP, Linokrom EPP, Unifleks EPP və Texnoelast TKP hidroizolyasiya sistemləri.",
+  "116_seo_keywords": "Su izolyasiyası, Hidroizolyasiya, Stekloizol XPP, Bikrost TKP, Linokrom EPP, Unifleks EPP, Texnoelast TKP, Dam örtükləri, Təməl izolyasiyası, Soçi MMC Bakı",
+  "116_mehsullar_badge": "SU İZOLYASİYA SİSTEMLƏRİ"
+
+
+,
+
+
+
+  
+  "117_brand_aria": "SOCHİ MMC - Rəsmi ТЕХНОНИКОЛЬ Məhsullarının Satışı",
+  "117_phone_aria": "Bizə zəng edin: (+994) 55 977 01 01",
+  "117_lang_toolbar": "Dil seçimi paneli",
+  "117_tn_aria": "Rəsmi ТЕХНОНИКОЛЬ veb-saytına keçid",
+  "117_nav_aria": "Əsas Naviqasiya Menyusu",
+  "117_menu_toggle": "Menyunu aç/bağla",
+  "117_home_aria": "Ana səhifə - ТЕХНОНИКОЛЬ məhsulları",
+  "117_about_aria": "Haqqımızda - SOCHİ MMC",
+  "117_products_aria": "ТЕХНОНИКОЛЬ məhsul kataloqu",
+  "117_services_aria": "İzolyasiya xidmətləri",
+  "117_contact_aria": "Əlaqə məlumatları",
+  "117_cert_aria": "ТЕХНОНИКОЛЬ keyfiyyət sertifikatları",
+  "117_social_aria": "Sosial şəbəkə səhifələrimiz"
+
+,
+  
+  "118_index_title": "SOCHİ MMC | Rəsmi ТЕХНОНИКОЛЬ İzolyasiya Materiallarının Satışı Bakıda",
+  "118_index_description": "SOCHİ MMC — Azərbaycanda rəsmi ТЕХНОНИКОЛЬ brendinin yüksək keyfiyyətli su izolyasiyası, istilik izolyasiyası, səs izolyasiyası, bərk XPS lövhələri, bitum və mastika məhsullarının topdan və pərakəndə satışı.",
+  "118_index_keywords": "SOCHİ MMC, ТЕХНОНИКОЛЬ, Texnonikol Bakı, su izolyasiyası, istilik izolyasiyası, səs izolyasiyası, bərk izolyasiya, XPS lövhələri, maye izolyasiya, bitum, mastika, dam örtükləri, hidroizolyasiya materialları, Bakı"
+,
+
+  "119_app_init": "SOCHİ MMC - ТЕХНОНИКОЛЬ izolyasiya sistemləri tətbiqi uğurla başladıldı"
+
+
+  ,
+  "120_app_title": "SOCHİ MMC | Rəsmi ТЕХНОНИКОЛЬ İzolyasiya Sistemləri və Materialları",
+  "120_app_description": "SOCHİ MMC — Bakıda rəsmi ТЕХНОНИКОЛЬ brendinin su izolyasiyası, istilik və səs izolyasiyası, bərk XPS lövhələri, maye bitum və mastika məhsullarının topdan və pərakəndə satışı.",
+  "120_app_keywords": "SOCHİ MMC, ТЕХНОНИКОЛЬ, Texnonikol Bakı, su izolyasiyası, istilik izolyasiyası, səs izolyasiyası, bərk izolyasiya, XPS lövhələri, maye bitum, mastika, dam örtükləri, hidroizolyasiya"
+
+,
+  
+  "121_footer_aria": "SOCHİ MMC Rəsmi İzolyasiya Sistemləri Footer",
+  "121_logo_aria": "SOCHİ MMC Ana səhifə - ТЕХНОНИКОЛЬ",
+  "121_social_aria": "Sosial şəbəkə hesablarımız",
+  "121_products_nav": "İzolyasiya məhsulları menyusu",
+  "121_services_nav": "İzolyasiya xidmətləri menyusu"
+
+
+,
+
+  
+  
+  "home_seo_title": "SOCHİ MMC | Rəsmi ТЕХНОНИКОЛЬ İzolyasiya Materialları Bakıda",
+  "home_seo_desc": "SOCHİ MMC — Azərbaycanda rəsmi ТЕХНОНИКОЛЬ brendinin su izolyasiyası, istilik izolyasiyası, səs izolyasiyası, XPS lövhələr və mastika məhsullarının topdan satışı."
+,
+
+  "footertexnonikol": "  SOCHİ MMC — Azərbaycanda rəsmi ТЕХНОНИКОЛЬ brendinin su izolyasiyası, istilik və səs izolyasiyası, bərk XPS lövhələri, maye bitum və mastika məhsullarının etibarlı təchizatçısıdır."
+
+
+
+
+}   
+  

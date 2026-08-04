@@ -1,0 +1,698 @@
+{
+  
+  "home": "Home",
+  "about1": "About Us",
+  "contact": "Contact",
+  "services": "Our Services",
+  "services01": "Professional Installation Partnership",
+  "services01_description": "We connect you with experienced and reliable contractor companies for the high-quality application of our products.",
+  "services02": "Technical Consulting and Engineering",
+  "services02_description": "Selection of the right insulation material for your facility, calculation of consumption, and preliminary technical evaluation together with our partners.",
+  "slide.basliq": "SOCHİ LLC",
+  "SOCHİ_MMC1": "SOCHİ LLC",
+  "SOCHİ_MMC_basliqsoz": "Professional Insulation Systems",
+  "SOCHİ_MMC_text1": "Professional waterproofing systems that protect the foundations and walls of buildings from moisture, prevent water leaks, and strengthen the structure.",
+  "SOCHİ_MMC_text2": "Thermal and sound insulation solutions that reduce energy consumption, create an ideal thermal balance in the indoor environment, and minimize noise transmission.",
+  "SOCHİ_MMC_tex3": "High mechanical durability, resistant to external influences, and long-lasting XPS-based rigid insulation materials.",
+  "SOCHİ_MMC_text4": "Liquid insulation products and accessories that provide perfect protection even on difficult-to-apply surfaces and increase waterproofing.",
+  "SOCHI_IZOLYASIYA_sec2basliq": "Reliable protection independent of climate conditions",
+  "SOCHI_IZOLYASIYA_sec2aciqlama": "Regardless of climate conditions, we protect the structure of your buildings and prevent heat losses. We provide reliable insulation materials for maximum protection and energy efficiency of your facilities.",
+  "suizolyasiya_basliq": "Waterproofing",
+  "istilikizolyasiya_basliq": "Thermal Insulation",
+  "sesizolyasiya_basliq": "Sound Insulation",
+  "suizolyasiya_aciqlama": "Systems that protect building foundations and walls from moisture, prevent water leaks, and strengthen the structure.",
+  "istilikizolyasiya_aciqlama": "Advanced insulation solutions that reduce energy consumption and create an ideal thermal balance indoors.",
+  "sesizolyasiya_aciqlama": "Professional materials that minimize noise transmission and create a quiet and comfortable atmosphere in your space."
+,
+  "ABOUT_VISION_2026": "ABOUT US",
+  "ABOUT_MAIN_TITLE": "Protecting the Future of Buildings with Quality Insulation",
+  "ABOUT_LEAD_TEXT": "We offer professional insulation systems that protect your buildings from moisture, noise, and energy loss with the highest engineering standards.",
+  "WHY_US_TITLE": "Why Us?",
+  "WHY_US_DESC": "We ensure permanent comfort and energy efficiency in your spaces with certified, high-quality insulation materials.",
+  "STATS_EXPERIENCE": "Waterproofing / Against Moisture",
+  "STATS_PATENTS": "Thermal Insulation / Energy Saving",
+  "STATS_ECO": "Strong Protection / Thermal Retention",
+  "STATS_GLOBAL": "Liquid Insulation / Additional Accessories",
+  "FEAT_SMART": "Leak-Proof Guarantee",
+  "FEAT_FILTER": "High Quality",
+  "FEAT_REMOTE": "High Durability",
+  "FEAT_ENERGY": "End to Heat Loss",
+  "suizolyasiya": "Waterproofing",
+  "istilik_sesizolyasiya": "Thermal and Sound Insulation",
+  "berkizolyasiya": "Rigid Insulation (XPS)",
+  "mayeizolyasiya": "Liquid Insulation and Accessories",
+  "mehsullar_suizo_aciqlama": "Professional waterproofing systems that protect the foundations and walls of buildings from moisture, prevent water leaks, and strengthen the structure.",
+  "mehsullar_istivəsəsizo_aciqlama": "Insulation solutions that reduce energy consumption, create an ideal thermal balance indoors, and minimize noise transmission.",
+  "mehsullar_bərkizo_aciqlama": "High mechanical durability, resistant to external influences, and long-lasting XPS-based rigid insulation materials.",
+  "mehsullar_mayeizolyasiya_aciqlama": "Liquid-based insulation products and accessories that provide perfect protection even on difficult-to-apply surfaces and enhance waterproofing.",
+  "mehsullar_berkizolyasiya_aciqlama": "Distinguished by high thermal insulation, mechanical strength, and moisture resistance, XPS boards are an ideal choice for foundation, roof, and facade insulation. We provide reliable solutions to increase energy efficiency and prevent heat loss in your building.",
+  "discover": "Explore"
+
+,
+
+
+  
+  "whyUs": {
+    "badge": "WHY US?",
+    "mainTitle": "WHY CHOOSE US?",
+    "subtitle": "Direct sale and supply of high-quality insulation materials",
+    "item1": { 
+      "title": "Customer Satisfaction", 
+      "desc": "A personalized approach and professional consulting service tailored to the needs of every customer." 
+    },
+    "item2": { 
+      "title": "High Quality", 
+      "desc": "Durable and reliable insulation products that meet international standards." 
+    },
+    "item3": { 
+      "title": "Affordable Prices", 
+      "desc": "Favorable terms fitting your budget and wholesale opportunities." 
+    },
+    "item4": { 
+      "title": "All-Season Protection", 
+      "desc": "Reliable insulation materials protecting your buildings against summer heat and winter frost." 
+    }
+  }
+
+
+,
+
+  
+  "cat_bikrost": "Bikrost",
+  "cat_linokrom": "Linokrom",
+  "cat_unifleks": "Unifleks",
+  "cat_texnoelast": "Texnoelast",
+  "cat_stekloizol": "Stekloizol",
+
+  "bikrost_xpp_10m_title": "Bikrost XPP (10m)",
+  "bikrost_xpp_10m_desc": "Fiberglass-based underlay and vapor barrier material.",
+  "bikrost_xpp_10m_modal": "Bikrost XPP consists of a double-sided bitumen coating on a fiberglass base, primarily intended as an underlayer for roofing and as a vapor barrier. This 10-meter roll material is easily installed on the surface by heating with a gas torch and ensures resistance to mechanical impacts.",
+
+  "bikrost_xpp_15m_title": "Bikrost XPP (15m)",
+  "bikrost_xpp_15m_desc": "Extended format fiberglass-based waterproofing roll.",
+  "bikrost_xpp_15m_modal": "Bikrost XPP with a length of 15 meters provides the advantage of cost-effective and continuous installation in large-scale buildings. The fiberglass base gives the material optimal lightness and excellent vapor barrier properties, allowing it to be widely used in industrial and civil construction.",
+
+  "bikrost_xpp_tpp_10m_title": "Bikrost TPP (10m)",
+  "bikrost_xpp_tpp_10m_desc": "High-strength underlay insulation based on fiberglass fabric.",
+  "bikrost_xpp_tpp_10m_modal": "Bikrost TPP is prepared on a reinforced fiberglass fabric base, showing high resistance to tensile and tearing forces. Classified under code 6807100000, this 10-meter roll is used as a reliable underlayer protector in roofing systems and foundation insulation.",
+
+  "bikrost_tkp_10m_title": "Bikrost TKP (10m)",
+  "bikrost_tkp_10m_desc": "Top-layer roof insulation with a sandy protective surface.",
+  "bikrost_tkp_10m_modal": "Since the upper surface of the Bikrost TKP material is covered with a layer of coarse-grained granules (sand), it offers excellent resistance to ultraviolet solar rays and direct atmospheric influences. Thanks to its fiberglass fabric base, it is long-lasting and reliably protects the top coating of the roof even in harsh weather conditions.",
+
+  "linokrom_tpp_10m_title": "Linokrom TPP (10m)",
+  "linokrom_tpp_10m_desc": "Reinforced fiberglass-based professional waterproofing.",
+  "linokrom_tpp_10m_modal": "Linokrom TPP is a premium-class insulation material distinguished by its high-quality bitumen-polymer composition and strong fiberglass fabric base. This 10-meter roll ensures maximum performance and a long service life under harsh climatic conditions to protect building structures from moisture and water.",
+
+  "linokrom_epp_10m_title": "Linokrom EPP (10m)",
+  "linokrom_epp_10m_desc": "Polyester-based flexible and durable insulation roll.",
+  "linokrom_epp_10m_modal": "Linokrom EPP demonstrates high flexibility against various levels of deformations and building movements thanks to the elastic polyester fiber forming its base. Covered with protective film on both sides, this 10-meter material creates perfect adhesion and sealing even on complex-shaped surfaces.",
+
+  "unifleks_tpp_10m_title": "Unifleks TPP (10m)",
+  "unifleks_tpp_10m_desc": "SBS-modified bituminous fiberglass-based underlayer waterproofing.",
+  "unifleks_tpp_10m_modal": "Unifleks TPP maintains its flexibility even in harsh climatic conditions thanks to its high-quality SBS (styrene-butadiene-styrene) elastomer-modified bitumen composition and strong fiberglass base. This 10-meter roll material is easily installed even at challenging temperatures and provides reliable underlayer protection in roofing systems and foundations.",
+
+  "unifleks_epp_10m_title": "Unifleks EPP (10m)",
+  "unifleks_epp_10m_desc": "Polyester-based highly flexible and deformation-resistant insulation.",
+  "unifleks_epp_10m_modal": "The strong polyester mesh forming the base of the Unifleks EPP material grants high tensile resistance and flexibility against movements and stresses that may occur in building structures. Covered with polymer film on both sides, this 10-meter roll perfectly adapts to any complex surface, creating long-lasting waterproofing.",
+
+  "unifleks_tkp_10m_title": "Unifleks TKP (10m)",
+  "unifleks_tkp_10m_desc": "SBS-modified top-layer roof covering with a sandy protective layer.",
+  "unifleks_tkp_10m_modal": "Unifleks TKP features a special coarse-grained granule (sand) surface resistant to ultraviolet solar rays and atmospheric effects. Installed on a fiberglass fabric framework, this 10-meter top-layer material protects the building roof from mechanical damage and moisture, ensuring trouble-free operation for many years.",
+
+  "texnoelast_ekp_10m_title": "Texnoelast EKP (10m)",
+  "texnoelast_ekp_10m_desc": "Premium-class polyester-based top-layer waterproofing membrane.",
+  "texnoelast_ekp_10m_modal": "Texnoelast EKP is a premium-class bitumen-polymer material designed for the most severe operating conditions and freezing climates. Thanks to its highly flexible polyester base and protective surface granules, it exhibits maximum durability and lifespan even on the highest and most complex industrial building roofs.",
+
+  "texnoelast_tkp_10m_title": "Texnoelast TKP (10m)",
+  "texnoelast_tkp_10m_desc": "Fiberglass-based heavy-duty top-layer insulation roll.",
+  "texnoelast_tkp_10m_modal": "Texnoelast TKP material possesses exceptional resistance to tearing forces and mechanical loads thanks to its strong fiberglass fabric framework and specially modified bitumen composition. With its 10-meter roll format and protective surface layer, it fully meets the insulation needs of the most demanding construction projects.",
+
+  "texnoelast_epp_10m_title": "Texnoelast EPP (10m)",
+  "texnoelast_epp_10m_desc": "Elastic polyester-based universal under and intermediate layer insulation.",
+  "texnoelast_epp_10m_modal": "Texnoelast EPP stands out with its high tensile capacity polyester base and perfectly absorbs dynamic loads in building structural elements. Acting as a reliable under or intermediate layer in multilayer insulation systems, it creates an impermeable barrier against water and moisture.",
+
+  "stekloizol_xpp_2.1mm_9m_title": "Stekloizol XPP (2.1 mm, 9m)",
+  "stekloizol_xpp_2.1mm_9m_desc": "Economy-class fiberglass-based lightweight vapor and waterproofing.",
+  "stekloizol_xpp_2.1mm_9m_modal": "Stekloizol XPP 2.1 mm is an oxidized bitumen-composed underlayer material with an economical price-quality ratio, installed on a fiberglass base. This light 9-meter roll is effectively used as a primary vapor barrier in roofing structures and sub-foundation insulation works.",
+
+  "stekloizol_tpp_2.1mm_9m_title": "Stekloizol TPP (2.1 mm, 9m)",
+  "stekloizol_tpp_2.1mm_9m_desc": "Fiberglass-based reinforced 2.1 mm underlayer insulation.",
+  "stekloizol_tpp_2.1mm_9m_modal": "Stekloizol TPP 2.1 mm shows higher resistance to tearing and tensile forces compared to standard insulation materials, thanks to its fiberglass fabric framework base. With its 9-meter roll format, it perfectly adapts as a foundational protective layer for multilayer roof coverings in civil and industrial construction.",
+
+  "stekloizol_xpp_2.5mm_9m_title": "Stekloizol XPP (2.5 mm, 9m)",
+  "stekloizol_xpp_2.5mm_9m_desc": "Increased thickness fiberglass-based underlayer waterproofing roll.",
+  "stekloizol_xpp_2.5mm_9m_modal": "Stekloizol XPP 2.5 mm model features a thicker bitumen layer, significantly strengthening the surface's resistance to moisture and water. Its fiberglass base gives stability to the material, while its 9-meter size ensures comfortable transport and ease of application at construction sites.",
+
+  "stekloizol_tpp_2.5mm_9m_title": "Stekloizol TPP (2.5 mm, 9m)",
+  "stekloizol_tpp_2.5mm_9m_desc": "Reinforced fiberglass-based 2.5 mm thick underlayer insulation.",
+  "stekloizol_tpp_2.5mm_9m_modal": "Stekloizol TPP 2.5 mm combines the mechanical strength provided by its fiberglass fabric base and the reliable sealing created by its increased 2.5 mm thickness. It acts as a reliable underlayer on roof surfaces exposed to medium and heavy loads, as well as in the insulation of underground structures.",
+
+  "stekloizol_r_tpp_3.0_15m_title": "Stekloizol R TPP (3.0 mm, 15m)",
+  "stekloizol_r_tpp_3.0_15m_desc": "Extended 15-meter format fiberglass-based professional insulation.",
+  "stekloizol_r_tpp_3.0_15m_modal": "Stekloizol R TPP 3.0 is a high-performance material manufactured specifically in a 15-meter length, minimizing joint locations in large-area projects. Thanks to its 3 mm thickness and strong fiberglass framework, it ensures a fast, cost-effective, and reliable insulation process in industrial facilities.",
+
+  "stekloizol_r_xpp_3.0_15m_title": "Stekloizol R XPP (3.0 mm, 15m)",
+  "stekloizol_r_xpp_3.0_15m_desc": "15-meter fiberglass-based roll designed for large areas.",
+  "stekloizol_r_xpp_3.0_15m_modal": "Stekloizol R XPP 3.0 features a long 15-meter format that allows saving time and material in large-scale construction and repair works. With its fiberglass-based structure and optimal 3 mm bitumen thickness, it is an advantageous and long-lasting solution for vapor and moisture insulation of large roofs.",
+
+  "stekloizol_tkp_10m_title": "Stekloizol TKP (10m)",
+  "stekloizol_tkp_10m_desc": "Protective surface fiberglass-based top-layer roof covering.",
+  "stekloizol_tkp_10m_modal": "Stekloizol TKP is a reliable top-layer insulation material with a fiberglass framework base, whose surface is covered with a layer of coarse-grained granules (sand). By showing high resistance to negative effects of solar rays and atmospheric precipitation, it extends the lifespan of the roofing and provides maximum protection with an economical budget."
+
+
+
+
+,
+
+  
+  "cat_texnofas": "Stone Wool for Facades (Texnofas)",
+  "cat_texnovent": "For Ventilated Facades (Texnovent)",
+  "cat_izoboks": "Rolled Stone Wool and Mats (IZOBOKS)",
+  
+  "texnofas_1200_600_100mm_title": "Texnofas (1200x600x100 mm)",
+  "texnofas_1200_600_100mm_desc": "Stone wool-based 100 mm thick facade insulation board.",
+  "texnofas_1200_600_100mm_modal": "The Texnofas 1200x600x100 mm stone wool board is specifically designed for external facade insulation using ETICS (plastered facade systems). Alongside high thermal and sound insulation properties, its non-combustibility ensures maximum fire safety in buildings.",
+
+  "texnofas_1200_600_50mm_title": "Texnofas (1200x600x50 mm)",
+  "texnofas_1200_600_50mm_desc": "Standard size and optimal density facade stone wool.",
+  "texnofas_1200_600_50mm_modal": "Texnofas 1200x600x50 mm boards are an ideal choice for the thermal insulation layer of external walls. Thanks to its optimal density, it perfectly supports applied plaster and paint layers, significantly reducing the building's heat loss indicators.",
+
+  "texnofas_1200_600_30mm_title": "Texnofas (1200x600x30 mm)",
+  "texnofas_1200_600_30mm_desc": "Thin profile stone wool for facade insulation.",
+  "texnofas_1200_600_30mm_modal": "The Texnofas 30 mm thick stone wool board provides effective thermal and sound protection without adding weight in confined spaces or special architectural details requiring additional insulation.",
+
+  "texnofas_dekor_1200_600_50mm_title": "Texnofas Dekor (1200x600x50 mm)",
+  "texnofas_dekor_1200_600_50mm_desc": "Stone wool for decorative elements and complex facade sections.",
+  "texnofas_dekor_1200_600_50mm_modal": "Texnofas Dekor 1200x600x50 mm is specially optimized for easy handling and the application of aesthetic details during the insulation of windowsills, cornices, and other architectural elements of facades.",
+
+  "texnofas_ekstra_1200_600_50mm_title": "Texnofas Ekstra (1200x600x50 mm)",
+  "texnofas_ekstra_1200_600_50mm_desc": "High strength and density premium facade stone wool.",
+  "texnofas_ekstra_1200_600_50mm_modal": "Texnofas Ekstra 1200x600x50 mm features enhanced physical and mechanical indicators. Due to its high level of tensile and compressive resistance, it delivers flawless results in heavy-duty facade insulation systems of high-rise buildings.",
+
+  "texnofas_optima_1200_600_50mm_title": "Texnofas Optima (1200x600x50 mm)",
+  "texnofas_optima_1200_600_50mm_desc": "Cost-effective and balanced facade stone wool.",
+  "texnofas_optima_1200_600_50mm_modal": "Texnofas Optima 1200x600x50 mm is a reliable thermal and sound insulation material designed for standard civil construction projects, maintaining a balance between price and quality. It ensures long-lasting performance on facade surfaces.",
+
+  "texnofas_optima_1200_600_80mm_title": "Texnofas Optima (1200x600x80 mm)",
+  "texnofas_optima_1200_600_80mm_desc": "Increased thickness economical facade insulation board.",
+  "texnofas_optima_1200_600_80mm_modal": "Texnofas Optima with its 80 mm thickness is a stone wool solution that meets energy efficiency requirements, creating a budget-friendly and effective thermal barrier. It plays a crucial role in protecting exterior walls from cold air currents.",
+
+  "texnofas_effekt_1200_600_50mm_title": "Texnofas Effekt (1200x600x50 mm)",
+  "texnofas_effekt_1200_600_50mm_desc": "Enhanced performance facade insulation stone wool.",
+  "texnofas_effekt_1200_600_50mm_modal": "Texnofas Effekt 1200x600x50 mm possesses a low thermal conductivity coefficient and enhanced moisture resistance thanks to its special fiber structure. Fully meeting modern construction standards, it extends the lifespan of facades.",
+
+  "texnofas_optima_1200_600_80mm_6806100000_title": "Texnofas Optima (1200x600x80 mm)",
+  "texnofas_optima_1200_600_80mm_6806100000_desc": "Economical facade insulation stone wool with Code 6806100000.",
+  "texnofas_optima_1200_600_80mm_6806100000_modal": "Texnofas Optima 80 mm thickness (Code: 6806100000) is a balanced and affordable stone wool material intended for external facade thermal insulation. It increases energy efficiency by reducing heat loss in buildings.",
+
+  "texnovent_ekstra_1200_600_50mm_title": "Texnovent Ekstra (1200x600x50 mm)",
+  "texnovent_ekstra_1200_600_50mm_desc": "Stone wool for ventilated facades.",
+  "texnovent_ekstra_1200_600_50mm_modal": "Texnovent Ekstra 1200x600x50 mm is specifically developed for suspended and ventilated facade systems. It stands out with its air-flow resistant surface and high density.",
+
+  "texnovent_ekstra_1200_600_100mm_title": "Texnovent Ekstra (1200x600x100 mm)",
+  "texnovent_ekstra_1200_600_100mm_desc": "100 mm thick ventilated facade insulation board.",
+  "texnovent_ekstra_1200_600_100mm_modal": "Texnovent Ekstra 1200x600x100 mm is a heavy-duty, industrial-type stone wool that minimizes building heat loss in ventilated facades and is completely fire-safe.",
+
+  "texnovent_optima_1200_600_50mm_title": "Texnovent Optima (1200x600x50 mm)",
+  "texnovent_optima_1200_600_50mm_desc": "Economical ventilated facade insulation stone wool.",
+  "texnovent_optima_1200_600_50mm_modal": "Texnovent Optima 1200x600x50 mm is a cost-effective and balanced thermal insulation product intended for ventilated facade systems.",
+
+  "texnovent_optima_1200_600_80mm_title": "Texnovent Optima (1200x600x80 mm)",
+  "texnovent_optima_1200_600_80mm_desc": "80 mm thick economical ventilated facade insulation.",
+  "texnovent_optima_1200_600_80mm_modal": "Texnovent Optima 1200x600x80 mm is a reliable stone wool board providing optimal thermal protection and a budget-friendly solution in ventilated facades.",
+
+  "texnovent_optima_1200_600_100mm_title": "Texnovent Optima (1200x600x100 mm)",
+  "texnovent_optima_1200_600_100mm_desc": "High-thickness ventilated facade insulation material.",
+  "texnovent_optima_1200_600_100mm_modal": "Texnovent Optima 1200x600x100 mm is a long-lasting and durable stone wool plate fully meeting thermal insulation requirements in ventilated facade projects.",
+
+  "izoboks_44r_teplozasita_5800_1220_50_title": "IZOBOKS 44 R Teplozashita (5800x1220x50 mm)",
+  "izoboks_44r_teplozasita_5800_1220_50_desc": "Rolled fiberglass-based sound and thermal insulation mat.",
+  "izoboks_44r_teplozasita_5800_1220_50_modal": "IZOBOKS 44 R Teplozashita (5800x1220x50 mm / Fito) is a roll-shaped mineral wool (fiberglass) product specifically designed to provide sound and thermal insulation in lightweight frame structures, ceilings, and horizontal surfaces. It is distinguished by ease of installation and high insulation capacity.",
+
+  "izoboks_44r_teplozasita_6250_1220_50_title": "IZOBOKS 44 R Teplozashita (6250x1220x50 mm)",
+  "izoboks_44r_teplozasita_6250_1220_50_desc": "Extended format rolled sound and thermal insulation.",
+  "izoboks_44r_teplozasita_6250_1220_50_modal": "IZOBOKS 44 R Teplozashita 6250x1220x50 mm rolled insulation mat provides fast and effective thermal-sound protection by creating fewer joint locations over large areas. It has an eco-friendly structure.",
+
+  "texnonikol_44rn_teplaya_daca_title": "Technonicol 44 RN Teplaya Dacha (6250x1220x50 mm)",
+  "texnonikol_44rn_teplaya_daca_desc": "15.25 m² rolled insulation for country houses and lightweight structures.",
+  "texnonikol_44rn_teplaya_daca_modal": "Technonicol 44 RN Teplaya Dacha (6250x1220x50 mm / Fito / 1 roll = 15.25 m²) is specifically intended for country houses, mansards, and lightweight framed structures. It prevents energy loss by creating an ideal thermal barrier on surfaces.",
+
+  "izoboks_44r_teplozasita_mini_title": "IZOBOKS 44 R Teplozashita MINI (6560x610x50 mm)",
+  "izoboks_44r_teplozasita_mini_desc": "MINI format rolled insulation for narrow and complex areas.",
+  "izoboks_44r_teplozasita_mini_modal": "IZOBOKS 44 R Teplozashita MINI (6560x610x50 mm / Fito) is a sound and thermal insulation material designed to be comfortably applied in confined spaces, narrow frame gaps, and special repair works thanks to its compact width dimension.",
+
+  "ralu_banya_i_sauna_title": "40 RAlu Banya i Sauna (12500x1200x50 mm)",
+  "ralu_banya_i_sauna_desc": "Foil-coated 15 m² thermal insulation for baths and saunas.",
+  "ralu_banya_i_sauna_modal": "40 RAlu Banya i Sauna (12500x1200x50 mm / Fito / 1 roll = 15.0 m²) is a special insulation mat coated on one side with aluminum foil. It simultaneously ensures the reflection of heat back and complete protection against moisture in baths, saunas, and high-humidity rooms.",
+
+  "izoboks_extralayt_100mm_title": "IZOBOKS EXTRALIGHT (100 mm)",
+  "izoboks_extralayt_100mm_desc": "3.84 m² area 100 mm thick lightweight insulation board.",
+  "izoboks_extralayt_100mm_modal": "IZOBOKS EXTRALIGHT 100 mm (3.84 m²) is a high-quality mineral wool board intended for frame walls, ceilings, and non-load-bearing horizontal structures. It stands out with excellent sound absorption and heat retention properties."
+
+
+
+
+,
+
+
+  
+  "cat_texnoakustik": "For Acoustics and Walls (Sound and Thermal)",
+  "cat_roklait": "Universal Insulation (Roklait / Rosklite)",
+  "cat_texnoblok_standart": "Technoblock Standard",
+  "cat_texnonikol_carbon_eco": "Technonicol Carbon ECO",
+  "mayebitummastika": "Liquid Bitumen and Mastics",
+  "montajkomekci": "Installation and Auxiliary Materials",
+
+  "texnoakustik_1200_600_50mm_title": "Texnoakustik (1200x600x50 mm)",
+  "texnoakustik_1200_600_50mm_desc": "High sound insulation stone wool board.",
+  "texnoakustik_1200_600_50mm_modal": "Texnoakustik 1200x600x50 mm boards are prepared in a special fiber structure to maximize the sound insulation of internal walls, partitions, and ceilings. It creates a comfortable acoustic environment by preventing external noises in homes and offices.",
+
+  "texnoakustik_1200_600_100mm_title": "Texnoakustik (1200x600x100 mm)",
+  "texnoakustik_1200_600_100mm_desc": "Reinforced sound and thermal insulation 100 mm stone wool.",
+  "texnoakustik_1200_600_100mm_modal": "Texnoakustik 1200x600x100 mm flawlessly ensures sound absorption and insulation in noisy environments thanks to its increased thickness. It also exhibits high performance as an additional thermal insulation layer.",
+
+  "roklait_rosklite_1200_600_50mm_title": "Roklait (Rosklite) (1200x600x50 mm)",
+  "roklait_rosklite_1200_600_50mm_desc": "Universal stone wool for lightweight buildings and attics.",
+  "roklait_rosklite_1200_600_50mm_modal": "Roklait (Rosklite) 1200x600x50 mm is a lightweight, eco-friendly, and efficient thermal-sound insulation material ideal for private houses, attics, frame walls, and non-load-bearing horizontal surfaces.",
+
+  "roklait_rosklite_1200_600_100mm_title": "Roklait (Rosklite) (1200x600x100 mm)",
+  "roklait_rosklite_1200_600_100mm_desc": "100 mm thick lightweight frame insulation stone wool.",
+  "roklait_rosklite_1200_600_100mm_modal": "Roklait (Rosklite) 1200x600x100 mm creates a strong thermal barrier against cold air currents in residential houses and other lightweight construction structures due to its increased thickness.",
+
+  "texnoblok_standart_1200_600_50mm_title": "Texnoblok Standart (1200x600x50 mm)",
+  "texnoblok_standart_1200_600_50mm_desc": "Stone wool for universal frame walls and attics.",
+  "texnoblok_standart_1200_600_50mm_modal": "Texnoblok Standart 1200x600x50 mm is a universal and reliable insulation material used for thermal and sound insulation purposes in frame structures, mansards, and triple-sided wall systems.",
+
+  "texnoblok_standart_1200_600_100mm_title": "Texnoblok Standart (1200x600x100 mm)",
+  "texnoblok_standart_1200_600_100mm_desc": "Thickened universal frame and wall insulation.",
+  "texnoblok_standart_1200_600_100mm_modal": "Texnoblok Standart 1200x600x100 mm boards provide maximum protection in construction areas requiring high thermal resistance, including attic and interior wall insulation.",
+
+  "texnonikol_carbon_eco_1200_600_20l_title": "Technonicol Carbon ECO (1200x600x20 mm, L)",
+  "texnonikol_carbon_eco_1200_600_20l_desc": "Extruded polystyrene (XPS) thermal insulation with Code 3921110000.",
+  "texnonikol_carbon_eco_1200_600_20l_modal": "Technonicol Carbon ECO 1200x600x20 mm (L-edge / Code: 3921110000) is an extruded polystyrene (XPS) board with high strength and minimal water absorption capacity. It is applied to prevent heat loss in flooring, balconies, and various surface insulations where a thin profile is required.",
+
+  "texnonikol_carbon_eco_1180_580_30l_title": "Technonicol Carbon ECO (1180x580x30 mm, L)",
+  "texnonikol_carbon_eco_1180_580_30l_desc": "30 mm thick XPS thermal insulation board with L-edge.",
+  "texnonikol_carbon_eco_1180_580_30l_modal": "Technonicol Carbon ECO 1180x580x30 mm completely eliminates the formation of thermal bridges from joints during installation thanks to its edge lock (L) connection. It demonstrates high effectiveness especially in floor, foundation, and sub-facade insulations.",
+
+  "texnonikol_carbon_eco_1180_580_40l_title": "Technonicol Carbon ECO (1180x580x40 mm, L)",
+  "texnonikol_carbon_eco_1180_580_40l_desc": "40 mm thick locked extruded polystyrene insulation.",
+  "texnonikol_carbon_eco_1180_580_40l_modal": "Technonicol Carbon ECO 1180x580x40 mm boards feature increased compressive strength and excellent thermal insulation parameters. The side L-lock profile increases installation speed and creates a reliable barrier against moisture by preserving surface integrity.",
+
+  "texnonikol_carbon_eco_1180_580_50l_title": "Technonicol Carbon ECO (1180x580x50 mm, L)",
+  "texnonikol_carbon_eco_1180_580_50l_desc": "Universal and most demanded 50 mm XPS insulation board.",
+  "texnonikol_carbon_eco_1180_580_50l_modal": "Technonicol Carbon ECO 1180x580x50 mm is an optimally thick XPS material widely used in construction. It stands out with exceptional resistance to heavy mechanical loads and frost, preserving buildings' thermal efficiency for many years.",
+
+  "texnonikol_carbon_eco_1180_580_80l_title": "Technonicol Carbon ECO (1180x580x80 mm, L)",
+  "texnonikol_carbon_eco_1180_580_80l_desc": "High thermal resistance 80 mm thick XPS board.",
+  "texnonikol_carbon_eco_1180_580_80l_modal": "Technonicol Carbon ECO 1180x580x80 mm provides maximum energy saving in harsh climatic conditions and underground structures, foundations, and flat roofs requiring strong thermal insulation due to its increased thickness.",
+
+  "texnonikol_carbon_eco_1180_580_100l_title": "Technonicol Carbon ECO (1180x580x100 mm, L)",
+  "texnonikol_carbon_eco_1180_580_100l_desc": "Maximum insulation capacity 100 mm thick XPS layer.",
+  "texnonikol_carbon_eco_1180_580_100l_modal": "Technonicol Carbon ECO 1180x580x100 mm (with L-lock) is designed for the heaviest operating conditions and high energy efficiency standards. With its non-compressible structure and unique thermal impermeability, it is indispensable in civil and industrial construction.",
+
+  "praymer_bitumniy_aquamast_18l_title": "Bituminous Primer AquaMast (18 Liters)",
+  "praymer_bitumniy_aquamast_18l_desc": "Bituminous primer for priming surfaces prior to insulation.",
+  "praymer_bitumniy_aquamast_18l_modal": "AquaMast bituminous primer (18 l / Code: 2715000000) consists of a solution of high-quality petroleum bitumens in organic solvents. It is applied to the surface to maximize the adhesion capacity of concrete surfaces, cement-sand screeds, and roofing materials with insulation materials, dries quickly, and prevents dust formation.",
+
+  "mastika_bitumniya_aquamast_3kg_title": "Bituminous Mastic AquaMast (3 kg)",
+  "mastika_bitumniya_aquamast_3kg_desc": "Universal bitumen-based sealing and bonding mastic.",
+  "mastika_bitumniya_aquamast_3kg_modal": "AquaMast bituminous mastic (3 kg / Code: 2715000000) is intended for roof repair, filling small cracks, and waterproofing various building elements. It has excellent adhesion strength, maintains its flexibility, and creates a reliable barrier against moisture.",
+
+  "praymer_ekonom_21.5l_title": "Primer Econom (21.5 Liters)",
+  "praymer_ekonom_21.5l_desc": "Cost-effective bitumen primer for large-scale constructions.",
+  "praymer_ekonom_21.5l_modal": "Econom class bituminous primer (21.5 l) is an ideal solution for optimizing costs during the pre-waterproofing preparation process of large-area surfaces. By deeply penetrating concrete and other porous surfaces, it ensures that subsequent insulation layers bind firmly with the bottom base.",
+
+  "samarskiy_praymer_bitumniy_15kg_title": "Samara Bituminous Primer (15 kg)",
+  "samarskiy_praymer_bitumniy_15kg_desc": "Professional grade standard bituminous surface primer.",
+  "samarskiy_praymer_bitumniy_15kg_modal": "Samarskiy bituminous primer (15 kg / Code: 2715000000) is a reliable primer material distinguished by its proven quality in industrial and civil construction. Used in surface preparation, it increases adhesion quality and gives a strong boost to the overall durability of roof and foundation insulation systems.",
+
+  "mastika_mbk_q_30kg_title": "Mastic MBK-G Kraft Bag (30 kg)",
+  "mastika_mbk_q_30kg_desc": "Construction-type hot-applied bitumen mastic in a kraft bag.",
+  "mastika_mbk_q_30kg_modal": "MBK-G type bitumen mastic (30 kg kraft bag / Code: 2715000000) is a traditional and strong material applied primarily by heating, used for heavy-duty waterproofing and roofing work. It forms a monolithic protective layer resistant to harsh weather conditions and mechanical impacts.",
+
+  "yanmaz_menbran_isomax_title": "Fireproof Membrane ISOMAX (m²)",
+  "yanmaz_menbran_isomax_desc": "Industrial-type membrane with high fire resistance.",
+  "yanmaz_menbran_isomax_modal": "ISOMAX fireproof membrane (m² / Code: 7019590000) is a modern insulation product produced with special technology, resistant to flame and high temperature. In addition to increasing fire safety in buildings, it acts as an effective barrier against airflow and moisture.",
+
+  "suse_setka_psv_160gr_title": "Fiberglass Mesh PSV (160 gr)",
+  "suse_setka_psv_160gr_desc": "Reinforcing fiberglass mesh for facade and insulation systems.",
+  "suse_setka_psv_160gr_modal": "PSV brand 160-gram fiberglass mesh (m² / Code: 7019590000) is a reinforcing element applied in exterior facade insulation systems (ETICS) and plastering works to prevent the formation of cracks. It is resistant to alkaline environments and significantly increases the mechanical strength of the surface.",
+
+  "metal_dubel_izm_10x160_title": "Metal Dowel IZM (10x160)",
+  "metal_dubel_izm_10x160_desc": "Metal-cored wall dowel for facade insulation systems.",
+  "metal_dubel_izm_10x160_modal": "10x160 size metal dowel (IZM / Code: 7317001000) is used to mechanically and securely fasten insulation boards (stone wool, expanded polystyrene, etc.) to various wall surfaces (concrete, brick). Thanks to its metal nail tip, it ensures maximum durability against heavy loads and stable fastening.",
+
+  "products": "Products",
+  "blog1": "Blog",
+  "navmuhen": "Engineering Services",
+  "servic01": "Service",
+  "servic01_aciqlama": "Technical Service and Maintenance Services",
+
+  "whatsapp_message": "Hello, I am interested in the product \"{{product}}\" and would like to get more detailed information.",
+
+  "order_now": "Order Now",
+  "all": "All"
+,
+  "about": {
+    "badge": "ABOUT US",
+    "mainTitle": "Protecting the Future of Buildings with Reliable Insulation",
+    "leadText": "We offer high-quality insulation products that protect your living and working spaces from moisture, noise, and energy loss.",
+    "simulatorTitle": "Protection Independent of Climatic Conditions",
+    "simulatorDesc": "We extend the lifespan of structures with our advanced insulation materials that protect your buildings from harsh external influences. Our technology has the power to create an ideal environment in every season. Whether it is the harsh frost of winter or the scorching heat of summer, our materials provide the thermal balance and comfort you desire. For us, quality is not just about protection; it is also about the safety and energy efficiency of your building. The products we provide allow you to save on costs by preventing heat loss.",
+    "whyUsTitle": "Why Us?",
+    "whyUsDesc": "We ensure continuous comfort with reliable materials and a professional approach."
+  },
+  "ABOUT_STATS_EXPERIENCE": "Quality Guarantee",
+  "ABOUT_STATS_PATENTS": "Successful Project",
+  "ABOUT_STATS_ECO": "Energy Efficiency",
+  "ABOUT_STATS_GLOBAL": "Reliable Supply",
+  "ABOUT_FEAT_SMART": "Maximum Protection",
+  "ABOUT_FEAT_FILTER": "Waterproofing",
+  "ABOUT_FEAT_REMOTE": "Sustainable Durability",
+  "ABOUT_FEAT_ENERGY": "End of Heat Loss",
+
+  "preloader.status": "System starting up...",
+
+  "contact.mainTitle": "CONTACT",
+  "bizimleelaqe": "CONTACT US",
+  "contact.subtitle": "Get in touch with us, we are ready to answer all your questions.",
+  "contact.callTitle": "CALL US",
+  "contact.whatsappTitle": "WHATSAPP",
+  "contact.emailTitle": "E-MAIL",
+
+  "partners": {
+    "badge": "TRUSTED PARTNERS",
+    "title": "Our Partners",
+    "subtitle": "Trusted brands and partners to whom we supply our quality products"
+  },
+
+  "references": {
+    "badge": "OUR PARTNERS",
+    "mainTitle": "REFERENCES",
+    "subtitle": "Companies that trust us"
+  },
+
+  "L_references": {
+    "badge": "PROJECTS",
+    "mainTitle": "WORKS AND PROJECTS DONE",
+    "subtitle": "Our successful projects equipped with our insulation materials"
+  },
+
+  "blog": {
+    "badge": "MODERN PRACTICE",
+    "mainTitle": "BLOG AND NEWS",
+    "subtitle": "Insulation technologies, material selection, and useful tips",
+    "triggerText": "Insulation products",
+    "item1": {
+      "title": "THERMAL INSULATION",
+      "desc": "Effective insulation methods to prevent energy loss in homes."
+    },
+    "item2": {
+      "title": "MATERIAL SELECTION",
+      "desc": "Proper selection and application of materials for water and sound insulation."
+    },
+    "item3": {
+      "title": "PROTECTION FROM MOISTURE",
+      "desc": "Advanced solutions preventing dampness in walls and foundations."
+    }
+  },
+
+  "Homemehsullaraciqlama": "High-quality insulation materials ensuring maximum energy efficiency and reliable protection in your buildings.",
+
+  "footer_products_title": "Products",
+  "footer_services_title": "Services",
+  "footer_contact_title": "Contact Center",
+  "footer_copyright": "All rights reserved.",
+
+  "SOCHİ_MMC": "SOCHI LLC - Professional Insulation Systems",
+
+  "homesec01_subtitle": "Add Longevity to Your Structures with Quality Insulation",
+  "homesec01_description": "We reliably protect your structures against moisture, water, and harsh weather conditions with our waterproofing, thermal, and sound insulation products meeting modern standards. We are always at your service with Bikrost, Unifleks, and other quality materials.",
+
+  "homesec012_subtitle": "Reliable Materials and Secure Supply",
+  "homesec012_description": "We guarantee the strength of all your projects with our wide product portfolio ranging from top layers to base layers. We make your work easier with our materials meeting high quality standards."
+
+
+
+,
+  "services01_aciqlama": "Professional installation of Bikrost, Unifleks, Technoelast, and stone wool materials for your construction and industrial projects, as well as reliable partnership services.",
+  "cat_dam_hidro": "Roofing and Waterproofing Installation",
+  "cat_fasad_istilik": "Facade and Thermal Insulation Assembly",
+  "cat_partnyor_destek": "Partnership and Engineering",
+
+  "title_rulon_dam_qur": "Roofing with Rolled Materials",
+  "desc_rulon_dam_qur": "Professional installation of horizontal and complex roofs using Bikrost, Linokrom, Unifleks, and Technoelast materials.",
+
+  "title_fundament_izolyasiya": "Foundation and Basement Waterproofing",
+  "desc_fundament_izolyasiya": "Multi-layer insulation installation service to protect the foundation parts of buildings from water.",
+
+  "title_maye_bitum_tetbiq": "Liquid Bitumen and Mastic Application",
+  "desc_maye_bitum_tetbiq": "Professional application of liquid bitumen and auxiliary materials to prepare surfaces for insulation.",
+
+  "title_das_yunu_montaj": "Thermal Insulation with Stone Wool",
+  "desc_das_yunu_montaj": "Assembly of Technofas, Technovent, Izobox, and Roklait products onto facades and interior walls.",
+
+  "title_vent_fasad_qur": "Ventilated Facade Systems",
+  "desc_vent_fasad_qur": "Installation of special insulation and stone wool layers for suspended facades in accordance with engineering requirements.",
+
+  "title_ekstrusiya_doseme": "Carbon ECO Floor Insulation",
+  "desc_ekstrusiya_doseme": "Laying high-load-resistant extruded polystyrene boards on foundations and floors.",
+
+  "title_birge_tikinti_partnyor": "Partnership with Construction Companies",
+  "desc_birge_tikinti_partnyor": "Implementation of installation and assembly partnerships in large projects with our specialized teams.",
+
+  "title_texniki_nezaret_audit": "Quality Control and Audit",
+  "desc_texniki_nezaret_audit": "Technical control at every stage of the installation process and guaranteed handover service.",
+
+  "muhendisbasliq": "Technical Consultation and Design",
+  "muhendislik_aciqlama": "Selection and design of insulation and construction materials with engineering support.",
+
+  "cat_material_secimi": "Material Selection and Consultation",
+  "cat_serfiyyat_hesab": "Consumption and Budget Calculation",
+  "cat_layihe_qiymet": "Project and Evaluation",
+
+  "title_dogru_material": "Correct Material Selection",
+  "desc_dogru_material": "Proper determination of Bikrost, Unifleks, Technoelast, or stone wool products depending on the type of facility.",
+
+  "title_texniki_meslehet": "Engineering Consultation",
+  "desc_texniki_meslehet": "Expert advice on the application and technical characteristics of insulation layers.",
+
+  "title_metraj_hesab": "Measurement and Consumption Calculation",
+  "desc_metraj_hesab": "Accurate calculation of material quantities according to roof, foundation, and facade areas.",
+
+  "title_budce_optimizasiya": "Budget Optimization",
+  "desc_budce_optimizasiya": "Establishing a budget for the most cost-effective insulation and installation materials without compromising quality.",
+
+  "title_ilkin_qiymet": "Initial Technical Evaluation",
+  "desc_ilkin_qiymet": "Initial assessment of the project by our partners and engineers.",
+
+  "title_standart_uygunluq": "Norm and Standard Compliance",
+  "desc_standart_uygunluq": "Project support fully compliant with construction norms and technical requirements.",
+
+  "title_sertifikat_analiz": "Material Compliance and Certificate Analysis",
+  "desc_sertifikat_analiz": "Verification of quality and standard certificates of supplied Bikrost, Unifleks, and stone wool products.",
+
+  "title_material_smeta": "Preparation of Detailed Material Estimate",
+  "desc_material_smeta": "Estimate calculation of all main and auxiliary materials required for the installation works of the facility.",
+
+  "title_obyekt_qiymetlendirme": "Initial Inspection and Evaluation of the Facility",
+  "desc_obyekt_qiymetlendirme": "Inspection of the construction site by our specialists and evaluation of the technical condition.",
+
+  "sertifikatlar": "Certificates",
+  "sertifikatlar_aciqlama": "Official certificates, partnership documents, and awards earned by our company.",
+  "PORTFEL": "PORTFOLIO",
+  "bizim_sertifikatlar": "Our Certificates and Awards",
+
+  "cert_1_title": "Official Partnership Certificate from TECHONICOL Company",
+  "cert_1_desc": "Official authority and partnership document presented to SOCHI LLC.",
+  "cert_1_modal": "As SOCHI LLC, we exclusively provide products of high-quality brands. This official certificate confirms our company's professional activity, reliability, and flawless partnership status.",
+
+  "cert_2_title": "Award Won by SOCHI LLC",
+  "cert_2_desc": "Award presented to SOCHI LLC for high performance and efficient activities.",
+  "cert_2_modal": "A special recognition presented to SOCHI LLC for high achievements in our field of activity, professional service level, and the great trust earned.",
+
+  "cert_3_title": "Award Won by SOCHI LLC",
+  "cert_3_desc": "Award bestowed upon SOCHI LLC for significant achievements in the sector.",
+  "cert_3_modal": "Another valuable award presented to SOCHI LLC as a result of market success, high standards of quality maintenance, and deep trust among partners.",
+
+  "cert_4_title": "BAKUBUILD Event Certificate",
+  "cert_4_desc": "Active participation and presentation document of SOCHI LLC at the BakuBuild exhibition.",
+  "cert_4_modal": "An official confirmation document awarded to SOCHI LLC for the presentation of innovative approaches and successful participation in the prestigious international construction exhibition.",
+
+  "cert_5_title": "BAKUBUILD Event Certificate",
+  "cert_5_desc": "Special participation document presented to SOCHI LLC within the framework of the exhibition.",
+  "cert_5_modal": "Official certificate presented for the high professionalism demonstrated by our company at the BakuBuild event, valuable connections established, and important contributions to overall success.",
+
+  "cert_6_title": "TECHNONICOL Official Trade Partnership Certificate",
+  "cert_6_desc": "Official document issued by TECHNONICOL Corporation certifying SOCHI LLC as an authorized trade partner.",
+  "cert_6_modal": "This certificate confirms that SOCHI LLC is an official trade partner of TECHNONICOL Corporation. Our company provides official sales and distribution of roofing, waterproofing, thermal insulation, sound insulation, and facade materials in full compliance with high quality standards."
+
+
+,
+
+  "titleSEO01": "SOCHI LLC | Sale of Insulation Materials in Baku",
+  "SOCHİ_MMC_basliqsoz1": "Sochi LLC - Sale of high-quality water, thermal, and sound insulation materials.",
+  "sec03SEO01": "SOCHI LLC | Sale of Insulation Materials in Baku",
+  "sec03SEO02": "Sochi LLC - Sale of high-quality water, thermal, and sound insulation materials. Discover our wide range of products.",
+  "sec03SEO03": "insulation materials, waterproofing, thermal insulation, sound insulation, Sochi LLC, insulation sales in Baku",
+
+  "101_badge_title": "PROFESSIONAL INSULATION SERVICES",
+  "101_btn_contact": "CONTACT US",
+  "101_section_arialabel": "Sochi LLC Professional Insulation Services",
+  "101_seo_keywords": "insulation services, waterproofing installation, thermal insulation, sound insulation, Sochi LLC",
+  "101_seo_desc": "As Sochi LLC, we provide professional water, thermal, and sound insulation services. Contact us for quality and guaranteed service.",
+
+  "101_seo_title": "SOCHI LLC | Sale of Insulation Materials in Baku",
+  "101_seo_description": "Sochi LLC - Sale of high-quality water, thermal, and sound insulation materials. Discover our wide range of products.",
+  "101_seo_keywords1": "insulation materials, waterproofing, thermal insulation, sound insulation, Sochi LLC, insulation sales in Baku",
+  "101_slider_arialabel": "Sochi LLC - Insulation Materials and Systems Slider",
+  "101_badge_name": "SOCHI LLC",
+  "101_btn_products": "VIEW PRODUCTS",
+  "101_aria_moreread": "View more",
+  "101_aria_prev": "Previous insulation product slide",
+  "101_aria_next": "Next insulation product slide",
+
+  "102_seo_title": "About Us | SOCHI LLC - Professional Insulation Systems",
+  "102_seo_description": "As Sochi LLC, with years of experience, we provide the highest quality water, thermal, and sound insulation materials for industrial and civil buildings.",
+  "102_seo_keywords": "Sochi LLC about us, insulation company Baku, waterproofing supplier, construction materials LLC",
+  "102_section_arialabel": "Sochi LLC About Us and Company Information",
+  "102_btn_more": "Learn More",
+  "102_aria_moreread": "Get more detailed information about Sochi LLC"
+,
+
+
+  "103_seo_title": "SOCHI LLC | Insulation Systems and Technologies",
+  "103_seo_description": "Sochi LLC is at your service with modern insulation systems, high-quality materials, and professional application solutions.",
+  "103_seo_keywords": "insulation technologies, waterproofing, heating systems, Sochi LLC products",
+  "103_section1_arialabel": "Sochi LLC Insulation Technologies Section 1",
+  "103_section2_arialabel": "Sochi LLC Insulation Technologies Section 2",
+  "103_img_alt_1": "Sochi LLC insulation systems and visual presentation 1",
+  "103_img_alt_2": "Sochi LLC insulation systems and visual presentation 2",
+
+  "104_seo_title": "Water, Thermal and Sound Insulation Products | SOCHI LLC",
+  "104_seo_description": "Sales of Waterproofing, XPS boards, Technonicol Carbon ECO, IZOBOX stone wools, Technofas, Bikrost, Unifleks, and Liquid Bitumen products at Sochi LLC.",
+  "104_seo_keywords": "Waterproofing, Thermal and Sound Insulation, XPS boards, Technonicol Carbon ECO, IZOBOX, Technofas, Bikrost Unifleks Technoelast, Liquid Bitumen and Mastics, Sochi LLC",
+  "104_section_arialabel": "Sochi LLC Products and Insulation Systems Slider",
+  "104_system_architecture": "INSULATION SYSTEMS AND PRODUCTS",
+  "104_aria_product_link": "View product",
+
+  "105_seo_title": "Contact Us | SOCHI LLC - Insulation Services",
+  "105_seo_description": "Get in touch with Sochi LLC. Receive professional engineering support and advice for your thermal, water, and sound insulation projects.",
+  "105_seo_keywords": "Sochi LLC contact, insulation center Baku, phone, address, email, construction support",
+  "105_section_arialabel": "Sochi LLC Contact and Notice Section",
+  "105_contact_badge": "NOTICE & CONTACT",
+  "105_contact_mainTitle": "Contact Us",
+  "105_contact_subtitle": "Get professional support for your thermal, water, and sound insulation projects.",
+  "105_aria_contact_card": "Contact medium",
+
+  "106_seo_title": "SOCHI LLC — TECHNONICOL Distributor and Insulation Systems",
+  "106_seo_description": "As Sochi LLC, we are at your service with reliable supply of quality insulation materials, professional engineering support, and favorable terms.",
+  "106_seo_keywords": "why us, Sochi LLC advantages, reliable insulation supplier, quality construction materials Baku",
+  "106_section_arialabel": "Sochi LLC Why Us and Our Advantages",
+  "106_whyUs_badge": "WHY US?",
+  "106_whyUs_mainTitle": "WHY CHOOSE US?",
+  "106_whyUs_subtitle": "Reliable supply of high-quality insulation materials.",
+  "106_aria_advantage": "Advantage",
+
+  "107_seo_title": "Our Partners | SOCHI LLC - Cooperation Network",
+  "107_seo_description": "Reliable partners of Sochi LLC: Techno Trade MMC, Sea Breeze Construction, Metalsan Group, Pro Con İzo, and other leading construction companies.",
+  "107_seo_keywords": "Sochi LLC partners, Techno Trade MMC, Sea Breeze Construction, Metalsan Group, Pro Con İzo, cooperation, insulation companies Baku",
+  "107_section_arialabel": "Sochi LLC Partners and Cooperation Network",
+  "107_partners_badge": "PARTNERS",
+  "107_partners_title": "OUR PARTNERS",
+  "107_partners_subtitle": "Our reliable and secure cooperation network.",
+  "107_aria_partner": "Partner company",
+
+  "108_section_arialabel": "Sochi LLC About Us and Our Product Ranges",
+  "108_seo_title": "About Us | Water, Thermal and Sound Insulation | SOCHI LLC",
+  "108_seo_description": "Information about Sochi LLC. Waterproofing, XPS boards, Technonicol Carbon ECO, IZOBOX stone wools, Technofas, Bikrost, Unifleks, and Liquid Bitumen products.",
+  "108_seo_keywords": "about Sochi LLC, Waterproofing, Thermal and Sound Insulation, XPS boards, Technonicol Carbon ECO, IZOBOX stone wools, Technofas, Bikrost, Unifleks, Liquid Bitumen and Mastics, insulation Baku",
+
+  "109_section_arialabel": "Sochi LLC Contact and Inquiry Page",
+  "109_seo_title": "Contact | Water, Thermal and Sound Insulation | SOCHI LLC",
+  "109_seo_description": "Sochi LLC contact information. Contact us for Waterproofing, XPS boards, Technonicol Carbon ECO, IZOBOX, and other products.",
+  "109_seo_keywords": "Sochi LLC contact, phone, address, email, Waterproofing, Thermal and Sound Insulation, XPS boards, Technonicol Carbon ECO, IZOBOX, Bikrost, Liquid Bitumen",
+
+  "110_section_arialabel": "Sochi LLC Certificates and Partnership Documents",
+  "110_seo_title": "Certificates and Partnership | SOCHI LLC",
+  "110_seo_description": "Sochi LLC's TECHNONICOL official partnership certificates, BakuBuild exhibition participation documents, and awarded prizes.",
+  "110_seo_keywords": "Sochi LLC certificates, TECHNONICOL official partner, BakuBuild exhibition, insulation awards, partnership documents Baku",
+  "110_portfel": "PORTFOLIO",
+  "110_sertifikatlar_title": "Certificates",
+  "110_sertifikatlar_aciqlama": "Our official partnership certificates and success documents.",
+  "110_bizim_sertifikatlar": "Our Certificates",
+  "110_aria_view_cert": "View certificate",
+
+  "111_section_arialabel": "Sochi LLC Professional Insulation and Construction Services",
+  "111_seo_title": "Insulation and Construction Services | SOCHI LLC",
+  "111_seo_description": "Professional services provided by Sochi LLC: Roofing with Rolled Materials (Bikrost, Linokrom, Unifleks), Foundation and Basement Waterproofing, Thermal Insulation with Stone Wool.",
+  "111_seo_keywords": "Sochi LLC services, Rolled Roofing, Bikrost, Linokrom, Unifleks, Foundation Waterproofing, Stone Wool Thermal Insulation, Technofas, Baku",
+  "111_badge": "What We Do",
+  "111_filter_toolbar": "Service categories filter",
+  "111_aria_view_service": "View service",
+
+  "112_section_arialabel": "Sochi LLC Engineering and Consulting Services",
+  "112_seo_title": "Engineering and Consulting Services | SOCHI LLC",
+  "112_seo_description": "Engineering services provided by Sochi LLC: Correct Material Selection (Bikrost, Unifleks, Technoelast), Budget Optimization, and Measurement Calculations.",
+  "112_seo_keywords": "Sochi LLC engineering, Material selection, Budget optimization, Measurement calculation, Insulation consulting, Baku",
+
+  "113_section_arialabel": "Sochi LLC Thermal and Sound Insulation Products Catalog",
+  "113_seo_title": "Thermal and Sound Insulation Materials | IZOBOX, Technofas, Technovent, Roklait | SOCHI LLC",
+  "113_seo_description": "Professional material types that reduce energy consumption and provide sound insulation: IZOBOX rolled stone wools, Technofas for facades, Technovent for ventilated facades, and universal Roklait stone wools.",
+  "113_seo_keywords": "Thermal insulation, Sound insulation, Stone wool, IZOBOX, Technofas, Technovent, Roklait, Rosklite, Rolled stone wool, Facade insulation, Acoustic insulation, Sochi LLC Baku",
+  "113_mehsullar_badge": "THERMAL AND SOUND INSULATION",
+
+  "114_seo_title": "Solid Insulation XPS and Technonicol Carbon ECO | SOCHI LLC",
+  "114_seo_description": "XPS boards and Technonicol Carbon ECO products providing high thermal insulation, mechanical strength, and moisture resistance. Ideal choices for foundation, roof, and facade insulation.",
+  "114_seo_keywords": "Solid insulation, XPS boards, Technonicol Carbon ECO, Extruded polystyrene, Foundation insulation, Roof insulation, Sochi LLC Baku",
+  "114_mehsullar_badge": "SOLID INSULATION XPS",
+
+  "115_seo_title": "Liquid Insulation, Bitumen, and Mastics | AquaMast, MBK-G | SOCHI LLC",
+  "115_seo_description": "Liquid insulation products providing excellent protection on hard-to-apply surfaces, AquaMast bitumen mastics (3 kg), and MBK-G craft-bag (30 kg) waterproofing materials.",
+  "115_seo_keywords": "Liquid insulation, Liquid bitumen, Mastic, AquaMast, MBK-G, Waterproofing, Roof repair, Water insulation, Sochi LLC Baku",
+  "115_mehsullar_badge": "LIQUID INSULATION AND ACCESSORIES",
+
+  "116_seo_title": "Waterproofing Materials | Stekloizol, Bikrost, Technoelast | SOCHI LLC",
+  "116_seo_description": "Stekloizol XPP, Bikrost TKP, Linokrom EPP, Unifleks EPP, and Technoelast TKP waterproofing systems protecting building foundations and walls from moisture and preventing water leaks.",
+  "116_seo_keywords": "Waterproofing, Water insulation, Stekloizol XPP, Bikrost TKP, Linokrom EPP, Unifleks EPP, Technoelast TKP, Roofing, Foundation insulation, Sochi LLC Baku",
+  "116_mehsullar_badge": "WATERPROOFING SYSTEMS",
+
+  "117_brand_aria": "SOCHI LLC - Official TECHNONICOL Products Sales",
+  "117_phone_aria": "Call us: (+994) 55 977 01 01",
+  "117_lang_toolbar": "Language selection panel",
+  "117_tn_aria": "Link to official TECHNONICOL website",
+  "117_nav_aria": "Main Navigation Menu",
+  "117_menu_toggle": "Open/close menu",
+  "117_home_aria": "Home page - TECHNONICOL products",
+  "117_about_aria": "About us - SOCHI LLC",
+  "117_products_aria": "TECHNONICOL product catalog",
+  "117_services_aria": "Insulation services",
+  "117_contact_aria": "Contact information",
+  "117_cert_aria": "TECHNONICOL quality certificates",
+  "117_social_aria": "Our social media pages",
+
+  "118_index_title": "SOCHI LLC | Official TECHNONICOL Insulation Materials Sales in Baku",
+  "118_index_description": "SOCHI LLC — Wholesale and retail sales of official TECHNONICOL brand high-quality waterproofing, thermal insulation, sound insulation, solid XPS boards, bitumen, and mastic products in Azerbaijan.",
+  "118_index_keywords": "SOCHI LLC, TECHNONICOL, Technonicol Baku, waterproofing, thermal insulation, sound insulation, solid insulation, XPS boards, liquid insulation, bitumen, mastic, roofing, waterproofing materials, Baku",
+
+  "119_app_init": "SOCHI LLC - TECHNONICOL insulation systems application successfully started",
+
+  "120_app_title": "SOCHI LLC | Official TECHNONICOL Insulation Systems and Materials",
+  "120_app_description": "SOCHI LLC — Wholesale and retail sales of official TECHNONICOL brand waterproofing, thermal and sound insulation, solid XPS boards, liquid bitumen, and mastic products in Baku.",
+  "120_app_keywords": "SOCHI LLC, TECHNONICOL, Technonicol Baku, waterproofing, thermal insulation, sound insulation, solid insulation, XPS boards, liquid bitumen, mastic, roofing, waterproofing",
+
+  "121_footer_aria": "SOCHI LLC Official Insulation Systems Footer",
+  "121_logo_aria": "SOCHI LLC Home page - TECHNONICOL",
+  "121_social_aria": "Our social media accounts",
+  "121_products_nav": "Insulation products menu",
+  "121_services_nav": "Insulation services menu"  
+,
+  "home_seo_title": "SOCHI LLC | Official TECHNONICOL Insulation Materials in Baku",
+"home_seo_desc": "SOCHI LLC — Wholesale of waterproofing, thermal insulation, sound insulation, XPS boards, and mastic products of the official TECHNONICOL brand in Azerbaijan."
+ ,
+"footertexnonikol": "SOCHI LLC is the reliable supplier of waterproofing, thermal and sound insulation, solid XPS boards, liquid bitumen, and mastic products of the official TECHNONICOL brand in Azerbaijan."
+
+}   
+  

@@ -1,0 +1,340 @@
+.hisselerdebasliqad {
+
+  height: 20vh;
+
+  width: 100%;
+
+  background:transparent;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+
+/* Maraqlı, animasiyalı, parıltılı yazı */
+
+.hisselerdebasliqadh2 {
+
+  font-size: 3.5rem;
+
+  font-weight: 800;
+
+  font-family: "Montserrat", sans-serif;
+
+  background: linear-gradient(90deg, #ffffff, #ffe0f7, #ffffff);
+
+  background-size: 200% auto;
+
+  background-clip: text;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  animation: shimmerText 3s ease-in-out infinite;
+
+  letter-spacing: 2px;
+
+  text-align: center;
+
+}
+
+
+/* Parıltı animasiyası */
+
+@keyframes shimmerText {
+
+  0% {
+
+    background-position: -100% 0;
+
+  }
+
+  100% {
+
+    background-position: 200% 0;
+
+  }
+
+}
+
+.filter-buttons-container {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  margin: 30px auto;
+
+  padding: 20px;
+
+}
+
+
+.filter-button {
+
+  background: rgba(255, 255, 255, 0.1);
+
+  border: 2px solid #ffffff55;
+
+  color: #fff;
+
+  padding: 10px 20px;
+
+  border-radius: 30px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  backdrop-filter: blur(5px);
+
+  font-weight: 500;
+
+  white-space: nowrap;
+
+}
+
+
+.filter-button:hover {
+
+  background: #ffffff33;
+
+  border-color: #fff;
+
+  transform: scale(1.05);
+
+}
+
+
+.filter-button.active {
+
+  background: #fff;
+
+  color: #720fe3;
+
+  font-weight: 600;
+
+  border-color: #fff;
+
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+
+}
+
+
+/* ✅ Responsivlik üçün media query-lər */
+
+@media (max-width: 768px) {
+
+  .filter-buttons-container {
+
+    gap: 10px;
+
+    padding: 15px;
+
+  }
+
+
+  .filter-button {
+
+    padding: 8px 16px;
+
+    font-size: 15px;
+
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .filter-buttons-container {
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 10px;
+
+  }
+
+
+  .filter-button {
+
+    width: 100%;
+
+    max-width: 280px;
+
+    text-align: center;
+
+  }
+
+}
+
+/* ................................................. */
+
+.services-header {
+
+  text-align: center;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin: 0 auto;
+
+  max-width: 800px;
+
+  padding: 20px;
+
+  animation: fadeInUp 1s ease-in-out;
+
+}
+
+
+.service-icon-large {
+
+  width: 90px;
+
+  height: 90px;
+
+  background-color: rgba(255, 255, 255, 0.2);
+
+  border-radius: 50%;
+
+  margin-bottom: 20px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  animation: fadeInUp 1s ease-in-out;
+
+  font-size: 40px;
+
+  color: #fff;
+
+}
+
+
+.services-header h2 {
+
+  font-size: 32px;
+
+  color: #fff;
+
+  margin-bottom: 10px;
+
+}
+
+
+.services-header p {
+
+  font-size: 18px;
+
+  color: #eee;
+
+  margin-bottom: 15px;
+
+  text-align: center;
+
+}
+
+
+.services-header .underline {
+
+  width: 80px;
+
+  height: 4px;
+
+  background: linear-gradient(45deg, #ff0099, #720fe3, #ff0099);
+
+  background-size: 200% 200%;
+
+  animation: gradientMove 3s ease infinite, slideIn 1s ease-in-out;
+
+  border-radius: 2px;
+
+}
+
+
+@keyframes gradientMove {
+
+  0% {
+
+    background-position: 0% 50%;
+
+  }
+
+  50% {
+
+    background-position: 100% 50%;
+
+  }
+
+  100% {
+
+    background-position: 0% 50%;
+
+  }
+
+}
+
+
+@keyframes fadeInUp {
+
+  0% {
+
+    opacity: 0;
+
+    transform: translateY(30px);
+
+  }
+
+  100% {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+  }
+
+}
+
+
+@keyframes slideIn {
+
+  0% {
+
+    width: 0;
+
+    opacity: 0;
+
+  }
+
+  100% {
+
+    width: 80px;
+
+    opacity: 1;
+
+  }
+
+}
+

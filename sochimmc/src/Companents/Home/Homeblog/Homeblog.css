@@ -1,0 +1,279 @@
+/* Ana konteyner və fon - Digər bölmələrlə tam uyğunlaşdırılmış zərif tünd qradiyent */
+.blog-future-canvas {
+  position: relative;
+  width: 100%;
+  padding: 7rem 2rem;
+  background: linear-gradient(135deg, #1b365d 0%, #132744 50%, #0d1b2a 100%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #ffffff;
+}
+
+/* Çox Solğun, Qısık və Kiçik Dama (Grid) Effekti */
+.blog-cyber-grid-pulse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.003) 1px, transparent 1px), 
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.003) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(circle 250px at var(--x, 50%) var(--y, 50%), rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.01) 60%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle 250px at var(--x, 50%) var(--y, 50%), rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.01) 60%, transparent 100%);
+  opacity: 0.12;
+  transition: opacity 0.4s ease;
+}
+
+.blog-future-container { 
+  position: relative; 
+  z-index: 5; 
+  width: 100%; 
+  max-width: 1140px; 
+}
+
+/* Arxa plan işıq orb-ları */
+.blog-bg-fluid-orb { 
+  position: absolute; 
+  filter: blur(160px); 
+  opacity: 0.15; 
+  pointer-events: none; 
+  z-index: 1; 
+  mix-blend-mode: screen;
+}
+.blog-orb-heating { 
+  width: 450px; 
+  height: 450px; 
+  background: radial-gradient(circle, rgba(180, 120, 70, 0.25) 0%, transparent 70%); 
+  top: 10%; 
+  left: -5%; 
+}
+.blog-orb-cooling { 
+  width: 500px; 
+  height: 500px; 
+  background: radial-gradient(circle, rgba(56, 135, 212, 0.25) 0%, transparent 70%); 
+  bottom: 10%; 
+  right: -5%; 
+}
+
+/* Başlıq */
+.blog-future-header { 
+  text-align: center; 
+  margin-bottom: 4rem; 
+}
+
+.blog-cyber-badge { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 10px; 
+  font-size: 0.75rem; 
+  font-weight: 700; 
+  letter-spacing: 3.5px; 
+  margin-bottom: 1.2rem; 
+  text-transform: uppercase;
+  color: #ffffff;
+  background: transparent;
+  
+}
+
+.blog-pulse-dot { 
+  width: 8px; 
+  height: 8px; 
+  background-color: #d2d2d3 !important; 
+  border-radius: 50%; 
+  display: inline-block; 
+  animation: blogLive 1.5s infinite ease-in-out;
+}
+
+@keyframes blogLive { 
+  0% { transform: scale(0.8); opacity: 0.4; } 
+  100% { transform: scale(1.2); opacity: 0.9; } 
+}
+
+.blog-future-title { 
+  font-size: clamp(2rem, 5vw, 3.2rem); 
+  font-weight: 900; 
+  letter-spacing: -0.5px; 
+  margin-bottom: 0.8rem; 
+  color: #f8fafc !important;
+}
+
+.blog-future-subtitle { 
+  font-size: 1.1rem; 
+  color: #94a3b8; 
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* Grid Tənzimləmələri */
+.blog-future-grid { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2rem; 
+  align-items: stretch; 
+}
+
+/* Kartlar - Yazıların oxunması üçün tünd və zənginləşdirilmiş fon */
+.blog-future-card {
+  position: relative; 
+  background: rgba(15, 28, 48, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+  border-radius: 22px;
+  cursor: pointer; 
+  display: flex;
+  flex-direction: column; 
+  transition: all 0.3s ease;
+  height: 100%; 
+  overflow: hidden;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  z-index: 5;
+}
+
+.blog-card-image { 
+  width: 100%; 
+  height: 210px; 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08); 
+  overflow: hidden; 
+}
+
+.blog-card-image img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  filter: brightness(0.9);
+  transition: transform 0.4s ease, filter 0.3s ease;
+}
+
+.blog-future-card-content { 
+  padding: 2rem; 
+  display: flex; 
+  flex-direction: column; 
+  flex-grow: 1; 
+}
+
+/* Başlıq rəngi aydın və uyğunlaşdırıldı */
+.blog-future-name { 
+  font-size: 1.25rem !important; 
+  font-weight: 700 !important; 
+  margin-bottom: 1rem !important; 
+  color: #74b9ff !important;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+.blog-future-desc { 
+  font-size: 0.95rem !important; 
+  color: #adb1b7 !important; 
+  line-height: 1.6; 
+  margin-bottom: 1.8rem !important; 
+  flex-grow: 1;
+}
+
+/* Premium, sərt olmayan zərif hover effekti */
+.blog-future-card:hover { 
+  transform: translateY(-4px); 
+  border-color: rgba(116, 185, 255, 0.25);
+  background: rgba(20, 36, 60, 0.95);
+  box-shadow: 0 15px 30px -10px rgba(10, 25, 45, 0.6);
+}
+
+.blog-future-card:hover .blog-card-image img {
+  transform: scale(1.04);
+  filter: brightness(1.05);
+}
+
+.blog-future-card:hover .blog-future-name {
+  color: #ffffff !important;
+}
+
+.blog-future-card:hover .blog-future-desc {
+  color: #ffffff !important;
+}
+
+/* Künc xətləri (Brackets) */
+.blog-tech-bracket { 
+  position: absolute; 
+  width: 12px; 
+  height: 12px; 
+  border: 1.5px solid rgba(255, 255, 255, 0.1); 
+  transition: 0.3s; 
+  z-index: 3;
+  opacity: 0;
+  pointer-events: none;
+}
+.blog-bracket-tl { top: 12px; left: 12px; border-width: 1.5px 0 0 1.5px; }
+.blog-bracket-br { bottom: 12px; right: 12px; border-width: 0 1.5px 1.5px 0; }
+
+.blog-future-card:hover .blog-tech-bracket { 
+  opacity: 1;
+  border-color: rgba(116, 185, 255, 0.4);
+}
+
+/* Trigger (Keçid paneli) */
+.blog-future-trigger {
+  margin-top: auto;
+}
+
+.blog-trigger-text { 
+  font-size: 0.75rem; 
+  font-weight: 800; 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  color: #94a3b8;
+  transition: color 0.3s;
+}
+
+.blog-future-card:hover .blog-trigger-text {
+  color: #74b9ff;
+}
+
+.blog-trigger-line-wrapper { 
+  width: 100%; 
+  height: 2px; 
+  background: rgba(255, 255, 255, 0.1); 
+  margin-top: 10px; 
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.blog-trigger-line { 
+  width: 100%; 
+  height: 100%; 
+  background: #74b9ff; 
+  transform: translateX(-100%); 
+  transition: transform 0.3s ease; 
+}
+
+.blog-future-card:hover .blog-trigger-line { 
+  transform: translateX(0); 
+}
+
+/* Responsive Tənzimləmələr */
+@media (max-width: 992px) {
+  .blog-future-grid {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-future-grid {
+    grid-template-columns: 1fr; 
+  }
+  .blog-future-canvas { 
+    padding: 5rem 1rem; 
+  }
+  .blog-tech-bracket {
+    opacity: 1;
+    border-color: rgba(116, 185, 255, 0.4);
+  }
+}

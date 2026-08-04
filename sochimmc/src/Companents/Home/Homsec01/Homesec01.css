@@ -1,0 +1,99 @@
+/* Google Fonts: Oswald (Azərbaycan və Kiril/Rus dillərini tam dəstəkləyir) */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+/* Bütün mətnlər üçün tətbiq olunan klas */
+.squada-one-regular {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase; /* Squada One kimi qabarıq/böyük hərflərlə görünməsi üçün */
+}
+
+/* Bütün mətnlər üçün ortaq font təyinatı */
+.homesec-text .title,
+.homesec-text .subtitle,
+.homesec-text .description {
+  font-family: 'Oswald', sans-serif;
+  padding: 0.5rem 0;
+}
+
+/* Başlıq (h2) */
+.homesec-text .title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: rgb(59, 87, 124);
+}
+
+/* Alt başlıq (h3) */
+.homesec-text .subtitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #575757;
+}
+
+/* Təsvir (h5) */
+.homesec-text .description {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #262626;
+  text-transform: none; /* Description hissəsi çox uzundursa normal kiçik hərflərlə qalsın */
+}
+
+/* Container */
+.homesec-container {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Grid Layout */
+.homesec-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  background-color: #ffffff;
+}
+
+.homesec-grid.reverse {
+  background-color: #f5f5f5;
+}
+
+/* Text Section */
+.homesec-text {
+  padding: 1rem;
+}
+
+/* Image Section */
+.homesec-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homesec-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .homesec-text .title {
+    font-size: 2.3rem;
+  }
+
+  .homesec-text .subtitle {
+    font-size: 1.3rem;
+  }
+
+  .homesec-text .description {
+    font-size: 0.95rem;
+  }
+
+  .homesec-grid {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Ana Səhifə (Bütün dillər üzrə alternativlər ilə) -->
+  <url>
+    <loc>https://sochi.az/</loc>
+    <xhtml:link rel="alternate" hreflang="az" href="https://sochi.az/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://sochi.az/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sochi.az/" />
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Su İzolyasiyası Məhsul Səhifəsi -->
+  <url>
+    <loc>https://sochi.az/suizolyasiyasi</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- İstilik və Səs İzolyasiyası -->
+  <url>
+    <loc>https://sochi.az/istilikvesesizolyasiyasi</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Bərk İzolyasiya (XPS) -->
+  <url>
+    <loc>https://sochi.az/berkizolyasiyaxps</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Maye İzolyasiya (Bitum, Mastika) -->
+  <url>
+    <loc>https://sochi.az/mayeizolyasiyaveaksesuarlar</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Digər səhifələr -->
+  <url>
+    <loc>https://sochi.az/about</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi.az/contact</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sochi.az/sertifkat</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

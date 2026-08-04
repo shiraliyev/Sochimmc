@@ -1,0 +1,291 @@
+/* Wrapper */
+.homesec02-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff0099, #720fe3);
+  padding: 50px 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid Layout */
+.homesec02-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Card */
+.homesec02-card {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 20px;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  min-height: 180px;
+}
+
+.homesec02-card:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Icon Section */
+.icon-section {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SVG icons */
+.svg-icon {
+  width: 64px;
+  height: 64px;
+  transition: 0.3s ease;
+}
+
+/* Speedometer needle animation */
+.speedometer .needle {
+  transform-origin: 100px 100px;
+  animation: needle-move 2s ease-in-out infinite;
+}
+
+@keyframes needle-move {
+  0%   { transform: rotate(-45deg); }
+  50%  { transform: rotate(45deg); }
+  100% { transform: rotate(-45deg); }
+}
+
+/* Clock hands animations */
+.clock .hour-hand {
+  transform-origin: 32px 32px;
+  animation: rotate-hour 60s linear infinite;
+}
+
+.clock .minute-hand {
+  transform-origin: 32px 32px;
+  animation: rotate-minute 15s linear infinite;
+}
+
+@keyframes rotate-hour {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rotate-minute {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Bounce for money icon */
+.bounce {
+  animation: bounce 1.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Yeni Peşəkar Komanda icon üçün stil */
+
+.pro-team {
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+}
+
+/* Fon dairələr yumşaq parıldama animasiyası */
+.bg-circle {
+  fill: #a3cef1;
+  opacity: 0.3;
+  animation: pulse 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.bg-circle:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.bg-circle:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.bg-circle:nth-child(3) {
+  animation-delay: 2s;
+}
+
+/* Başlar yuxarı-aşağı hərəkət edir */
+.head {
+  fill: #f5cba7;
+  stroke: #444;
+  stroke-width: 1px;
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+.left-head {
+  animation-delay: 0s;
+}
+
+.center-head {
+  animation-delay: 1.5s;
+}
+
+.right-head {
+  animation-delay: 3s;
+}
+
+/* Bədənlər rəng keçidlidir */
+.body {
+  fill: url(#blueGradient);
+  stroke: #274472;
+  stroke-width: 1px;
+  rx: 8px;
+  ry: 8px;
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+.left-body {
+  animation-delay: 0s;
+}
+
+.center-body {
+  animation-delay: 1.5s;
+}
+
+.right-body {
+  animation-delay: 3s;
+}
+
+/* Yuxarı-aşağı animasiya */
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Pulse animasiya */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.15);
+  }
+}
+
+/* Text Section */
+.text-section {
+  width: 70%;
+}
+
+.text-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .homesec02-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .homesec02-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icon-section,
+  .text-section {
+    width: 100%;
+  }
+}
+.homesec0222bashliq {
+  height: 20vh;
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.homesec0222bashliq h2 {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #eff0f1, #cecfd1);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.homesec0222bashliq .underline {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(45deg, #ff0099, #720fe3, #ff0099);
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease infinite, slideIn 1s ease-in-out;
+  border-radius: 2px;
+}
+
+/* Gradient rəngin animasiyası */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 80px;
+    opacity: 1;
+  }
+}

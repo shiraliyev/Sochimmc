@@ -1,0 +1,209 @@
+.profbetonxidmetler11 {
+  width: 100%;
+  background-color: #fff;
+  
+  box-sizing: border-box;
+  padding: 0 0 60px 0;
+}
+
+.profbetonxidmetlerdiv11 {
+  /* width: 90%; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profbetonxidmetlercardsw {
+  width: 70%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 60px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+}
+
+
+.profbetonxidmetlercardsw:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 30px rgba(15, 74, 122, 0.5); /* Kölgə effekti */
+
+}
+
+.profbetonxidmetlercardimg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profbetonxidmetlercardtext {
+  padding: 15px;
+  text-align: center;
+}
+
+.profbetonxidmetlercardsw h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.profbetonxidmetlercardsw p {
+  font-size: 1em;
+  color: #333;
+}
+.swiper-pagination {
+  display: none;
+}
+.swiper-button-next{
+  display: none !important;
+}
+.swiper-button-prev{
+  display: none !important;
+
+}
+/* ///////////////////////////////////////////////// */
+/* Swiper card'ları üçün */
+.companyCard {
+  display: flex;
+  flex-direction: column; /* Şəkil və mətni şaquli düzülüş */
+  align-items: center; /* Mərkəzləşdirmə */
+  background: none;
+  padding: 10px;
+  text-align: center; /* Mətnin mərkəzləşdirilməsi */
+  height: 200px; /* Bütün cardları eyni boyda saxlamaq üçün */
+  justify-content: space-between; /* Şəkil və mətni bərabər şəkildə yerləşdirir */
+}
+
+/* Şəkil və mətn arasındakı məsafəni azaldırıq */
+.companyCardLogo {
+  width: 100px; /* Loqonun ölçüsü */
+  border-radius: 0; /* Künclərin düz olması */
+  box-shadow: none; /* Kölgəni silir */
+  object-fit: cover; /* Şəkilin kəsilməməsi üçün */
+}
+
+
+.companyCardName {
+  font-size: 1rem; /* Yazı ölçüsü */
+  margin-top: 0; /* Yuxarıda boşluq olmaması */
+}
+
+/* Swiper container üçün düzülüş */
+.mySwiper {
+  display: flex;
+  justify-content: space-between; /* Swiper card'larını yatay düzəldir */
+  gap: 20px; /* Card'lar arasında boşluq */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center; /* Slaydları mərkəzləşdirir */
+  flex-direction: column; /* Card'ları şaquli düzür */
+}
+/* .......................................................................... */
+
+
+.profbetonxidmetler11lay {
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 0 60px 0;
+}
+
+.profbetonxidmetlerdiv11lay {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profbetonxidmetlercardswlay {
+  width: 70%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 60px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profbetonxidmetlercardswlay:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 30px rgba(15, 74, 122, 0.5);
+}
+
+.profbetonxidmetlercardimglay {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profbetonxidmetlercardtextlay {
+  padding: 15px;
+  text-align: center;
+}
+
+.profbetonxidmetlercardswlay h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.profbetonxidmetlercardswlay p {
+  font-size: 1em;
+  color: #333;
+}
+
+.swiper-paginationlay {
+  display: none;
+}
+
+.swiper-button-nextlay {
+  display: none !important;
+}
+
+.swiper-button-prevlay {
+  display: none !important;
+}
+
+.companyCardlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  padding: 10px;
+  text-align: center;
+  height: 200px;
+  justify-content: space-between;
+}
+
+.companyCardLogolay {
+  width: 100px;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.companyCardNamelay {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.mySwiperlay {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.swiper-slidelay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

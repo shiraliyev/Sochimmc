@@ -1,0 +1,303 @@
+/* Ana konteyner */
+.ref-future-canvas {
+  position: relative;
+  width: 100%;
+  padding: 7rem 2rem;
+  background: linear-gradient(135deg, #090d16 0%, #0f172a 50%, #1e293b 100%);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #ffffff;
+}
+
+/* Arxa fonda daimi hərəkət edən işıqlar */
+.ref-bg-glow {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+}
+
+.glow-1 {
+  top: 10%;
+  left: 15%;
+  background: rgba(217, 119, 6, 0.08);
+  animation: floatGlow 8s infinite alternate ease-in-out;
+}
+
+.glow-2 {
+  bottom: 10%;
+  right: 15%;
+  background: rgba(59, 130, 246, 0.06);
+  animation: floatGlowReverse 10s infinite alternate ease-in-out;
+}
+
+@keyframes floatGlow {
+  0% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(-40px) scale(1.2); }
+}
+
+@keyframes floatGlowReverse {
+  0% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(40px) scale(1.3); }
+}
+
+.ref-future-container { 
+  position: relative; 
+  z-index: 2; 
+  max-width: 1200px; 
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+/* Başlıq hissəsi */
+.ref-future-header { 
+  text-align: center; 
+  margin-bottom: 4rem; 
+}
+
+.ref-cyber-badge { 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  gap: 10px; 
+  font-size: 0.75rem; 
+  font-weight: 700; 
+  letter-spacing: 3.5px; 
+  margin-bottom: 1.2rem; 
+  text-transform: uppercase;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.08);
+  padding: 8px 18px;
+  border-radius: 30px;
+  border: 1px solid rgba(251, 191, 36, 0.2);
+  box-shadow: 0 0 20px rgba(251, 191, 36, 0.1);
+}
+
+.ref-pulse-dot { 
+  width: 8px; 
+  height: 8px; 
+  background-color: #fbbf24; 
+  border-radius: 50%; 
+  display: inline-block; 
+  animation: refLive 1.5s infinite ease-in-out;
+  box-shadow: 0 0 12px #fbbf24;
+}
+
+@keyframes refLive { 
+  0% { transform: scale(0.8); opacity: 0.5; box-shadow: 0 0 0 0 rgba(251,191,36,0.5); } 
+  70% { transform: scale(1.3); opacity: 1; box-shadow: 0 0 0 8px rgba(251,191,36,0); } 
+  100% { transform: scale(0.8); opacity: 0.5; box-shadow: 0 0 0 0 rgba(251,191,36,0); } 
+}
+
+.ref-future-title { 
+  font-size: clamp(2rem, 5vw, 3.2rem); 
+  font-weight: 900; 
+  letter-spacing: -0.5px; 
+  margin-bottom: 0.8rem; 
+  color: #f8fafc;
+  text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.ref-future-subtitle { 
+  font-size: 1.1rem; 
+  color: #94a3b8; 
+  line-height: 1.6;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* Swiper Stili və Paddingləri */
+.ref-swiper-container {
+  padding: 1.5rem 0.5rem 3.5rem 0.5rem !important;
+  overflow: visible !important;
+}
+
+/* Swiper Slide-ların hündürlüyünü bərabərləşdirmək üçün */
+.ref-swiper-container .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+/* Premium Kartlar */
+.ref-future-card {
+  position: relative; 
+  background: rgba(30, 41, 59, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08); 
+  border-radius: 22px;
+  width: 100%;
+  height: 250px; /* Sabit hündürlük */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 1.5rem;
+  padding-bottom: 50px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.5);
+  /* Transform əvəzinə yalnız yerdəyişmə animasiyası ölçü pozulmasının qarşısını alır */
+  animation: cardFloating 6s ease-in-out infinite;
+  will-change: transform;
+}
+
+.ref-future-card:nth-child(even) {
+  animation-delay: 3s;
+}
+
+@keyframes cardFloating {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+/* Loqo sahəsi */
+.ref-logo-container {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.ref-logo-img {
+  max-width: 82%;
+  max-height: 95px;
+  object-fit: contain;
+  filter: brightness(0.85) grayscale(20%);
+  transition: all 0.4s ease;
+}
+
+/* Alt panel */
+.ref-footer-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background: rgba(15, 23, 42, 0.85);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.ref-company-name { 
+  font-size: 0.9rem !important; 
+  font-weight: 700 !important; 
+  margin: 0 !important;
+  letter-spacing: 1.2px;
+  color: #cbd5e1 !important;
+  transition: color 0.4s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+/* Hover effektləri */
+.ref-future-card:hover {
+  transform: translateY(-14px); /* scale(1.02) silindi ki, eni və ölçüsü dəyişib qonşu kartları sıxmasın */
+  border-color: rgba(251, 191, 36, 0.5);
+  background: rgba(30, 41, 59, 0.92);
+  box-shadow: 0 25px 50px -12px rgba(217, 119, 6, 0.35), 
+              0 0 30px rgba(251, 191, 36, 0.15) inset;
+  animation-play-state: paused;
+}
+
+.ref-future-card:hover .ref-logo-img {
+  filter: brightness(1.2) grayscale(0%);
+  transform: scale(1.1);
+}
+
+.ref-future-card:hover .ref-footer-bar {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  border-top-color: rgba(255, 255, 255, 0.2);
+}
+
+.ref-future-card:hover .ref-company-name {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: 2px;
+}
+
+/* Künc xətləri */
+.ref-tech-bracket { 
+  position: absolute; 
+  width: 14px; 
+  height: 14px; 
+  border: 1.5px solid rgba(255, 255, 255, 0.2); 
+  transition: all 0.4s ease; 
+  z-index: 3;
+}
+.ref-bracket-tl { top: 12px; left: 12px; border-width: 1.5px 0 0 1.5px; }
+.ref-bracket-br { bottom: 62px; right: 12px; border-width: 0 1.5px 1.5px 0; }
+
+.ref-future-card:hover .ref-tech-bracket { 
+  border-color: #fbbf24;
+  box-shadow: 0 0 10px #fbbf24;
+  width: 18px;
+  height: 18px;
+}
+
+/* Swiper Pagination və Navigation dizaynı */
+.ref-swiper-container .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.3) !important;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.ref-swiper-container .swiper-pagination-bullet-active {
+  background: #fbbf24 !important;
+  width: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #fbbf24;
+}
+
+.ref-swiper-container .swiper-button-next,
+.ref-swiper-container .swiper-button-prev {
+  color: #fbbf24 !important;
+  background: rgba(30, 41, 59, 0.8);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+
+.ref-swiper-container .swiper-button-next:hover,
+.ref-swiper-container .swiper-button-prev:hover {
+  background: #fbbf24;
+  color: #0f172a !important;
+  box-shadow: 0 0 15px rgba(251, 191, 36, 0.5);
+}
+
+.ref-swiper-container .swiper-button-next::after,
+.ref-swiper-container .swiper-button-prev::after {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ref-future-canvas {
+    padding: 5rem 1rem;
+  }
+  .ref-future-title {
+    font-size: 2.2rem;
+  }
+  .ref-swiper-container .swiper-button-next,
+  .ref-swiper-container .swiper-button-prev {
+    display: none;
+  }
+}

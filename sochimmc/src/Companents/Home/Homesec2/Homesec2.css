@@ -1,0 +1,96 @@
+/* 1. Ümumi Layout və Grid */
+.xidmet-future-canvas {
+  position: relative;
+  width: 100%;
+  padding: 80px 5%;
+  background-color: #ffffff;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Kursorla izlənən Kare-Kare (Grid) Effekti */
+.xidmet-cyber-grid-pulse {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  background-image: linear-gradient(#eee 1px, transparent 1px), 
+                    linear-gradient(90deg, #eee 1px, transparent 1px);
+  background-size: 50px 50px;
+  mask-image: radial-gradient(circle 300px at var(--x, 50%) var(--y, 50%), black 0%, rgba(0,0,0,0.1) 100%);
+  opacity: 0.6;
+}
+
+/* 2. Header və Yazılar */
+.xidmet-future-container { max-width: 1200px; margin: 0 auto; position: relative; z-index: 2; }
+.xidmet-future-header { text-align: center; margin-bottom: 60px; }
+.xidmet-future-title { font-size: 2.8rem; font-weight: 800; color: #000; margin-bottom: 10px; }
+.xidmet-future-subtitle { font-size: 1rem; color: #888; letter-spacing: 0.5px; }
+
+/* 3. Kartlar (Glassmorphism + Kinetik Dizayn) */
+.xidmet-future-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 32px;
+  height: 420px;
+  text-decoration: none;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.xidmet-future-card:hover {
+  border-color: #0066ff;
+  box-shadow: 0 25px 50px -12px rgba(0, 102, 255, 0.15);
+  transform: translateY(-10px);
+}
+
+/* Şəkil və Mətn */
+.product-image-wrapper {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border: 2px solid #f0f0f0;
+  transition: 0.4s;
+}
+.xidmet-future-card:hover .product-image-wrapper { transform: scale(1.1); border-color: #0066ff; }
+.product-image-wrapper img { width: 100%; height: 100%; object-fit: cover; }
+
+.xidmet-future-name { font-size: 1.2rem; color: #000; margin-bottom: 10px; text-transform: uppercase; }
+.xidmet-future-desc { 
+  color: #666; font-size: 0.9rem; line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+  max-width: 250px; text-align: center;
+}
+
+/* Texnoloji Elementlər (Bracketlər) */
+.xidmet-card-index { position: absolute; top: 20px; right: 20px; font-weight: bold; color: #ccc; }
+.xidmet-tech-bracket { position: absolute; width: 15px; height: 15px; border: 2px solid #ccc; opacity: 0; transition: 0.4s; }
+.xidmet-bracket-tl { top: 15px; left: 15px; border-width: 2px 0 0 2px; }
+.xidmet-bracket-br { bottom: 15px; right: 15px; border-width: 0 2px 2px 0; }
+.xidmet-future-card:hover .xidmet-tech-bracket { opacity: 1; border-color: #0066ff; }
+
+/* Discover Trigger */
+.xidmet-future-trigger { margin-top: auto; display: flex; flex-direction: column; align-items: center; }
+.xidmet-trigger-text { font-size: 0.7rem; letter-spacing: 2px; color: #000; margin-bottom: 5px; opacity: 0.5; }
+.xidmet-trigger-line-wrapper { width: 40px; height: 2px; background: #eee; overflow: hidden; }
+.xidmet-trigger-line { width: 100%; height: 100%; background: #0066ff; transform: translateX(-100%); transition: 0.4s; }
+.xidmet-future-card:hover .xidmet-trigger-line { transform: translateX(0); }
+.xidmet-future-card:hover .xidmet-trigger-text { opacity: 1; }
+
+/* Arxa plan orbitlər */
+.xidmet-bg-fluid-orb { position: absolute; filter: blur(140px); opacity: 0.15; pointer-events: none; z-index: 0; }
+.xidmet-orb-heating { width: 500px; height: 500px; background: #ff3300; top: -10%; left: -5%; }
+.xidmet-orb-cooling { width: 500px; height: 500px; background: #0066ff; bottom: -10%; right: -5%; }
+
+/* Mobil */
+@media (max-width: 768px) {
+  .xidmet-future-card { height: auto; }
+}

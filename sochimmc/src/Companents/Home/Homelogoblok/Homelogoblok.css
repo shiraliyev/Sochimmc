@@ -1,0 +1,82 @@
+/* ==========================================================================
+   LOGO BLOKU - FUTURİSTİK KONTROL PANELİ
+   ========================================================================== */
+.logo-future-canvas {
+  width: 100%;
+  height: 18vh;
+  position: relative;
+  background-color: #ffffff; /* Sizin əsas dizaynınızdakı ağ fon */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Kiber Tor */
+.logo-cyber-grid-pulse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+  z-index: 1;
+}
+
+/* Kiber Çərçivə Detalları */
+.logo-frame-bracket {
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(0,0,0,0.2), transparent);
+  z-index: 2;
+}
+.logo-bracket-top { top: 10px; }
+.logo-bracket-bottom { bottom: 10px; }
+
+.logo-content-wrapper {
+  position: relative;
+  z-index: 3;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Loqonun ətrafındakı incə aura */
+.logo-glow-aura {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, rgba(0,0,0,0.05) 0%, transparent 70%);
+  filter: blur(20px);
+  z-index: 0;
+}
+
+.logo-future-img {
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(0.2) contrast(1.1);
+  transition: transform 0.5s ease;
+}
+
+/* Aşağıdakı texnoloji xətt */
+.logo-vector-line {
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+  animation: logoLinePulse 3s infinite alternate;
+}
+
+@keyframes logoLinePulse {
+  0% { opacity: 0.2; transform: scaleX(0.8); }
+  100% { opacity: 0.6; transform: scaleX(1.2); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo-future-canvas { height: 12vh; }
+  .logo-future-img { height: 70%; }
+}
